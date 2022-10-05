@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg46713"
+   width="523.02319"
+   height="189.35866"
+   viewBox="0 0 523.02319 189.35866"
+   sodipodi:docname="3.2.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs46717">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath46925">
+      <path
+         d="M 465.124,468.924 H 70.648 V 324.155 h 394.476 z"
+         id="path46923" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath46933">
+      <path
+         d="m 70.62,468.938 h 394.5 V 324.158 H 70.62 Z"
+         clip-rule="evenodd"
+         id="path46931" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath46941">
+      <path
+         d="m 70.62,480.938 h 394.5 V 301.658 H 70.62 Z"
+         clip-rule="evenodd"
+         id="path46939" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath46949">
+      <path
+         d="m 57.12,611.918 h 408 v -552 h -408 z"
+         clip-rule="evenodd"
+         id="path46947" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath46957">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path46955" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath47067">
+      <path
+         d="m 70.62,480.938 h 394.5 V 301.658 H 70.62 Z"
+         clip-rule="evenodd"
+         id="path47065" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath47075">
+      <path
+         d="m 57.12,611.918 h 408 v -552 h -408 z"
+         clip-rule="evenodd"
+         id="path47073" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath47083">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path47081" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview46715"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.3887322"
+     inkscape:cx="349.59943"
+     inkscape:cy="197.30225"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1912"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g46719" />
+  <g
+     id="g46719"
+     inkscape:groupmode="layer"
+     inkscape:label="Hugo in Action Static sites and dynamic Jamstack apps (Atishay Jain) (z-lib.org)9"
+     transform="matrix(1.3333333,0,0,-1.3333333,-94.489873,625.23198)">
+    <g
+       id="g46919">
+      <g
+         id="g46921"
+         clip-path="url(#clipPath46925)">
+        <g
+           id="g46927">
+          <g
+             id="g46929"
+             clip-path="url(#clipPath46933)">
+            <g
+               id="g46935">
+              <g
+                 id="g46937"
+                 clip-path="url(#clipPath46941)">
+                <g
+                   id="g46943">
+                  <g
+                     id="g46945"
+                     clip-path="url(#clipPath46949)">
+                    <g
+                       id="g46951">
+                      <g
+                         id="g46953"
+                         clip-path="url(#clipPath46957)">
+                        <g
+                           id="g46959">
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,460.311)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46963"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147 151.2 155.39999"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46961">I am a paragraph in Markdown with line</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,451.911)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46967"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46965">wrapping so it fits in this width.</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,443.51)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46971"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147 151.2 155.39999 159.60001 163.8 168 172.2"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46969">I am a continuation of the first paragraph</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,435.11)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46975"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46973">as there is no empty line before me.</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,418.309)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46979"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46977">I am in the second paragraph.</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,393.108)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46983"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147 151.2 155.39999 159.60001 163.8 168"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46981">I am the third one. Even though there are</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,384.709)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46987"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147 151.2 155.39999 159.60001 163.8"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46985">two line breaks before me, this does not</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,376.308)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46991"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147 151.2 155.39999 159.60001 163.8 168 172.2 176.39999 180.60001 184.8"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46989">create any newline characters. After me there</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,367.907)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46995"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147 151.2 155.39999 159.60001 163.8 168 172.2 176.39999 180.60001"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46993">are two spaces before the newline character.</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,255.472,367.907)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#d4d6dc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text46999"><tspan
+                               x="0 4.1999998"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan46997">··</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,359.506)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47003"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147 151.2 155.39999 159.60001 163.8 168 172.2 176.39999"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47001">I have line break before me and even though</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,351.106)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47007"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147 151.2 155.39999"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47005">I am not a new paragraph, I start on a</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,342.706)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47011"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147 151.2 155.39999 159.60001 163.8 168 172.2"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47009">new line due to the manual line break and </tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,70.676,334.305)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47015"><tspan
+                               x="0 4.1999998 8.3999996 12.6 16.799999 21 25.200001 29.4 33.599998 37.799999 42 46.200001 50.400002 54.599998 58.799999 63 67.199997 71.400002 75.599998 79.800003 84 88.199997 92.400002 96.599998 100.8 105 109.2 113.4 117.6 121.8 126 130.2 134.39999 138.60001 142.8 147"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47013">spaces before the newline character.</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,459.414)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47019"><tspan
+                               x="0 1.946 3.8906 7.7825999 13.6136 15.5582 19.450199 21.3948 25.2868 29.178801 31.5098 35.401798 39.2938 41.624802 45.5168 49.408798 53.3008 55.245399 56.7994 60.691399 62.636002 68.467003 72.359001 74.690002 78.190002 82.082001 85.973999 91.028 94.919998 96.864601 101.9186 103.4726 105.4186 109.3106 111.2552 112.8092 114.3632 118.2552 122.1472 124.0918 129.1458 131.47681 135.3688 139.2608 143.1528 144.7068 148.5988 152.4908 154.43539 157.93539 161.82739 163.772 165.326 167.272 169.2166 171.1626 172.7166 174.6626 178.1626 180.10719 181.66119 185.55321 187.4978 189.4438 193.3358 194.8898 198.3898"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47017">I am a paragraph in Markdown with line wrapping so it fits in this </tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,449.414)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47023"><tspan
+                               x="0 5.0539999 6.6079998 10.5 12.446 16.337999 18.284 20.2293 22.175301 24.1206 28.0126 33.843601 35.788898 39.680901 41.626202 45.126202 49.0182 52.910198 54.856201 56.410198 60.3022 64.194199 68.086197 70.032204 71.586197 75.478203 79.370201 81.315498 85.207497 87.153503 89.098801 91.0448 94.936798 98.828796 100.7741 102.7201 104.2741 106.6051 110.1051 112.0511 113.9964 117.8884 121.7804 124.1114 128.0034 131.8954 134.22639 138.11839 142.01041 145.9024 147.8477 151.7397 155.2397 157.185 159.131 163.02299 166.91499 169.246 173.138 175.0833 176.6373"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47021">width. I am a continuation of the first paragraph as there is</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,439.413)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47027"><tspan
+                               x="0 3.892 7.7839999 9.7285995 13.6206 19.451599 23.343599 25.2896 28.7896 30.7342 32.2882 33.842201 37.7342 41.626202 43.570801 47.462799 51.354801 53.3008 57.192799 59.5238 63.415798 65.360397 71.191399 75.083397"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47025">no empty line before me.</tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,419.412)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47031"><tspan
+                               x="0 1.946 3.8906 7.7825999 13.6136 15.5582 17.1122 21.0042 22.948799 24.8948 28.7868 32.678799 34.623402 38.123402 42.0154 45.5154 49.407398 53.2994 57.191399 59.136002 63.028 66.919998 69.250999 73.142998 77.035004 79.365997 83.258003 87.150002 91.042 92.987999"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47029">I am in the second paragraph. </tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,399.411)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47035"><tspan
+                               x="0 1.946 3.8906 7.7825999 13.6136 15.5582 17.5042 21.3962 25.2882 27.2328 29.178801 33.070801 34.624802 36.955799 40.847801 42.7924 46.684399 50.576401 54.468399 56.414398 58.359001 63.028 66.528 70.419998 74.311996 76.256599 78.202599 82.094597 85.986603 89.878601 93.770599 97.662598 99.607201 101.5532 105.4452 109.3372 111.6682 115.5602 117.5048 121.3968 123.7278 127.6198 129.56441 131.51041 136.56441 140.45641 142.401 143.955 145.509 149.401 153.293 155.23759 159.12959 161.4606 165.3526 169.2446 172.7446 176.2446"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47033">I am the third one. Even though there are two line breaks </tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,389.411)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47039"><tspan
+                               x="0 3.892 7.7839999 9.7299995 13.622 15.953 19.844999 21.7903 27.6213 31.5133 33.459301 35.404598 37.350601 41.242599 42.7966 46.2966 48.241901 52.1339 56.025902 59.9179 63.4179 65.363197 69.255203 73.147202 75.093201 77.038498 80.538498 82.869499 86.761497 90.653503 92.599503 96.491501 98.436798 102.3288 106.2208 109.7208 111.6661 115.5581 119.4501 124.5041 126.0581 127.6121 131.5041 135.3961 137.3414 140.8414 144.7334 148.6254 150.95641 154.8484 158.3484 160.2944 164.1864 166.5174 170.0174 171.96339 173.90871 178.5777 180.5237 182.4697 186.36169 188.6927"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47037">before me, this does not create any newline characters. After </tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,379.41)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47043"><tspan
+                               x="0 5.8309999 9.7229996 11.6676 13.6136 17.5056 21.3976 23.7286 27.6206 29.565201 33.457199 35.7882 39.680199 41.624802 43.570801 48.624802 52.5168 54.461399 57.961399 61.853401 65.745399 69.245399 73.137398 76.637398 78.582001 82.473999 86.365997 88.311996 92.204002 94.535004 98.427002 100.3716 102.3176 106.2096 110.1016 112.0462 115.9382 119.8302 124.8842 126.4382 127.9922 131.8842 135.7762 137.72079 141.22079 145.11279 149.00481 151.3358 155.2278 158.7278 160.6738 164.5658 166.8968 168.8428"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47041">me there are two spaces before the newline character. </tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,369.409)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47047"><tspan
+                               x="0 1.946 3.8906 7.7825999 11.6746 15.1746 19.066601 21.0112 24.9032 26.847799 28.4018 29.955799 33.847801 37.739799 39.684399 43.576401 45.907398 49.7994 53.691399 57.191399 59.136002 63.028 66.919998 68.865997 72.758003 75.088997 78.981003 80.925598 86.756599 90.648598 92.593201 96.485199 100.3772 104.2692 106.2138 110.1058 113.6058 117.4978 121.3898 123.3344 125.2804 129.17239 133.06441 136.95641 140.8484 144.7404 146.685 148.631 150.57561 154.46761 160.2986 162.24319 166.13519 170.02721 171.97321 173.9178 177.8098 179.75439 183.64639 187.53841 192.59241"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47045">I have a line break before me and even though I am not a new </tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,359.409)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47051"><tspan
+                               x="0 3.892 7.7839999 10.115 14.007 17.899 20.23 24.122 28.014 31.906 33.852001 35.7966 37.742599 39.687199 43.187199 45.133202 49.0252 51.356201 53.3022 55.246799 59.138802 63.0308 64.975403 68.867401 70.811996 74.704002 78.596001 83.650002 85.594597 87.148598 88.702599 92.594597 96.486603 98.431198 102.3232 106.2152 110.1072 112.0518 113.9978 117.8898 119.8344 121.7804 125.6724 129.56441 131.509 137.34 141.23199 145.12399 149.01601 152.908 154.46201 156.4066 157.9606 159.5146 163.4066 167.2986"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47049">paragraph, I start on a new line due to the manual line </tspan></text>
+                          <text
+                             xml:space="preserve"
+                             transform="matrix(1,0,0,-1,264.745,349.408)"
+                             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                             id="text47055"><tspan
+                               x="0 3.892 6.223 10.115 14.007 17.507 19.451599 23.343599 27.2356 31.1276 33.072201 36.572201 40.464199 44.356201 47.856201 51.748199 55.248199 57.192799 61.084801 64.976799 66.922798 70.814796 73.145798 77.037804 78.982399 80.928398 84.820396 88.712402 90.656998 94.549004 98.441002 103.495 105.049 106.603 110.495 114.387 116.3316 119.8316 123.7236 127.6156 129.94659 133.83859 137.33859 139.28461 143.17661 145.5076"
+                               y="0"
+                               sodipodi:role="line"
+                               id="tspan47053">break and spaces before the newline character.</tspan></text>
+                        </g>
+                        <g
+                           id="g47057">
+                          <path
+                             d="M 260.751,326.905 V 468.924"
+                             style="fill:none;stroke:#100f0d;stroke-width:0.497;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                             id="path47059" />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

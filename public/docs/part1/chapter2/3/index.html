@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="2.3 Adding content#We will convert the empty page generated with the Eclectic theme into a fully functional website. This conversion includes configuring the theme by providing it with some settings and metadata, adding pages like the privacy policy and terms of use, and overriding the theme’s landing page with a custom version.
+NOTE Custom data for a theme is not portable. You will have to look at the theme’s documentation to figure out the theme-specific configuration.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="2.3 Adding content" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://hugo-in-action.foofun.cn/docs/part1/chapter2/3/" />
+
+<title>2.3 Adding content | Hugo In Action</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="zh" href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter2/3/" title="2.3 添加内容">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.446a9a279376cbde1669676e99bf25d3f01a4be92d7c08a98735e35d738dee2b.js" integrity="sha256-RGqaJ5N2y94WaWdumb8l0/AaS&#43;ktfAiphzXjXXON7is=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://hugo-in-action.foofun.cn/docs/part1/chapter2/3/index.xml" title="Hugo In Action" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Hugo In Action</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter2/3/">
+          简体中文
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/docs/part1/"><strong>Part 1 Static Hugo websites: Loading fast, building to last</strong></a></li>
+<li>
+  <a href="/docs/part1/chapter1/">1 The Jamstack and Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter1/1/">1.1 The stack in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/2/">1.2 How does Jamstack work?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/3/">1.3 The JAM in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/4/">1.4 Why use Jamstack?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/5/">1.5 When not to use the Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/6/">1.6 Selecting the builder</a></li>
+<li>
+  <a href="/docs/part1/chapter1/7/">1.7 Why choose Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/8/">1.8 Is speed really important?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/9/">1.9 What can we build with Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/10/">1.10 Cases that don’t map to Hugo</a></li>
+<li>
+  <a href="/docs/part1/chapter1/11/">1.11 How to be successful with Hugo and this book</a></li>
+<li>
+  <a href="/docs/part1/chapter1/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter2/">2 Live in 30 minutes: You now have a website</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter2/1/">2.1 Your first Hugo website</a></li>
+<li>
+  <a href="/docs/part1/chapter2/2/">2.2 Adding a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter2/3/"class=active>2.3 Adding content</a></li>
+<li>
+  <a href="/docs/part1/chapter2/4/">2.4 Continuous delivery</a></li>
+<li>
+  <a href="/docs/part1/chapter2/5/">2.5 Meeting the goals for performance and maintainability</a></li>
+<li>
+  <a href="/docs/part1/chapter2/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter3/">3 Using markup for content</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter3/1/">3.1 Writing content in Markdown</a></li>
+<li>
+  <a href="/docs/part1/chapter3/2/">3.2 Markdown in action</a></li>
+<li>
+  <a href="/docs/part1/chapter3/3/">3.3 Other markup languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/4/">3.4 Metadata</a></li>
+<li>
+  <a href="/docs/part1/chapter3/5/">3.5 Other metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/6/">3.6 Front matter</a></li>
+<li>
+  <a href="/docs/part1/chapter3/7/">3.7 Benefits of using markup and metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter4/">4 Content management with Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter4/1/">4.1 Customizing with the Hugo configurations</a></li>
+<li>
+  <a href="/docs/part1/chapter4/2/">4.2 Organizing content with sections and menus</a></li>
+<li>
+  <a href="/docs/part1/chapter4/3/">4.3 Better together with page bundles</a></li>
+<li>
+  <a href="/docs/part1/chapter4/4/">4.4 More than tags: Taxonomies</a></li>
+<li>
+  <a href="/docs/part1/chapter4/5/">4.5 YouTube, Gists, and other snippets via shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/6/">4.6 Content sharing using custom shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter5/">5 Custom pages and customized content with the Go template language</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter5/1/">5.1 Separating data and design</a></li>
+<li>
+  <a href="/docs/part1/chapter5/2/">5.2 Using external data to add content</a></li>
+<li>
+  <a href="/docs/part1/chapter5/3/">5.3 Playing with structured data</a></li>
+<li>
+  <a href="/docs/part1/chapter5/4/">5.4 Enhancing life with the Go template language</a></li>
+<li>
+  <a href="/docs/part1/chapter5/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter6/">6 Structuring web pages</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter6/1/">6.1 Using content types, base templates, and blocks to structure templates</a></li>
+<li>
+  <a href="/docs/part1/chapter6/2/">6.2 Reusing content with partials</a></li>
+<li>
+  <a href="/docs/part1/chapter6/3/">6.3 Asset handling with Hugo Pipes</a></li>
+<li>
+  <a href="/docs/part1/chapter6/4/">6.4 Controlling Markdown rendering</a></li>
+<li>
+  <a href="/docs/part1/chapter6/5/">6.5 Using bundled templates for common work</a></li>
+<li>
+  <a href="/docs/part1/chapter6/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter7/">7 Creating your own theme</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter7/1/">7.1 More ways to lay out content</a></li>
+<li>
+  <a href="/docs/part1/chapter7/2/">7.2 Updating the index pages by providing content and subsection lists</a></li>
+<li>
+  <a href="/docs/part1/chapter7/3/">7.3 Providing the taxonomy pages</a></li>
+<li>
+  <a href="/docs/part1/chapter7/4/">7.4 Creating our own theme</a></li>
+<li>
+  <a href="/docs/part1/chapter7/5/">7.5 Powering up with content views</a></li>
+<li>
+  <a href="/docs/part1/chapter7/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter8/">8 Hugo Modules: Plugins for everybody</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter8/1/">8.1 Setting up Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/2/">8.2 Themes as Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/3/">8.3 Importing themes</a></li>
+<li>
+  <a href="/docs/part1/chapter8/4/">8.4 Enabling themes other than Eclectic</a></li>
+<li>
+  <a href="/docs/part1/chapter8/5/">8.5 Getting a specific version of a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter8/6/">8.6 Viewing the dependencies source code</a></li>
+<li>
+  <a href="/docs/part1/chapter8/7/">8.7 Modifying dependencies locally</a></li>
+<li>
+  <a href="/docs/part1/chapter8/8/">8.8 Adding nested dependencies</a></li>
+<li>
+  <a href="/docs/part1/chapter8/9/">8.9 Modules as template plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/10/">8.10 Shared dependencies across the theme and website</a></li>
+<li>
+  <a href="/docs/part1/chapter8/11/">8.11 Content plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/summary/">Summary</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>2.3 Adding content</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#23-adding-content">2.3 Adding content</a>
+      <ul>
+        <li><a href="#231-configuration">2.3.1 Configuration</a></li>
+        <li><a href="#232-content-pages">2.3.2 Content pages</a></li>
+        <li><a href="#233-index-page">2.3.3 Index page</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="23-adding-content">
+  2.3 Adding content
+  <a class="anchor" href="#23-adding-content">#</a>
+</h1>
+<p>We will convert the empty page generated with the Eclectic theme into a fully functional website. This conversion includes configuring the theme by providing it with some settings and metadata, adding pages like the privacy policy and terms of use, and overriding the theme’s landing page with a custom version.</p>
+<blockquote class="book-hint warning">
+  <strong>NOTE</strong> Custom data for a theme is not portable. You will have to look at the theme’s documentation to figure out the theme-specific configuration. If you are still judging the theme as you develop the website, it is recommended to focus first on the standard template-based content pages (like posts) rather than the unique pages (like the landing page and Contact Us).
+</blockquote>
+
+<blockquote class="book-hint info">
+  <p><strong>Exercise 2.5</strong></p>
+<p>The ___ command runs Hugo in development mode.</p>
+
+</blockquote>
+
+<h2 id="231-configuration">
+  2.3.1 Configuration
+  <a class="anchor" href="#231-configuration">#</a>
+</h2>
+<p>The fact that the website ran so well with two lines of code is the magic of the well- thought-out defaults in Hugo. We can do better by passing it the right options for our website. The configuration file has two distinct parts: the top-level configuration, which is common across themes, and the theme-specific params section, which differs across themes. Let’s add some data to the configuration file, config.yaml. This is needed to be successful with the Eclectic template in Hugo. These changes provide the information to fill up the menus, the footers, copyright notices, and the title and author informa- tion, per the requirements of the Eclectic theme for Acme Corporation.
+The updated configuration file is present in the chapter 2 resources folder that accompanies     this    book     (
+  <a href="https://github.com/hugoinaction/hugoinaction/tree/">https://github.com/hugoinaction/hugoinaction/tree/</a> chapter-02-resources/02). You do not need to understand the entire file yet. We will be working with these settings in the following chapters, where they will become clearer. Listing 2.5 shows the configuration file that we’ll use for the Acme Corpora- tion website. A typical Hugo configuration file contains:</p>
+<ul>
+<li>Configuration options that are standard across all themes (such as the URL of the website, its name, and language)</li>
+<li>Options for specific Hugo features (like menu)</li>
+<li>Theme-specific parameters (like params)</li>
+</ul>
+<details open><summary>Listing 2.5 Setting up Acme Corporation’s configuration file (config.yaml)</summary>
+  <div class="markdown-inner">
+    <img src="Listing2.5.svg" alt="Listing2.5" />
+  </div>
+</details>
+
+<p>Hugo supports multiple authors via a feature called taxonomies (discussed in section 4.4). Hugo also provides a standard way to define menus. The menu section in the con- figuration file has keys, each of which specifies a menu name. Each menu has a list of entries, which can have a unique identifier, a name to display, a URL, and a weight to sort menu items. In the configuration file, the params section is theme-specific; its contents can differ across themes.</p>
+<p>We wrote the configuration file in listing 2.5 in the YAML metadata language, which we will discuss in chapter 3. It provides structured information using keys and values separated by colons. YAML is human-readable and case-sensitive, but changes in spacing can cause problems with the YAML parser.</p>
+<p>Hugo also supports the more “spacing-friendly” TOML format. The resources with this book also contain the TOML version of  the configuration file. If you use that as   an alternative, config.yaml should be removed.</p>
+<blockquote class="book-hint warning">
+  <strong>NOTE</strong> Update the actual baseURL of the website instead of 
+  <a href="http://example.org/">http://example.org/</a> in the configuration file before publishing. Leaving the file example.org breaks absolute links in the website.
+</blockquote>
+
+<p>The Eclectic theme allows us to provide our logo and even control the website back- ground image by placing these in the assets/image folder (not in the themes/Eclectic/ assets/image folder). We will place logo.svg and background.svg in this folder to per- sonalize the website. We will need to create this folder if it does not exist. (You may need to restart your development server for the changes to take effect.) These files are present in the code bundle for chapter 2 (
+  <a href="https://github.com/hugoinaction/hugoinaction/">https://github.com/hugoinaction/hugoinaction/</a> tree/chapter-02-resources/03).</p>
+<blockquote class="book-hint info">
+  <strong>CODE CHECKPOINT</strong>	https://chapter-02-03.hugoinaction.com, and source code: 
+  <a href="https://github.com/hugoinaction/hugoinaction/tree/">https://github.com/hugoinaction/hugoinaction/tree/</a>
+chapter-02-03. ↻ Restart your dev server.
+</blockquote>
+
+<p>Hugo standardizes some previously specified parts (like menu and title) in the config- uration file. We will cover those parts in chapter 4. Other parts (like params) are differ- ent for each theme. Even image locations like that of the logo.svg are theme-specific.</p>
+<blockquote class="book-hint info">
+  <p><strong>Exercise 2.6</strong></p>
+<p>Which of the following is used to provide the website endpoint for Hugo to compile?</p>
+<ul>
+<li>a. baseURL</li>
+<li>b. endpoint</li>
+<li>c. website</li>
+<li>d. url</li>
+<li>e. host</li>
+<li>f. domain</li>
+<li>g. server</li>
+</ul>
+
+</blockquote>
+
+<p>You can see the impact of providing the metadata on the Acme website instantly. With the configuration mentioned previously, the site should look similar to figure 2.5.</p>
+<p>
+  <img src="Figure2.5.svg" alt="Figure2.5" /></p>
+<p>Figure 2.5 The Acme Corporation website looks much more complete after configuring the theme. Now the main menu and the footer section added in the configuration file are available on all pages. The logo and background images are updated as soon as we place the image files. (Abstract vector created by BiZkettE1 at 
+  <a href="https://www.freepik.com">www.freepik.com</a>.)</p>
+<h2 id="232-content-pages">
+  2.3.2 Content pages
+  <a class="anchor" href="#232-content-pages">#</a>
+</h2>
+<p>A website’s objective is to serve content, and we have none on our beautiful website so far. The entries added at the top menu of the website link to pages that do not exist! We need to create pages on the website to make it functional. We will begin by adding content to the pages linked to in the menu in this chapter and then will format the content in chapter 3.</p>
+<p>We can create content pages as text or markup files in the content folder. We can place a privacy.md file in that folder with Markdown-based content to get the https:// localhost:1313/privacy   URL.   Similarly,   we   can   add   the   about.md,   credits.md, terms.md,  and  contact.md  pages  (
+  <a href="https://github.com/hugoinaction/hugoinaction/">https://github.com/hugoinaction/hugoinaction/</a> tree/chapter-02-resources/04). Hugo automatically applies the theme, and the page should render as soon as you add the document. This way, we can add as many pages as we desire to generate the website’s core structure. Markdown provides a variety of formatting options that we will study in chapter 3.</p>
+<h2 id="233-index-page">
+  2.3.3 Index page
+  <a class="anchor" href="#233-index-page">#</a>
+</h2>
+<p>The index page (also called the home page or the landing page) is the first page of the website and is responsible for orienting the user on what to expect. Its content is unique and different than all other pages. A text-based content works well for some pages, but many websites implement custom content for the index page. Websites even have tailor-made carousels and sections with extensive imagery that would need a custom implementation. Hugo recognizes this and provides a unique template for the index page, which is called the index template. In many themes, the index template is customized in a theme-specific way, and the index page configuration is not portable across themes.</p>
+<blockquote class="book-hint warning">
+  <strong>NOTE</strong> Most Hugo themes provide a folder called exampleSite, which con- tains a starter website using that theme. This folder is extremely useful in exploring theme-specific configurations and customization options.
+</blockquote>
+
+<p>Hugo’s templates are HTML files, but these can be in any text-based file format (for example, JSON, XML, or even plain text), with additional template tags that partici- pate in the compilation step. For users trying to build custom Hugo templates, it is a good idea to start with the index template because it impacts only one page of the website. Hugo templates can be overridden using the layouts folder. In this chapter, we will not be using any template tags and will start with a plain HTML template that we will place as layouts/index.html. It is still a Hugo template and has access to all the variables, which are optional.</p>
+<p>For Acme Corporation’s index page, we will override the theme’s index page with a custom page, hardcoded in HTML and CSS, as figure 2.6 shows. This page will con- tain the website logo, title, subtitle, a button with a call to action (telling the reader to explore more), and a footer with links to additional pages.</p>
+<p>In the layouts folder, we will place a new file named index.html with custom HTML content     (
+  <a href="https://github.com/hugoinaction/hugoinaction/tree/chapter-02-">https://github.com/hugoinaction/hugoinaction/tree/chapter-02-</a> resources/05). Because we are not using Hugo’s template language, we will be hard- coding all paths and using relative locations to various support-hosting locations.</p>
+<p>
+  <img src="Figure2.6.svg" alt="Figure2.6" /></p>
+<p>Figure 2.6 We can create a custom landing page in a Hugo website by placing a file called index.html in the layouts folder. This page overrides the home page provided by the theme. For Acme Corporation, we used a landing page with hardcoded HTML and CSS and eschewed the theme-specific features of Eclectic to create pages based on structured data.</p>
+<p>We can override templates in a Hugo theme by placing an HTML template file in the layouts folder as listing 2.6 demonstrates. Doing that provides someone who under- stands HTML with a quick way to customize a website without learning Hugo. Custom HTML can be unique to a particular website. Until we use Hugo’s template language, we have to be careful with the HTML we are writing as the custom HTML page does not change automatically when the content it links to changes.</p>
+<details open><summary>Listing 2.6 Overriding Hugo’s themes (layouts/index.html)</summary>
+  <div class="markdown-inner">
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Welcome to the website of Acme Corporation, the leading creator
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">of digital shapes on the planet, providing precise shape creations that are ready to use.&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">initial-scale=1.0&#34;</span> /&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./index.css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">title</span>&gt;Acme Corporation&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;home&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Relative paths for resources. Absolute paths cause problems when we publish this code with subfolders in a hosting environment.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">section</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./image/logo.svg&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Acme Logo&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;64&#34;</span>/&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h1</span>&gt;Acme Corporation&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h2</span>&gt;Shaping the world for you to live in&lt;/<span style="color:#f92672">h2</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./blog&#34;</span>&gt;Explore&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">section</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">footer</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Assets from the static folder. Assets referred to in the HTML should be provided in the static folder for correct links in the final website.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./about&#34;</span>&gt;About Us&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./privacy&#34;</span>&gt;Privacy Policy&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./terms&#34;</span>&gt;Terms of Use&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;./contact&#34;</span>&gt;Contact Us&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">footer</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Hardcoded menus. In plain HTML, we have to assume that the URLs of the menu entries and their names match what is specified.
+</span></span></code></pre></div>
+  </div>
+</details>
+
+<blockquote class="book-hint warning">
+  <strong>NOTE</strong> Hugo does not modify the HTML provided inside the template.
+</blockquote>
+
+<p>The plain HTML file needs images and an index file to function properly. The images in the assets folder, which we placed for the Eclectic theme, require the use of Hugo Pipes. (We will discuss Hugo Pipes in chapter 6.) For content that does not need pro- cessing, we have to use the static folder. Until we start using Hugo’s assets-processing pipeline, we will need to place a second copy of the assets in the static folder. This includes  static/index.css,  static/image/background.svg,  static/image/logo.svg,  and static/favicon.ico. These assets are provided with the chapter resources (https:// github.com/hugoinaction/hugoinaction/tree/chapter-02-resources/06).</p>
+<blockquote class="book-hint info">
+  <p><strong>Exercise 2.7</strong></p>
+<p>For theme independence, it is advisable to customize which page in plain HTML?</p>
+<ul>
+<li>a. privacy</li>
+<li>b. index</li>
+<li>c. robots.txt</li>
+<li>d.  English</li>
+<li>e.  settings</li>
+</ul>
+
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>CODE CHECKPOINT</strong> 
+  <a href="https://chapter-02-04.hugoinaction.com">https://chapter-02-04.hugoinaction.com</a>, and source code: 
+  <a href="https://github.com/hugoinaction/hugoinaction/tree/chapter-02-04">https://github.com/hugoinaction/hugoinaction/tree/chapter-02-04</a>.
+↻ Restart your dev server.
+</blockquote>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://gitee.com/zhang3/hugo-in-action.git/commit/7852976f45fd2908d4939a9ac97b3c321fbf2072" title='Last modified by zhang3 | 2022-September-15' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2022-September-15</span>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#23-adding-content">2.3 Adding content</a>
+      <ul>
+        <li><a href="#231-configuration">2.3.1 Configuration</a></li>
+        <li><a href="#232-content-pages">2.3.2 Content pages</a></li>
+        <li><a href="#233-index-page">2.3.3 Index page</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

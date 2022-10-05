@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg815"
+   xml:space="preserve"
+   width="496"
+   height="213.84"
+   viewBox="0 0 496 213.84"
+   sodipodi:docname="Table6.1.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+     id="metadata821"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs819" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview817"
+     showgrid="false"
+     inkscape:zoom="0.94144144"
+     inkscape:cx="217.84"
+     inkscape:cy="114.90934"
+     inkscape:window-x="1672"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g823" /><g
+     id="g823"
+     inkscape:groupmode="layer"
+     inkscape:label="Hugo in Action Static sites and dynamic Jamstack apps (Atishay Jain) (z-lib.org)"
+     transform="matrix(1.3333333,0,0,-1.3333333,-136.16,542.93065)"><g
+       id="g967"><path
+         d="m 102.12,375.938 h 175.5 v 30.96 h -175.5 z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path969"
+         inkscape:connector-curvature="0" /></g><g
+       id="g971"><text
+         transform="matrix(1,0,0,-1,180.12,389.558)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text975"><tspan
+           x="0 5.1072001 7.865088 12.174288"
+           y="0"
+           sodipodi:role="line"
+           id="tspan973">Area</tspan></text>
+</g><g
+       id="g977"><path
+         d="m 277.62,375.938 h 103.32 v 30.96 H 277.62 Z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path979"
+         inkscape:connector-curvature="0" /></g><g
+       id="g981"><text
+         transform="matrix(1,0,0,-1,283.56,389.558)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text985"><tspan
+           x="0 4.9555802 9.2727604 11.99394 14.991228 17.074009 21.391188 23.473969 25.397148 29.714329 34.031509 37.988789 42.305969 46.62315 49.021141 53.338322 57.655499 61.972679 66.289864 68.687851 71.409027 75.726212 80.043388 84.041367"
+           y="0"
+           sodipodi:role="line"
+           id="tspan983">Partial-based code reuse</tspan></text>
+</g><g
+       id="g987"><path
+         d="m 380.94,375.938 h 93.18 v 30.96 h -93.18 z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path989"
+         inkscape:connector-curvature="0" /></g><g
+       id="g991"><text
+         transform="matrix(1,0,0,-1,388.32,394.598)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text995"><tspan
+           x="0 5.2827601 9.6079197 13.61388 17.939039 20.341021 23.38938 27.71454 34.274101 38.599258 40.640545 44.962513 48.010872 52.336033 54.267193 58.592354 62.917511 66.92347 71.248634 75.509949"
+           y="0"
+           sodipodi:role="line"
+           id="tspan993">Base template-based </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,406.38,384.579)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text999"><tspan
+           x="0 4.32516 8.6503201 12.97548 17.236799 19.638781 22.367941 26.6931 31.018259 34.97953"
+           y="0"
+           sodipodi:role="line"
+           id="tspan997">code reuse</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,108.121,365.558)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1003"><tspan
+           x="0 4.9555802 7.6767602 9.7172461 16.318302 20.635483 23.356663 27.195042 29.596224 36.147804 40.464985 43.505363 47.822544 52.139725 56.456905 58.858086 61.260067 65.577248 68.298424 70.699608 73.420792 77.737968 82.055145 86.053131"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1001">Primary method for reuse</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,283.621,365.558)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1007"><tspan
+           x="0 5.11518 9.3134584 11.236638 15.494766 19.492746 21.891535 26.208714"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1005">Using a </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,312.241,365.558)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1011"><tspan
+           x="0 4.79598 9.59196 14.38794 19.18392 23.9799 28.775881"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1009">partial</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,348.24059,365.558)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1015"><tspan
+           x="0 1.92318 6.2403598 8.639946 11.159232 15.476412 19.793592"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1013">in the </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,283.621,355.598)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1019"><tspan
+           x="0 3.8383801 8.1555595 10.07874 12.00192 13.9251 18.242279 22.240259 24.642241 27.203819 31.521 38.072578 42.389759 44.312939 48.630119 51.1917"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1017">calling template</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,386.941,365.558)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1023"><tspan
+           x="0 5.11518 9.2727604 11.19594 15.51312 19.511101 21.90909 26.226271"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1021">Using a </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,415.561,365.558)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1027"><tspan
+           x="0 4.79598 9.59196 14.38794 19.18392"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1025">block</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,441.95979,365.558)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1031"><tspan
+           x="0 1.92318 6.2403598 8.6391478 11.158434 15.475614 19.792793"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1029">in the </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,386.941,355.598)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1035"><tspan
+           x="0 4.3171802 8.6343603 12.79194 17.109119 19.506311 22.067892 26.385073 32.936653 37.253834 39.177013 43.49419 46.055771"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1033">base template</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,108.121,338.559)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1039"><tspan
+           x="0 5.2827601 9.6079197 13.93308 16.334263 20.659422 24.984583 27.385763 31.710924 35.671398 39.996559 44.321716 46.7229 53.282459 57.60762 59.69838 62.746738 64.787224 69.108398 71.199158 75.524315 77.925499 80.92598 83.027115 89.58667 93.911835 97.917793 100.31898 106.24014 108.28062 111.32898 115.65414 117.69463 122.01579 124.41698 128.74214 131.14333 135.46848 139.79364 144.2784"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1037">Can be used multiple times within a page</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,283.621,338.559)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1043"><tspan
+           x="0 4.4927402 8.8258801 103.32823 108.61099"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1041">YesNo</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,108.121,321.579)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1047"><tspan
+           x="0 5.2827601 9.6079197 12.01788 16.34304 20.6682 22.711878 25.760239 29.766197 32.17057 36.495731 39.224892 43.550053 45.954426 50.279587 54.604748 58.929905 63.255066 65.298744 69.623901 73.949066 76.353439 80.678596 85.003761 88.052116 92.377281 98.936836 103.262 106.31036 108.35403 112.6792 117.00436 119.09512 121.13879"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1045">Defaults are enabled automatically</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,283.621,321.579)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1051"><tspan
+           x="0 5.29074 103.33222 107.82496 112.08628"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1049">NoYes</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,108.121,304.599)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1055"><tspan
+           x="0 5.2747798 9.59196 13.90914 16.306332 20.623512 24.940693 27.337885 31.655064 35.972244 40.228775 44.545956 48.863136 53.180317 55.577507 58.617889 62.935066 65.33226 67.415039 73.966621 78.283798 81.004982 85.322159 89.160538 93.477722 95.874908 100.19209 104.50927 106.59205 108.62855 112.94572 115.34292 119.6601 123.97728 126.69846 129.10043 133.41762 136.13879 142.69038 147.00755 151.32474 155.64192"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1053">Can be cached to improve build performance</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,283.621,304.599)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1059"><tspan
+           x="0 4.4927402 8.8258801 103.32823 108.61099"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1057">YesNo</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,108.121,287.559)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1063"><tspan
+           x="0 5.2827601 9.6079197 13.93308 16.337454 19.341125 23.665487 28.150248 32.475407 34.879784 39.204941 41.934101 46.418861 50.744022 57.303581 61.628742 65.953903 69.002258"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1061">Can take arguments</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,283.621,287.559)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1067"><tspan
+           x="0 4.4927402 8.8258801 103.32823 108.61099"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1065">YesNo</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,108.121,270.579)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1071"><tspan
+           x="0 5.2747798 9.59196 13.90914 16.307131 19.028311 23.34549 26.38587 30.703051 33.424229 37.741409 40.1394 44.456581 48.773762 55.32534 59.642521 63.959702 67.000076 71.317261 74.314545 76.397331 80.714508 85.031685 87.42968 90.150856 94.46804 98.466019 102.7832 104.8205 107.87843"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1069">Can return computation results</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,283.621,270.579)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1075"><tspan
+           x="0 4.4927402 8.8258801 103.32823 108.61099"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1073">YesNo</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,108.121,253.6)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1079"><tspan
+           x="0 4.6443601 8.9695196 12.97548 15.019158 17.109919 20.956278 23.360653 27.685812 31.532171 35.85733 38.586491 41.315651 43.40641 47.731571 52.056732 56.062691 58.467068 61.470737 65.795898 70.121056 76.725304 80.989021 82.912994 87.238159 91.563316 95.569275 99.89444 104.2196 106.62397 110.94913 115.27429 118.27796 122.60313 125.0075 127.09826 131.42342 133.82779 135.91855 140.24371 144.09007 148.41524 152.74039 155.74406"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1077">Easily overrides theme-based data in layouts</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,283.621,253.6)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1083"><tspan
+           x="0 4.4927402 8.8258801 103.32823 108.61099"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1081">YesNo</tspan></text>
+</g><g
+       id="g1085"><path
+         d="m 277.5,246.818 h 0.24 v 160.38 h -0.24 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1087"
+         inkscape:connector-curvature="0" /></g><g
+       id="g1089"><path
+         d="m 380.82,246.818 h 0.24 v 160.38 h -0.24 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1091"
+         inkscape:connector-curvature="0" /></g><g
+       id="g1093"><path
+         d="m 102.12,406.658 h 372 v 0.48 h -372 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1095"
+         inkscape:connector-curvature="0" /></g><g
+       id="g1097"><path
+         d="m 102.12,375.818 h 372 v 0.24 h -372 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1099"
+         inkscape:connector-curvature="0" /></g><g
+       id="g1101"><path
+         d="m 102.12,246.818 h 372 v 0.24 h -372 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1103"
+         inkscape:connector-curvature="0" /></g></g></svg>

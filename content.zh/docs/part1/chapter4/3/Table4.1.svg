@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1100"
+   width="496"
+   height="132.48"
+   viewBox="0 0 496 132.48"
+   sodipodi:docname="Table4.1.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1104">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1290">
+      <path
+         d="m 102.12,341.618 h 372 v -184.56 h -372 z"
+         clip-rule="evenodd"
+         id="path1288" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1298">
+      <path
+         d="m 102.12,353.918 h 372 v -208.5 h -372 z"
+         clip-rule="evenodd"
+         id="path1296" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1306">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path1304" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1392">
+      <path
+         d="m 102.12,353.918 h 372 v -208.5 h -372 z"
+         clip-rule="evenodd"
+         id="path1390" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1400">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path1398" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1102"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.92792793"
+     inkscape:cx="218.22816"
+     inkscape:cy="181.04854"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1912"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1106" />
+  <g
+     id="g1106"
+     inkscape:groupmode="layer"
+     inkscape:label="Hugo in Action Static sites and dynamic Jamstack apps (Atishay Jain) (z-lib.org)"
+     transform="matrix(1.3333333,0,0,-1.3333333,-136.16,797.57065)">
+    <g
+       id="g1194">
+      <path
+         d="m 102.12,576.938 h 131.64 v 21 H 102.12 Z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1196" />
+    </g>
+    <g
+       id="g1198">
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,158.22,585.578)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1202"><tspan
+           x="0 5.1630602 7.8658862 12.18945"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1200">Area</tspan></text>
+    </g>
+    <g
+       id="g1204">
+      <path
+         d="m 233.76,576.938 h 135.36 v 21 H 233.76 Z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1206" />
+    </g>
+    <g
+       id="g1208">
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,287.28,585.578)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1212"><tspan
+           x="0 5.2827601 8.01192 12.268452 16.593613 20.918772"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1210">Branch</tspan></text>
+    </g>
+    <g
+       id="g1214">
+      <path
+         d="m 369.12,597.938 h 105 v -21 h -105"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1216" />
+    </g>
+    <g
+       id="g1218">
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,412.62,585.578)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1222"><tspan
+           x="0 3.9564841 8.2736645 12.590844"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1220">Leaf</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,108.12,566.619)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1226"><tspan
+           x="0 5.2747798 9.2312641 13.548444 17.865623 20.262815 22.664797 26.981976"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1224">Used for</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,239.76,566.619)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1230"><tspan
+           x="0 4.9555802 9.2727604 13.11114 15.67272 17.5959 21.91308 135.37033 140.34825 142.27142 146.58861 150.5459 152.46349 156.78067 159.17865 164.45343 168.77061 173.0878 175.48578 179.80296 184.12015 188.11813"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1228">SectionSingle web page</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,108.12,549.579)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1234"><tspan
+           x="0 5.2827601 9.6079197 13.93308 16.935156 21.260317 25.585476 28.633837"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1232">Contents</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,239.76,549.579)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1238"><tspan
+           x="0 5.2747798 9.59196 13.90914 18.22632 22.482853 25.044432 27.201426 31.457958 35.775139 40.092319 42.249313 44.651291 48.968472 53.126053 55.223194 59.540375 61.697369 66.014549 70.331734 72.848625 75.410202 77.507347 81.824524 84.226509 86.383499 88.900391 93.217575 97.534752 99.69175 102.20864 106.52582 110.84299 117.44006 121.75724 124.15923"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1236">Header and (as a part of the theme) </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,239.76,539.619)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1242"><tspan
+           x="0 4.3171802 6.7159681 8.6391478 10.562328 14.719908 17.281488 19.619629 23.936808 26.338787 28.737576 33.054756 37.371937 41.369915 45.687096 49.844677 52.243465 54.166645 58.483826 60.88261 63.444191 67.761375 72.078552 74.477341 78.634918 82.952103 86.790482 89.352058 91.275238 95.592422"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1240">a list of pages in the section</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,375.12,549.579)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1246"><tspan
+           x="0 4.9555802 9.2727604 13.58994 16.106033 20.423214 24.740395 27.301973 31.459555 33.855148 38.172329 40.57431 42.969906 45.531487 49.848667 54.165848 56.561443 61.777168 66.094353 70.41153 72.807129 77.124306 81.441483 85.439468"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1244">Contents of the web page</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,108.119,522.579)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1250"><tspan
+           x="0 2.4019799 6.7191601 11.03634 15.35352 19.6707 22.067892 27.023472 31.340652 35.817432"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1248">Index Page</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,239.759,522.579)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1254"><tspan
+           x="0 3.962868 5.8860478 10.211208 14.536368 18.861528 22.388687 24.798649 31.358208 135.40144 137.32463 141.6498 145.97495 150.30011 153.82727 156.1702 162.77365"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1252">_index.mdindex.md</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,108.119,505.599)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1258"><tspan
+           x="0 4.32516 8.6503201 15.20988 19.53504 21.625799 25.95096 28.953835 33.278996 35.682571 37.773331 42.098492 45.944851 50.270012 54.595169 57.598045 60.001621 64.326782 68.651939 73.136703"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1256">Template layout page</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,187.91959,505.599)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1262"><tspan
+           x="0 2.4019799 6.2403598 10.55754 14.87472 19.1919 21.711185 26.028366 28.589947 30.989532 35.785511 51.804565 53.727745 55.650925 59.808502 62.370083 64.772064 69.089241 71.608528 78.16011 187.17967 191.33727 193.26044 197.57762 201.57559 203.49878 207.81596 210.21794 214.53511 217.0544 223.65387 225.57704"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1260">(chapter 6)list.htmlsingle.html </tspan></text>
+    </g>
+    <g
+       id="g1264">
+      <path
+         d="m 233.64,498.818 h 0.24 v 99.36 h -0.24 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1266" />
+    </g>
+    <g
+       id="g1268">
+      <path
+         d="m 369,498.818 h 0.24 v 99.36 H 369 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1270" />
+    </g>
+    <g
+       id="g1272">
+      <path
+         d="m 102.12,597.698 h 372 v 0.48 h -372 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1274" />
+    </g>
+    <g
+       id="g1276">
+      <path
+         d="m 102.12,576.818 h 372 v 0.24 h -372 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1278" />
+    </g>
+    <g
+       id="g1280">
+      <path
+         d="m 102.12,498.818 h 372 v 0.24 h -372 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path1282" />
+    </g>
+  </g>
+</svg>

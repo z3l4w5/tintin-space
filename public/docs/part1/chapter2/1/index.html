@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="2.1 Your first Hugo website#Hugo offers an extensive command line that exposes all of its functionality, including bootstrapping a new website. This section introduces you to Hugo’s command line.
+2.1.1 The Hugo command line#Hugo is a command-line tool that’s well designed and provides all of Hugo’s function- ality. It helps by migrating data, creating placeholders, and analyzing performance, along with the core task of building your website.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="2.1 Your first Hugo website" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://hugo-in-action.foofun.cn/docs/part1/chapter2/1/" />
+
+<title>2.1 Your first Hugo website | Hugo In Action</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="zh" href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter2/1/" title="2.1你的第一个Hugo网站">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.446a9a279376cbde1669676e99bf25d3f01a4be92d7c08a98735e35d738dee2b.js" integrity="sha256-RGqaJ5N2y94WaWdumb8l0/AaS&#43;ktfAiphzXjXXON7is=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://hugo-in-action.foofun.cn/docs/part1/chapter2/1/index.xml" title="Hugo In Action" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Hugo In Action</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter2/1/">
+          简体中文
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/docs/part1/"><strong>Part 1 Static Hugo websites: Loading fast, building to last</strong></a></li>
+<li>
+  <a href="/docs/part1/chapter1/">1 The Jamstack and Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter1/1/">1.1 The stack in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/2/">1.2 How does Jamstack work?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/3/">1.3 The JAM in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/4/">1.4 Why use Jamstack?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/5/">1.5 When not to use the Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/6/">1.6 Selecting the builder</a></li>
+<li>
+  <a href="/docs/part1/chapter1/7/">1.7 Why choose Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/8/">1.8 Is speed really important?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/9/">1.9 What can we build with Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/10/">1.10 Cases that don’t map to Hugo</a></li>
+<li>
+  <a href="/docs/part1/chapter1/11/">1.11 How to be successful with Hugo and this book</a></li>
+<li>
+  <a href="/docs/part1/chapter1/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter2/">2 Live in 30 minutes: You now have a website</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter2/1/"class=active>2.1 Your first Hugo website</a></li>
+<li>
+  <a href="/docs/part1/chapter2/2/">2.2 Adding a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter2/3/">2.3 Adding content</a></li>
+<li>
+  <a href="/docs/part1/chapter2/4/">2.4 Continuous delivery</a></li>
+<li>
+  <a href="/docs/part1/chapter2/5/">2.5 Meeting the goals for performance and maintainability</a></li>
+<li>
+  <a href="/docs/part1/chapter2/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter3/">3 Using markup for content</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter3/1/">3.1 Writing content in Markdown</a></li>
+<li>
+  <a href="/docs/part1/chapter3/2/">3.2 Markdown in action</a></li>
+<li>
+  <a href="/docs/part1/chapter3/3/">3.3 Other markup languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/4/">3.4 Metadata</a></li>
+<li>
+  <a href="/docs/part1/chapter3/5/">3.5 Other metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/6/">3.6 Front matter</a></li>
+<li>
+  <a href="/docs/part1/chapter3/7/">3.7 Benefits of using markup and metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter4/">4 Content management with Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter4/1/">4.1 Customizing with the Hugo configurations</a></li>
+<li>
+  <a href="/docs/part1/chapter4/2/">4.2 Organizing content with sections and menus</a></li>
+<li>
+  <a href="/docs/part1/chapter4/3/">4.3 Better together with page bundles</a></li>
+<li>
+  <a href="/docs/part1/chapter4/4/">4.4 More than tags: Taxonomies</a></li>
+<li>
+  <a href="/docs/part1/chapter4/5/">4.5 YouTube, Gists, and other snippets via shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/6/">4.6 Content sharing using custom shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter5/">5 Custom pages and customized content with the Go template language</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter5/1/">5.1 Separating data and design</a></li>
+<li>
+  <a href="/docs/part1/chapter5/2/">5.2 Using external data to add content</a></li>
+<li>
+  <a href="/docs/part1/chapter5/3/">5.3 Playing with structured data</a></li>
+<li>
+  <a href="/docs/part1/chapter5/4/">5.4 Enhancing life with the Go template language</a></li>
+<li>
+  <a href="/docs/part1/chapter5/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter6/">6 Structuring web pages</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter6/1/">6.1 Using content types, base templates, and blocks to structure templates</a></li>
+<li>
+  <a href="/docs/part1/chapter6/2/">6.2 Reusing content with partials</a></li>
+<li>
+  <a href="/docs/part1/chapter6/3/">6.3 Asset handling with Hugo Pipes</a></li>
+<li>
+  <a href="/docs/part1/chapter6/4/">6.4 Controlling Markdown rendering</a></li>
+<li>
+  <a href="/docs/part1/chapter6/5/">6.5 Using bundled templates for common work</a></li>
+<li>
+  <a href="/docs/part1/chapter6/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter7/">7 Creating your own theme</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter7/1/">7.1 More ways to lay out content</a></li>
+<li>
+  <a href="/docs/part1/chapter7/2/">7.2 Updating the index pages by providing content and subsection lists</a></li>
+<li>
+  <a href="/docs/part1/chapter7/3/">7.3 Providing the taxonomy pages</a></li>
+<li>
+  <a href="/docs/part1/chapter7/4/">7.4 Creating our own theme</a></li>
+<li>
+  <a href="/docs/part1/chapter7/5/">7.5 Powering up with content views</a></li>
+<li>
+  <a href="/docs/part1/chapter7/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter8/">8 Hugo Modules: Plugins for everybody</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter8/1/">8.1 Setting up Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/2/">8.2 Themes as Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/3/">8.3 Importing themes</a></li>
+<li>
+  <a href="/docs/part1/chapter8/4/">8.4 Enabling themes other than Eclectic</a></li>
+<li>
+  <a href="/docs/part1/chapter8/5/">8.5 Getting a specific version of a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter8/6/">8.6 Viewing the dependencies source code</a></li>
+<li>
+  <a href="/docs/part1/chapter8/7/">8.7 Modifying dependencies locally</a></li>
+<li>
+  <a href="/docs/part1/chapter8/8/">8.8 Adding nested dependencies</a></li>
+<li>
+  <a href="/docs/part1/chapter8/9/">8.9 Modules as template plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/10/">8.10 Shared dependencies across the theme and website</a></li>
+<li>
+  <a href="/docs/part1/chapter8/11/">8.11 Content plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/summary/">Summary</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>2.1 Your first Hugo website</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#21-your-first-hugo-website">2.1 Your first Hugo website</a>
+      <ul>
+        <li><a href="#211-the-hugo-command-line">2.1.1 The Hugo command line</a></li>
+        <li><a href="#212-adding-to-source-control">2.1.2 Adding to source control</a></li>
+        <li><a href="#213-structure-of-the-hugo-source-folder">2.1.3 Structure of the Hugo source folder</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="21-your-first-hugo-website">
+  2.1 Your first Hugo website
+  <a class="anchor" href="#21-your-first-hugo-website">#</a>
+</h1>
+<p>Hugo offers an extensive command line that exposes all of its functionality, including bootstrapping a new website. This section introduces you to Hugo’s command line.</p>
+<h2 id="211-the-hugo-command-line">
+  2.1.1 The Hugo command line
+  <a class="anchor" href="#211-the-hugo-command-line">#</a>
+</h2>
+<p>Hugo is a command-line tool that’s well designed and provides all of Hugo’s function- ality. It helps by migrating data, creating placeholders, and analyzing performance, along with the core task of building your website. The Hugo command line has two distinct parts:</p>
+<ul>
+<li>Commands—Determine tasks that you want Hugo to do. You can supply com- mands and subcommands by using hugo [command] on the command line. Hugo’s commands are hierarchical. A plain hugo call runs the default com- mand to build the site. Issue hugo new to create new things. The default for hugo new creates new content pages. You can use hugo new site to build a site skele- ton, and hugo new theme to generate a theme.</li>
+<li>Flags (also called command-line parameters)—Specify options that modify the result of the command by providing a different configuration. Flags are specific to the command, and each command can have independent flags. For example,
+&ndash;format yaml in the new site command changes the metadata format from the default TOML to YAML.
+An intuitive way to learn the Hugo command line is to use the &ndash;help flag. Help with Hugo is hierarchical: hugo &ndash;help provides help for the hugo command and lists hugo new as a subcommand; hugo new &ndash;help provides documentation for the new command and mentions site as a subcommand. Hugo’s help also shows all the flags available for each command. You can also generate the Hugo command-line documentation in the man pages format (as used by the man command in UNIX-based operating systems). For this, use hugo gen man or use hugo gen doc for Markdown files.
+Let’s see how all this fits together by creating our first website. To create a new web- site in Hugo, we’ll use the command in the following listing.</li>
+</ul>
+<details open><summary>Listing 2.1  Hugo command to create a new website</summary>
+  <div class="markdown-inner">
+    <pre tabindex="0"><code>hugo new site acme-corporation --format yaml
+</code></pre>
+  </div>
+</details>
+
+<p>This command creates the Hugo skeleton folder structure with YAML as the metadata language in a subfolder called acme-corporation in the current folder. The various parts of this command are labeled in figure 2.2. Note that we’ll use YAML (
+  <a href="https://yaml.org/">https://yaml.org/</a>) instead of the default TOML (
+  <a href="https://toml.io">https://toml.io</a>) metadata language for this book. YAML is more prevalent in the general programming community, less verbose than TOML, and GitHub has better support for it. It is an easier language to get started with and a better choice for users new to the entire Hugo ecosystem. We will discuss YAML as a metadata language for Hugo in chapter 3. Appendix B dis- cusses TOML as the metadata language option. Note that the official Hugo documen- tation provides metadata in all supported languages.</p>
+<div class="book-columns flex flex-wrap">
+
+  <div class="flex-even markdown-inner">
+    <!-- begin columns block -->
+<p>
+  <img src="Figure2.2.svg" alt="Figure2.2" />
+  </div>
+
+  <div class="flex-even markdown-inner">
+    Figure 2.2 The hugo command provides access to the Hugo command line. We can use all of Hugo’s functionality via this command line. You can use it to
+compile Hugo websites, run the development server, measure build performance, and access modules.
+  </div>
+
+</div>
+
+<blockquote class="book-hint info">
+  <p><strong>Exercise 2.1</strong></p>
+<p>Which of the following allow you to get help on Hugo?</p>
+<ul>
+<li>a. &ndash;help flag</li>
+<li>b. man command</li>
+<li>c. Hugo website</li>
+<li>d. All of the above</li>
+</ul>
+
+</blockquote>
+
+<h2 id="212-adding-to-source-control">
+  2.1.2 Adding to source control
+  <a class="anchor" href="#212-adding-to-source-control">#</a>
+</h2>
+<p>The first step in any project is to commit the changes to a version control repository. The command-line interface does not have native undo/redo support. If you acciden- tally delete a file, it does not go to the recycle bin or to the trash folders. Any running script has the potential to cause data loss, including the hugo command. There is no turning back unless you have versioned the source code.
+Version control systems allow for recovering deleted files and reverting to older versions. The version control system used in this book is Git. Git is the most popular system, and GitHub has tight integration for it. This also includes GitHub Pages, the most popular host for static websites on the internet. It is a good idea to commit each checkpoint to version control. You can use the git command or a GUI client like SourceTree or Fork to perform these tasks. On the command line, you can perform this using multiple Git commands as the following listing shows. To help with version control, take note of the code checkpoints where you can pause to check your code.</p>
+<details open><summary>Listing 2.2  Git commands to create a new repository</summary>
+  <div class="markdown-inner">
+    <img src="Listing2.2.svg" alt="Listing2.2" />
+  </div>
+</details>
+
+<p>Even though we created a website skeleton, that does not mean we have a working website. Most of the skeleton folders created by the hugo command are empty. At the bare minimum, we need to provide some content and a theme to render it on our website.</p>
+<blockquote class="book-hint info">
+  <strong>CODE CHECKPOINT</strong>
+
+  <a href="https://github.com/hugoinaction/hugoinaction/tree/">https://github.com/hugoinaction/hugoinaction/tree/</a> chapter-02-01
+</blockquote>
+
+<blockquote class="book-hint warning">
+  <strong>NOTE</strong> Extra files (Readme.md, License.md, and .gitignore) were added to the repository on the server for better GitHub support.
+</blockquote>
+
+<blockquote class="book-hint info">
+  <p><strong>Migrating to Hugo</strong></p>
+<p>Hugo supports importing content from Jekyll and automatically converts content from that format to a format that Hugo understands. You can use the hugo import jekyll <source jekyll folder> <target hugo folder> command to import the folder-equivalent content from Jekyll into a Hugo website. This command does not provide synchronization, but we can use it for a one-time import.</p>
+
+</blockquote>
+
+<h2 id="213-structure-of-the-hugo-source-folder">
+  2.1.3 Structure of the Hugo source folder
+  <a class="anchor" href="#213-structure-of-the-hugo-source-folder">#</a>
+</h2>
+<p>Before adding a theme or some content, let’s look at what makes up a Hugo website. A Hugo source folder is more than templates and content. The hugo new command generates six folders, and we will create more as we use Hugo’s features. The critical folders in our website, as figure 2.3 shows, include the following:</p>
+<ul>
+<li>archetypes —Contains the templates for the content files. Hugo tries to minimize the copy and paste work needed to create content. We can create templates for Markdown files or folders in this folder, and Hugo uses them to create a basic content file. We will get to archetypes in chapter 5.</li>
+<li>content—Contains all the content that traditionally goes into the database. We can organize the content into files and folders as we desire. By default, Hugo generates the website output directly, based on this folder’s structure, although we can override that using the metadata in each file (called front matter, which we will discuss in chapter 3). We will work with the content folder throughout the book.</li>
+<li>data—Stores structured content in the form of YAML, TOML, CSV, or JSON files, which are made available as global variables throughout the website. A tra- ditional database houses more than just web page content. There can be tables associated with structured data, which have no place in the content folder, so this folder comes in handy when we generate content from outside of Hugo and pass that information in as a JSON or a CSV file for Hugo to consume. We will read from the data folder in chapter 5.</li>
+<li>layouts—Overrides parts of the theme. Hugo gives us the flexibility to mix and match pages from themes and to write our own custom pages. In this folder, all customization of the theme occurs. We can use this directory to store these overridden theme layouts. The line between a theme and layout is blurred, and Hugo gives us total flexibility to create a theme slowly by overriding pages one by one. We will use the layouts folder to update the home page in this chapter and go into layouts in detail in chapters 6 and 7.</li>
+<li>themes —Contains the code that we use to make the content in the content folder presentable. We can use the Go template language to write themes. We will add themes in this chapter and create our own in chapter 7.</li>
+</ul>
+<p>
+  <img src="Figure2.3.svg" alt="Figure2.3" /></p>
+<p>Figure 2.3 The website source code and content in Hugo lies in the source folder. The hugo new command creates a basic set of folders, which designates the various parts of a Hugo website: the archetypes folder (for the content templates), the content folder (for the textual content), the data folder (for structured content, and key-value pairs), the layouts and themes folders (for templates and individual page designs), and the static folder (for additional content that needs to be hosted but does not fit into any other category). Other folders and files that show up during usage include assets (for unprocessed images and JS/CSS files), config (for settings and metadata, initially generated as a single file), resources (for caching processed assets), public (to hold the output), vendor and go.sum/mod (for Hugo Modules), package*.json and node_modules (for JavaScript), .github/netlify.toml (for continuous integration), and api (for custom first-party APIs).</p>
+<ul>
+<li>config —Houses the website’s configuration. This directory contains the meta- data shared across the website, including the theme’s name and any parameters that need to be passed to Hugo or to the theme to render content. By default, Hugo creates a single config.yaml file. Hugo supports splitting this configura- tion file into multiple files and having different environments for testing and production. That turns the configuration into a folder. We will go into the con- figuration in detail in chapter 4.</li>
+<li>static—Stores static content like fonts or PDF files. Hugo copies this content as is to the output directory. This folder is somewhat equivalent to the Apache/Nginx web server root folder, where you can place any HTML file for rendering. It is advisable to put as much content as possible in the content, data, themes, and layouts folders to have programmatic access to it and to benefit from Hugo’s ren- der pipeline. In the static folder, we can store binaries files like .pdf, .woff (for web fonts), and .zip files for downloadable content that does not belong any- where else. We will put some files in the static folder in this chapter.</li>
+</ul>
+<p>Of all these folders, the content folder is where we usually spend the most time adding content to the website. The themes folder contains the theme that the developer can manage outside the website. In contrast, we change the other folders (except for the data folder for the data-driven web pages) infrequently, only when something signifi- cant needs to be added.</p>
+<blockquote class="book-hint info">
+  <p><strong>Exercise 2.2</strong></p>
+<p>Which of the following folders contains the text displayed on a web page?</p>
+<ul>
+<li>a. markup</li>
+<li>b. markdown</li>
+<li>c. content</li>
+<li>d. data</li>
+<li>e. text</li>
+</ul>
+
+</blockquote>
+
+<p>When building your Hugo-based website, here are some other files and folders  that  you will encounter:</p>
+<ul>
+<li><code>assets</code> folder—Places images, JavaScript, and CSS files as unprocessed source code to be consumed globally from the website. This folder allows us to process these files during compilation. Hugo can resize images, bundle and minify JavaScript files, and convert SCSS to CSS via its asset pipeline (Hugo Pipes). We will learn about image manipulation and asset bundling in chapter 6 and work with JavaScript assets in chapter 10.</li>
+<li><code>public</code> folder—Hugo’s default output directory, where the hugo command gener- ates the HTML output to be deployed and cached at the CDN.</li>
+<li><code>resources</code> folder —When processing data, Hugo caches the results of heavy opera- tions in this folder. We should put this folder into our version control and reuse its data across builds. This folder is one of the critical ingredients for getting outstanding performance with Hugo. Processing images is a CPU-intensive operation and takes time. Most assets don’t change across builds, and caching   the processed images for as long as they do not change provides Hugo with a significant performance boost.</li>
+<li><code>go.mod</code> and <code>go.sum</code> files—Hugo Modules uses these files to synchronize project dependencies. We rarely look into these files, but we do need to put these files in version control. We will introduce these files in chapter 8.</li>
+<li><code>vendor</code> folder—Stores third-party dependencies that we can include via Hugo Modules. We will create this folder while working with Hugo Modules in chap- ter 8.</li>
+<li><code>node modules</code>, package.json, package-lock.json, and package.hugo.json files—Associ- ates and integrates Hugo with the JavaScript ecosystem. We will discuss using JavaScript with Hugo in detail in chapter 10.</li>
+<li><code>.github</code> folder and netlify.toml files —Associates Hugo with the continuous integra- tion services GitHub and Netlify. We will use these services throughout the  book.</li>
+<li><code>api</code> folder—Although not standard, we’ll create this folder to house custom APIs in chapter 11.</li>
+</ul>
+<blockquote class="book-hint info">
+  <p><strong>Exercise 2.3</strong></p>
+<p>Match the file type to the most likely folder to place the file.</p>
+<div class="book-columns flex flex-wrap">
+  <div class="flex-even markdown-inner">
+    <ul>
+<li>
+<ol>
+<li>YAML</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Markdown</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>PDF</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>HTML</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>CSS</li>
+</ol>
+</li>
+</ul>
+  </div>
+  <div class="flex-even markdown-inner">
+    <ul>
+<li>a. assets</li>
+<li>b. static</li>
+<li>c. content</li>
+<li>d. config</li>
+<li>e. themes</li>
+</ul>
+  </div>
+</div>
+
+</blockquote>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://gitee.com/zhang3/hugo-in-action.git/commit/239477c4d240d7ab2165147bef127b143ef87fc7" title='Last modified by zhang3 | 2022-September-13' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2022-September-13</span>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#21-your-first-hugo-website">2.1 Your first Hugo website</a>
+      <ul>
+        <li><a href="#211-the-hugo-command-line">2.1.1 The Hugo command line</a></li>
+        <li><a href="#212-adding-to-source-control">2.1.2 Adding to source control</a></li>
+        <li><a href="#213-structure-of-the-hugo-source-folder">2.1.3 Structure of the Hugo source folder</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

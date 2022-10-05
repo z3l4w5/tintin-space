@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="1.3 The JAM in Jamstack#The JAM part of the Jamstack stands for JavaScript, APIs, and markup. Let’s take a look at each of these components.
+1.3.1 JavaScript#JavaScript in Jamstack refers to all the approaches to client-side scripting that provide interactivity and dynamic functionality, which is personalized to the user and cannot be precompiled. This enables developers to react to user actions and modifies the user interface at run time.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="1.3 The JAM in Jamstack" />
+<meta property="og:description" content="1.3 The JAM in Jamstack#The JAM part of the Jamstack stands for JavaScript, APIs, and markup. Let’s take a look at each of these components.
+1.3.1 JavaScript#JavaScript in Jamstack refers to all the approaches to client-side scripting that provide interactivity and dynamic functionality, which is personalized to the user and cannot be precompiled. This enables developers to react to user actions and modifies the user interface at run time." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hugo-in-action.foofun.cn/docs/part1/chapter1/3/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2022-09-12T18:26:30+08:00" />
+<meta property="article:modified_time" content="2022-09-13T22:22:43+08:00" />
+
+<title>1.3 The JAM in Jamstack | Hugo In Action</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="zh" href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter1/3/" title="1.3 JAMSTACK中的JAM">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.446a9a279376cbde1669676e99bf25d3f01a4be92d7c08a98735e35d738dee2b.js" integrity="sha256-RGqaJ5N2y94WaWdumb8l0/AaS&#43;ktfAiphzXjXXON7is=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Hugo In Action</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter1/3/">
+          简体中文
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/docs/part1/"><strong>Part 1 Static Hugo websites: Loading fast, building to last</strong></a></li>
+<li>
+  <a href="/docs/part1/chapter1/">1 The Jamstack and Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter1/1/">1.1 The stack in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/2/">1.2 How does Jamstack work?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/3/"class=active>1.3 The JAM in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/4/">1.4 Why use Jamstack?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/5/">1.5 When not to use the Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/6/">1.6 Selecting the builder</a></li>
+<li>
+  <a href="/docs/part1/chapter1/7/">1.7 Why choose Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/8/">1.8 Is speed really important?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/9/">1.9 What can we build with Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/10/">1.10 Cases that don’t map to Hugo</a></li>
+<li>
+  <a href="/docs/part1/chapter1/11/">1.11 How to be successful with Hugo and this book</a></li>
+<li>
+  <a href="/docs/part1/chapter1/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter2/">2 Live in 30 minutes: You now have a website</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter2/1/">2.1 Your first Hugo website</a></li>
+<li>
+  <a href="/docs/part1/chapter2/2/">2.2 Adding a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter2/3/">2.3 Adding content</a></li>
+<li>
+  <a href="/docs/part1/chapter2/4/">2.4 Continuous delivery</a></li>
+<li>
+  <a href="/docs/part1/chapter2/5/">2.5 Meeting the goals for performance and maintainability</a></li>
+<li>
+  <a href="/docs/part1/chapter2/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter3/">3 Using markup for content</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter3/1/">3.1 Writing content in Markdown</a></li>
+<li>
+  <a href="/docs/part1/chapter3/2/">3.2 Markdown in action</a></li>
+<li>
+  <a href="/docs/part1/chapter3/3/">3.3 Other markup languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/4/">3.4 Metadata</a></li>
+<li>
+  <a href="/docs/part1/chapter3/5/">3.5 Other metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/6/">3.6 Front matter</a></li>
+<li>
+  <a href="/docs/part1/chapter3/7/">3.7 Benefits of using markup and metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter4/">4 Content management with Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter4/1/">4.1 Customizing with the Hugo configurations</a></li>
+<li>
+  <a href="/docs/part1/chapter4/2/">4.2 Organizing content with sections and menus</a></li>
+<li>
+  <a href="/docs/part1/chapter4/3/">4.3 Better together with page bundles</a></li>
+<li>
+  <a href="/docs/part1/chapter4/4/">4.4 More than tags: Taxonomies</a></li>
+<li>
+  <a href="/docs/part1/chapter4/5/">4.5 YouTube, Gists, and other snippets via shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/6/">4.6 Content sharing using custom shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter5/">5 Custom pages and customized content with the Go template language</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter5/1/">5.1 Separating data and design</a></li>
+<li>
+  <a href="/docs/part1/chapter5/2/">5.2 Using external data to add content</a></li>
+<li>
+  <a href="/docs/part1/chapter5/3/">5.3 Playing with structured data</a></li>
+<li>
+  <a href="/docs/part1/chapter5/4/">5.4 Enhancing life with the Go template language</a></li>
+<li>
+  <a href="/docs/part1/chapter5/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter6/">6 Structuring web pages</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter6/1/">6.1 Using content types, base templates, and blocks to structure templates</a></li>
+<li>
+  <a href="/docs/part1/chapter6/2/">6.2 Reusing content with partials</a></li>
+<li>
+  <a href="/docs/part1/chapter6/3/">6.3 Asset handling with Hugo Pipes</a></li>
+<li>
+  <a href="/docs/part1/chapter6/4/">6.4 Controlling Markdown rendering</a></li>
+<li>
+  <a href="/docs/part1/chapter6/5/">6.5 Using bundled templates for common work</a></li>
+<li>
+  <a href="/docs/part1/chapter6/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter7/">7 Creating your own theme</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter7/1/">7.1 More ways to lay out content</a></li>
+<li>
+  <a href="/docs/part1/chapter7/2/">7.2 Updating the index pages by providing content and subsection lists</a></li>
+<li>
+  <a href="/docs/part1/chapter7/3/">7.3 Providing the taxonomy pages</a></li>
+<li>
+  <a href="/docs/part1/chapter7/4/">7.4 Creating our own theme</a></li>
+<li>
+  <a href="/docs/part1/chapter7/5/">7.5 Powering up with content views</a></li>
+<li>
+  <a href="/docs/part1/chapter7/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter8/">8 Hugo Modules: Plugins for everybody</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter8/1/">8.1 Setting up Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/2/">8.2 Themes as Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/3/">8.3 Importing themes</a></li>
+<li>
+  <a href="/docs/part1/chapter8/4/">8.4 Enabling themes other than Eclectic</a></li>
+<li>
+  <a href="/docs/part1/chapter8/5/">8.5 Getting a specific version of a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter8/6/">8.6 Viewing the dependencies source code</a></li>
+<li>
+  <a href="/docs/part1/chapter8/7/">8.7 Modifying dependencies locally</a></li>
+<li>
+  <a href="/docs/part1/chapter8/8/">8.8 Adding nested dependencies</a></li>
+<li>
+  <a href="/docs/part1/chapter8/9/">8.9 Modules as template plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/10/">8.10 Shared dependencies across the theme and website</a></li>
+<li>
+  <a href="/docs/part1/chapter8/11/">8.11 Content plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/summary/">Summary</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>1.3 The JAM in Jamstack</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#13-the-jam-in-jamstack">1.3 The JAM in Jamstack</a>
+      <ul>
+        <li><a href="#131-javascript">1.3.1 JavaScript</a></li>
+        <li><a href="#132-application-programming-interfaces-apis">1.3.2 Application programming interfaces (APIs)</a></li>
+        <li><a href="#133-markup">1.3.3 Markup</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="13-the-jam-in-jamstack">
+  1.3 The JAM in Jamstack
+  <a class="anchor" href="#13-the-jam-in-jamstack">#</a>
+</h1>
+<p>The JAM part of the Jamstack stands for JavaScript, APIs, and markup. Let’s take a look at each of these components.</p>
+<h2 id="131-javascript">
+  1.3.1 JavaScript
+  <a class="anchor" href="#131-javascript">#</a>
+</h2>
+<p>JavaScript in Jamstack refers to all the approaches to client-side scripting that provide interactivity and dynamic functionality, which is personalized to the user and cannot    be precompiled. This enables developers to react to  user actions  and  modifies  the  user interface at run time. Jamstack leaves the specifics of the JavaScript framework  and its management to the web developer.</p>
+<p>In traditional stacks, the server plays a prominent role in handling user interactions. It generates new pages even when just a part of the page needs to be modified. That is unnecessary and suboptimal. Modern JavaScript is fully capable of storing the user state in the browser. It can communicate with the server and update the interface without the user needing to reload or see a flicker in the interface. Jamstack pre- scribes using JavaScript for use cases where it shines the best—providing interactive interfaces to the end user and communicating from the client to the server.</p>
+<h2 id="132-application-programming-interfaces-apis">
+  1.3.2 Application programming interfaces (APIs)
+  <a class="anchor" href="#132-application-programming-interfaces-apis">#</a>
+</h2>
+<p>Application programming interfaces (APIs) provide a well-defined contract for communicating with a web service. APIs abstract the entire server functionality so the client does not need to understand the server internals to consume the service. In Jamstack, pre- compilation and client-side JavaScript take over a lot of the work usually done on the server, but the server still has its use cases. These include storage of the application state across machines, computations that require more processing power than a single machine, and data that must be transmitted back from the website viewer to the servers. Many traditional systems expose APIs to communicate with the underlying func- tionality. Although this approach fits in the Jamstack definition, Jamstack advises min- imizing the building of APIs to reduce maintenance overhead. A lot of operations that need APIs in other stacks are handled differently in Jamstack. Instead of content cre- ation, update, or deletion APIs, you can place, update, or remove files on disk. Only dynamic updates based on user actions in the website (like purchases and comments)
+need dedicated APIs.</p>
+<p>There are third-party API providers that provide high-level APIs, which developers can use without going through the overhead of building everything themselves. From handling comments to full-text searches, a lot is available at scale without writing cus- tom code. When we need to write a custom backend, cloud service providers make that task easier than building it from scratch. With FaaS, the cloud service providers take over the ownership of uptime, ongoing security updates, and scaling with user load. The service provider maintains performance and availability across the globe. The developer writes code and hands it over to the service provider to deploy. The
+ongoing work is minimal. Developers can then work to enhance functionality or update any dependencies at the function level.</p>
+<h2 id="133-markup">
+  1.3.3 Markup
+  <a class="anchor" href="#133-markup">#</a>
+</h2>
+<p>The traditional definition of markup includes a set of annotations (like XML tags in HTML documents or stars around the text in Markdown) in a text document that pro- vides further information on how to understand or render the text. Jamstack consid- ers the entire markup document as markup. This consists of the textual data, the annotations, and the structured metadata.</p>
+<p>Markup forms the data layer of the Jamstack. Unlike traditional databases, we store markup in text files. It is readable and editable by humans in its raw form without using a tool to convert it to a readable format. Markup languages provide a way to write formatted documents in a terse and readable way. Markdown is the most popu- lar markup language for writing content in the Jamstack. (We will examine Markdown in detail in chapter 3.) Various metadata languages that we use for additional informa- tion associated with the document can accompany this content. One of these is YAML (Yaml Ain’t Markup Language), which we will also discuss in chapter 3.</p>
+<blockquote class="book-hint warning">
+  <strong>NOTE</strong> HTML (HyperText Markup Language) is also a markup language, and you are free to choose that for writing your data in Jamstack. Human-readable languages like Markdown, however, make it easier to read and maintain our data. This is converted to HTML during rendering, keeping the layout (tem- plate) and presentation (CSS) out of content.
+</blockquote>
+
+<p>There are many advantages to using a markup-based document to store data. Most of the web page is unstructured. A regular database keeps it in a single cell. This approach, however, is not a good use of database technology. We can use a version control system like Git to monitor the data changes if the data is managed as individ- ual files. Having the data along with the code eases migration across services and build environments. We can store all configuration files together. Optimization and testing are more straightforward with the ability to create new build environments (stage, production, etc.) on demand. With unstructured content, most of the organization and querying capabilities of the databases are not helpful. Hosting blogs or generic web pages based on a database is not the best use of their resources.</p>
+<p>With the popularity of Git and GitHub, many developers are already familiar with markup languages, especially Markdown. Most developers write readme files in a markup language. These languages are stable, standardized, easy to learn, and easy to understand. There is a lot of tooling available to write in these languages or migrate data to them. They also work well with diff and merge tools (used for comparing changes in a file), and most programming languages have libraries to parse these lan- guages. This tooling provides extreme flexibility for programmers to manipulate data the way they like.</p>
+<blockquote class="book-hint info">
+  <p><strong>Exercise 1.2</strong></p>
+<p>What does the M in Jamstack stand for?</p>
+<ul>
+<li>a. markup</li>
+<li>b. Markdown</li>
+<li>c. MySQL</li>
+<li>d. MongoDB</li>
+</ul>
+
+</blockquote>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://gitee.com/zhang3/hugo-in-action.git/commit/239477c4d240d7ab2165147bef127b143ef87fc7" title='Last modified by zhang3 | 2022-September-13' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2022-September-13</span>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#13-the-jam-in-jamstack">1.3 The JAM in Jamstack</a>
+      <ul>
+        <li><a href="#131-javascript">1.3.1 JavaScript</a></li>
+        <li><a href="#132-application-programming-interfaces-apis">1.3.2 Application programming interfaces (APIs)</a></li>
+        <li><a href="#133-markup">1.3.3 Markup</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

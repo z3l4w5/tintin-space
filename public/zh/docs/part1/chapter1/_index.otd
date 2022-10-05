@@ -1,0 +1,128 @@
+<section>
+    <section>
+        <literal content='The Jamstack and Hugo' suffix='&#13;&#10;&#13;&#10;'>
+            <translation to="Jamstack和Hugo" mt="tmt"></translation>
+        </literal>
+    </section>
+    <section>
+        <literal content='This chapter covers' suffix='&#13;&#10;&#13;&#10;'>
+            <translation to="本章涵盖" mt="alimt"></translation>
+        </literal>
+    </section>
+    <section>
+        <literal content="- Jamstack basics for building websites" suffix="&#xD;&#xA;">
+            <translation to="- 构建网站的JamStack基础知识" mt="tmt"></translation>
+        </literal>
+        <literal content="- Principles of static site generators" suffix="&#xD;&#xA;">
+            <translation to="- 静态站点生成的原理" mt="alimt"></translation>
+        </literal>
+        <literal content="- Understanding the Hugo static site generator" suffix="&#xD;&#xA;">
+            <translation to="- 了解Hugo静态站点生成器" mt="tmt"></translation>
+        </literal>
+        <literal content="- Benefits of the Hugo static site generator" suffix="&#xD;&#xA;">
+            <translation to="- Hugo静态站点生成器的好处" mt="alimt"></translation>
+        </literal>
+        <literal content="- Use cases best suited for Jamstack and Hugo" suffix="&#xD;&#xA;&#xD;&#xA;">
+            <translation to="- 最适合JamStack和Hugo的使用场景" mt="tmt"></translation>
+        </literal>
+    </section>
+    <section>
+        <literal prefix=" "
+                 content="If you have been associated with websites recently or have friends in similar situa- tions, you must know how much work is involved in maintaining a website."
+                 suffix=" ">
+            <translation to="如果你最近与网站建立了联系，或者有类似情况的朋友，则必须知道维护网站涉及多少工作。" mt="alimt"></translation>
+        </literal>
+        <literal
+                content="It needs DevOps engineers, system administrators, and database architects to keep a website running on the internet."
+                suffix=" ">
+            <translation to="它需要DevOps工程师、系统管理员和数据库架构师来保持网站在互联网上运行。" mt="tmt"></translation>
+        </literal>
+        <literal content="It is a full-time job for an entire team, not just an individ- ual." suffix=" ">
+            <translation to="这是整个团队的全职工作，而不仅仅是个人。" mt="alimt"></translation>
+        </literal>
+        <literal
+                content="The upkeep of content is so time-consuming that the creators move at an unprecedented rate to managed hosting services like WordPress.com or even to give away their content to platforms like Medium or Facebook."
+                suffix="&#xD;&#xA;&#xD;&#xA;">
+            <translation to="内容的维护非常耗时，以至于创作者以前所未有的速度转向WordPress.com等托管托管服务，甚至将他们的内容免费提供给Medium或Facebook等平台。"
+                         mt="tmt"></translation>
+        </literal>
+    </section>
+    <section>
+        <literal prefix=" "
+                 content="Jamstack is a web development architecture that minimizes the day-to-day over- head of maintaining websites by moving the complicated pieces out of run time or  by encapsulating them into easier-to-manage services."
+                 suffix=" ">
+            <translation to="Jamstack是一种web开发体系结构，通过将复杂的部分移出运行时间或将其封装到更易于管理的服务中，可以最大程度地减少维护网站的日常工作。"
+                         mt="alimt"></translation>
+        </literal>
+        <literal content="The term Jamstack was coined by the cofounder and CEO of Netlify, Matt Biilmann, in 2016."
+                 suffix=" ">
+            <translation to="JamStack这个词是由Netlify的联合创始人兼首席执行官马特·比尔曼（Matt Biilmann）在2016年创造的。" mt="tmt"></translation>
+        </literal>
+        <literal
+                content="Jamstack forgoes data- bases by storing all the content into files compiled during deployment and then&#xD;&#xA; distributing them over a content delivery network (CDN)."
+                suffix=" ">
+            <translation to="Jamstack通过将所有内容存储到部署期间编译的文件中，然后通过内容分发网络 (CDN) 来放弃数据库。" mt="alimt"></translation>
+        </literal>
+        <literal
+                content="Application programming interfaces (APIs) provide dynamic, server-based content, maintained by third parties or hosted by cloud service providers with minimal day-to-day involvement by the web- site owner."
+                suffix=" ">
+            <translation to="应用程序编程接口(API)提供动态的、基于服务器的内容，由第三方维护或由云服务提供商托管，网站所有者只需最少的日常参与。" mt="tmt"></translation>
+        </literal>
+        <literal
+                content="This way, developers are freed from the tasks of handling security updates, denial-of-service (DoS) attacks, and constant monitoring to keep hackers at bay."
+                suffix="&#xD;&#xA;&#xD;&#xA;">
+            <translation to="这样，开发人员就可以摆脱处理安全更新，拒绝服务 (DoS) 攻击以及不断监视以阻止黑客的任务。" mt="alimt"></translation>
+        </literal>
+    </section>
+    <section>
+        <literal prefix=" "
+                 content="Jamstack is heavily reliant on the core web technologies of HTML, CSS, and Java- Script."
+                 suffix=" ">
+            <translation to="JamStack严重依赖于核心Web技术，如HTML、CSS和Java-Scrip。" mt="tmt"></translation>
+        </literal>
+        <literal
+                content="It offers the ability to get up and running on the modern web quickly so we can build websites with outstanding performance, low cost, and little maintenance."
+                suffix=" ">
+            <translation to="它提供了在现代网络上快速启动和运行的能力，因此我们可以构建具有出色性能，低成本和很少维护的网站。" mt="alimt"></translation>
+        </literal>
+        <literal
+                content="It can create websites for various use cases like individual blogs, business websites, and e-commerce solutions."
+                suffix=" ">
+            <translation to="它可以为各种用例创建网站，如个人博客、商业网站和电子商务解决方案。" mt="tmt"></translation>
+        </literal>
+        <literal
+                content="Jamstack works in harmony with a server-based framework by providing full support for static content."
+                suffix=" ">
+            <translation to="Jamstack通过提供对静态内容的全面支持，与基于服务器的框架协调工作。" mt="alimt"></translation>
+        </literal>
+        <literal
+                content="We can, however, still use a traditional frame- work to offer user-generated, server-based content."
+                suffix="&#xD;&#xA;&#xD;&#xA;">
+            <translation to="然而，我们仍然可以使用传统的框架来提供用户生成的、基于服务器的内容。" mt="tmt"></translation>
+        </literal>
+    </section>
+    <section>
+        <literal prefix=" "
+                 content="Hugo is among the most popular of the current Jamstack frameworks and provides the best build speeds."
+                 suffix=" ">
+            <translation to="Hugo是当前Jamstack框架中最受欢迎的框架之一，并提供最佳的构建速度。" mt="alimt"></translation>
+        </literal>
+        <literal
+                content="It helps us enjoy web development without the annoyances of setup, upkeep, or day-to-day maintenance."
+                suffix=" ">
+            <translation to="它帮助我们享受Web开发，而不需要安装、维护或日常维护的烦恼。" mt="tmt"></translation>
+        </literal>
+        <literal content="There is no waiting for compilation, updates, or deployment!" suffix=" ">
+            <translation to="没有等待编译、更新或部署!" mt="alimt"></translation>
+        </literal>
+        <literal
+                content="Hugo takes a template and a website in markup format and converts that to HTML, so the site is ready to be hosted."
+                suffix=" ">
+            <translation to="Hugo获取了一个模板和一个标记格式的网站，并将其转换为HTML，这样网站就可以托管了。" mt="tmt"></translation>
+        </literal>
+        <literal
+                content="I congratulate you for picking up this book and embarking on the journey to radically simplify your approach to web development.">
+            <translation to="我祝贺你拿起这本书，并踏上了从根本上简化你的web开发方法的旅程。" mt="alimt"></translation>
+        </literal>
+    </section>
+</section>

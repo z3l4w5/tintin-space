@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Jamstack and Hugo on Hugo In Action</title>
+    <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/</link>
+    <description>Recent content in The Jamstack and Hugo on Hugo In Action</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://hugo-in-action.foofun.cn/docs/part1/chapter1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Summary</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/summary/</guid>
+      <description>Summary#Jamstack is an approach to web development where most content is stored along with the theme as files and compiled into the website during deployment.
+The static content in Jamstack is written in a markup language, which compiles to HTML. The dynamic pieces are available in the form of APIs accessed via JavaScript.
+The Jamstack architecture provides massive savings in cost, operations, and maintenance. We also get a fast website.</description>
+    </item>
+    
+    <item>
+      <title>1.10 Cases that don’t map to Hugo</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/10/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/10/</guid>
+      <description>1.10 Cases that don’t map to Hugo#Like all tools, Hugo has its use cases. Apart from all the Jamstack limitations that apply to any of the Jamstack frameworks, we need to understand that Hugo’s focus is on the markup portion of the Jamstack only. While Hugo provides the fastest available Java- Script bundler and has good support for the npm ecosystem, it takes a hands-off approach to the JavaScript and the API layers of the Jamstack.</description>
+    </item>
+    
+    <item>
+      <title>1.11 How to be successful with Hugo and this book</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/11/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/11/</guid>
+      <description>1.11 How to be successful with Hugo and this book#In this book, we will build the website for Acme Corporation, a leading manufacturer of digital shapes. The website will have regular company pages, a blog with support for dynamic comments and searches, a JavaScript-based shape editor, and a storefront to purchase your shapes delivered over email. The final version of the website that we will build in this book is hosted at https://chapter-13-09.</description>
+    </item>
+    
+    <item>
+      <title>1.3 The JAM in Jamstack</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/3/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/3/</guid>
+      <description>1.3 The JAM in Jamstack#The JAM part of the Jamstack stands for JavaScript, APIs, and markup. Let’s take a look at each of these components.
+1.3.1 JavaScript#JavaScript in Jamstack refers to all the approaches to client-side scripting that provide interactivity and dynamic functionality, which is personalized to the user and cannot be precompiled. This enables developers to react to user actions and modifies the user interface at run time.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Why use Jamstack?</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/4/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/4/</guid>
+      <description>1.4 Why use Jamstack?#Prebuilding HTML content presented to the user has unique advantages—from mini- mal operations to outstanding performance and cost reductions. We’ll look at these advantages and more in the following sections.
+1.4.1 Minimal operations#Because content is prebuilt before publication, the number of moving parts in a site is reduced. The service provider takes care of security updates, hardware failures, and network issues. The cloud host provides almost 100% uptime without any active involvement from the website owner.</description>
+    </item>
+    
+    <item>
+      <title>1.5 When not to use the Jamstack</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/5/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/5/</guid>
+      <description>1.5 When not to use the Jamstack#One assumption of the Jamstack is that the content is available at compile time and does not change rapidly. The Jamstack does not offer a lot if this assumption turns out to be false. The following sections provide use cases for when not to use Jamstack.
+1.5.1 When there is dynamic data with no historical significance#If we are building a dashboard-type application with ever-changing data, then precom- pilation as a concept does not provide great value.</description>
+    </item>
+    
+    <item>
+      <title>1.6 Selecting the builder</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/6/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/6/</guid>
+      <description>1.6 Selecting the builder#The Jamstack does not prescribe a specific technology. The developer is free to choose the technology of their liking to build the website. There is an extensive list of static site builders with various tradeoffs. These are made in different programming languages, provide integrations, and support many plugins.
+Jekyll, built in Ruby, is a popular static site builder that seamlessly integrates with GitHub Pages. GitHub can automatically deploy Jekyll-based websites from a reposi- tory without writing a custom build step.</description>
+    </item>
+    
+    <item>
+      <title>1.8 Is speed really important?</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/8/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/8/</guid>
+      <description>1.8 Is speed really important?#We cannot emphasize enough the importance of build performance. Hugo employs many techniques to speed up build times, like having a multithreaded core with sup- port for caching at all layers to prevent as much rework as possible. Speed frees the developer from the burden of waiting for the build to complete after every small change.
+If you launch Hugo in watch mode (a special mode for development), the website comes up in less than a second.</description>
+    </item>
+    
+    <item>
+      <title>1.9 What can we build with Hugo?</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/9/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/9/</guid>
+      <description>1.9 What can we build with Hugo?#The Jamstack is a versatile concept, and we can apply it to a variety of problems. Hugo has been a poster child for the success of the Jamstack with its ability to handle scale. Hugo shines when information flows from the server to the client, then the users can focus on consumption rather than creation. This approach fits the traditional definition of publishing, where content creators provide content via a medium like the web to con- sumers.</description>
+    </item>
+    
+  </channel>
+</rss>

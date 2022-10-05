@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>foreword on Hugo In Action</title>
+    <link>https://hugo-in-action.foofun.cn/</link>
+    <description>Recent content in foreword on Hugo In Action</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://hugo-in-action.foofun.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Summary</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/summary/</guid>
+      <description>Summary#Jamstack is an approach to web development where most content is stored along with the theme as files and compiled into the website during deployment.
+The static content in Jamstack is written in a markup language, which compiles to HTML. The dynamic pieces are available in the form of APIs accessed via JavaScript.
+The Jamstack architecture provides massive savings in cost, operations, and maintenance. We also get a fast website.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter3/2/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter3/2/</guid>
+      <description>3.2 Markdown in action Using all these content features, we will now update the About Us page for the Acme Corporation website to make it more presentable. Figure 3.10 shows the completed</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter3/3/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter3/3/</guid>
+      <description>3.3Other markup languages Hugo natively supports Markdown and HTML for content markup. The parsers for these languages are written in Go and are embedded in Hugo, receiving the love and care from the Hugo team to ensure outstanding performance. Hugo also supports AsciiDoc, pandoc, and reStructuredText for providing content. These languages are not available natively in Hugo but instead are supported via external helpers. External helpers are software programs that Hugo calls over the command line to get some content parsed.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter3/4/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter3/4/</guid>
+      <description>3.4Metadata By embellishing the raw textual data with formatting elements and structure, the pages individually look complete when rendered with the Eclectic theme, which forms the template and code associated with the Markdown data. While there is ample con- tent on the pages to form a website, we need to provide information that we can use to organize content and structure it in lists, menus, and so forth. Markdown is not the best language to offer structured data for this.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter3/5/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter3/5/</guid>
+      <description>3.5Other metadata languages YAML also has the same tradeoff as Markdown: human readability over a strict specifi- cation. This tradeoff comes with complexities in parsers and weird edge cases that might not be easy to understand. We have chosen YAML in this book for the configu- ration file due to its popularity and ease of readability. Hugo supports TOML and JSON as other metadata languages apart from YAML. Appendix B goes over TOML and JSON in detail, and table 3.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter3/6/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter3/6/</guid>
+      <description>3.6Front matter Apart from the global site-wide configuration, we also need page-specific metadata like creation date, tags, URLs, author name, and so forth. Hugo needs this informa- tion to organize the page in the website and to provide information about this page to the broader internet, such as search engines and social networks. We can also show some metadata in the sidebar of the page. To provide page-specific metadata, Hugo has the concept of front matter.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter3/7/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter3/7/</guid>
+      <description>3.7Benefits of using markup and metadata languages In the Jamstack, we use markup and metadata languages across multiple files to replace the role of the database in the traditional web stack. The benefit of giving up on the database is not obvious when we move to the Jamstack. Databases have been optimized for over 30 years and provide vast storage optimizations and querying capabilities. Data- bases (both SQL and NoSQL) require some structure to the data they store.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter4/1/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter4/1/</guid>
+      <description>4.1Customizing with the Hugo configurations On the Acme Corporation website, so far we have had only one configuration file, config.yaml, where we have been piling our configurations. If we look at the Hugo documentation, we notice that many configuration parameters can be changed, which can quickly get overwhelming. A single configuration file is bound to become a bottleneck. Another problem with our configuration file is that we cannot have different set- tings for development and production in one file.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter4/2/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter4/2/</guid>
+      <description>4.2Organizing content with sections and menus The essential tool to lay out content is the desired structure of the website that we will create from it. If we can physically represent the content we want to express on the sitemap logically, it makes our lives easier. This section provides some insights on how to go about laying out your content.
+4.2.1Sections When a website has a lot of content, placing all of that in top-level pages makes man- aging the content challenging.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter4/3/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter4/3/</guid>
+      <description>4.3Better together with page bundles A common problem with website source code is the scattering of the content across databases, filesystems, and third-party locations. Additionally, the images associated with the page live in a different place. That makes it difficult to properly clean up after we remove a page from the website. Because pages are not portable across websites, the authors need access to multiple places to create them. Hugo, however, attempts to make the contents of a web page more self-contained.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter4/4/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter4/4/</guid>
+      <description>4.4More than tags: Taxonomies To organize content into sections in Hugo, we need to physically organize the files. It is easier to have individual files for each web page neatly organized into folders and sub- folders. In many cases, the logical organization of the website matches the physical organization on the disk. That is why Hugo, by default, generates the URLs with the sec- tion name as a part of the URL.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter4/6/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter4/6/</guid>
+      <description>4.6Content sharing using custom shortcodes While sharing complicated logic is one use of shortcodes, we can also use shortcodes to minimize our copy and paste efforts and to keep our content clean. Shortcodes can be as simple as snippets of HTML or even Markdown content that needs to be shared to prevent duplication. With one source of truth, managing content gets a lot easier. While creating content, if we find that we are copying and pasting some text repeat- edly, it is a good idea to wrap that text up in a shortcode, then call the shortcode to provide the content.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter5/1/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter5/1/</guid>
+      <description>5.1Separating data and design To control the website’s index page with a markup document, we need to create the markup document first. The content folder is the branch bundle for the entire website. We need to place _index.md (https://github.com/hugoinaction/hugoinaction/ tree/chapter-05-resources/01) in that folder to represent the /index.html web page. Note that if we use index.md instead, the website’s root becomes a leaf bundle and will not use the template we provide in the layouts folder.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter5/2/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter5/2/</guid>
+      <description>5.2Using external data to add content While we can obtain most web page data from the markup document, we can also get some of it outside the markup document. This data includes menus, other sections, and pages of the website and content generated by Hugo from the website or web page data. 5.2.1Adding the menu The links for the main pages on the home page break the independence of those pages.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter5/3/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter5/3/</guid>
+      <description>5.3Playing with structured data There are two general types of data in a web page: unstructured, free-flowing text (rep- resented by a Markdown document), and structured or grouped data (represented by keys and values or rows and columns traditionally defined in a database). For example, in a shopping cart application, the product description should be unstructured, but if we put the price field in Markdown, extracting the price to show in multiple places would be tedious.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter5/4/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter5/4/</guid>
+      <description>5.4Enhancing life with the Go template language We can do a lot more with the template language than just build web page templates. We can use the Go template language at various places to remove repetitive work and enhance the day-to-day workflows dealing with content. We can invent new shortcodes that enhance Markdown to provide a new feature. We can create archetypes or tem- plates for content so that when we start to write the content later, we have a page with the essential metadata prefilled.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter6/1/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter6/1/</guid>
+      <description>6.1Using content types, base templates, and blocks to structure templates So far, we have focused on creating index.html for the home page using the Go tem- plate language. While we don’t have a large and unmanageable file yet, it can quickly get out of hand if we keep adding code to this file. Also, with one file, we cannot share template code between various web pages that are slightly different. In this section, we will start to build a template for accessibility beyond the index page.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter6/2/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter6/2/</guid>
+      <description>6.2Reusing content with partials As we introduced new sections to our home page, it pushed the footer menu down, far away from the top of the website. While those links are not as important as the header, we would like to have them available without scrolling (commonly called above the fold, which comes from newspapers where articles hidden under the fold on the front page were considered less important). Ideally, we want to reuse the code to ren- der the footer.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter6/3/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter6/3/</guid>
+      <description>6.3Asset handling with Hugo Pipes By moving HTML generation to Hugo’s template system, we have significantly eased the job of HTML generation, which we can now do based on a markup document. However, problems remain with images and other assets like JavaScript and CSS. There is a lot of work involved in changing the aspect ratios and resizing images into multiple files for thumbnail, mobile, desktop, etc., which we need to do to get good performance.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter6/4/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter6/4/</guid>
+      <description>6.4Controlling Markdown rendering We also have images present in the Markdown documents, which we are not optimizing for production. These can also slow down loading the website. To control how Hugo renders content in the Markdown documents, Hugo provides hooks (called render hook templates) into the Markdown parser, where we can customize the rendering for Mark- down elements. We can override the rendering of images, links, and even headings if we want.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter6/5/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter6/5/</guid>
+      <description>6.5Using bundled templates for common work From the perspective of maintenance, the best piece of code is an empty file. The sec- ond best is a well-written piece of code maintained by a trusted team of experts. Hugo comes bundled with ready-to-use templates supported by its core team and used in hundreds of themes by the community. Reusing some of this makes life as a developer a lot easier. When we added the head section of the website, we did not provide much meta- data.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter7/1/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter7/1/</guid>
+      <description>7.1More ways to lay out content There are multiple types of pages in an application, each with a different look. A blog page, for example, typically has a sidebar with additional information about the blog post. Various types of pages can have different CSS styles and different HTML struc- tures to accommodate their unique design. One way to style pages differently, which we used in chapter 6, is to use a new con- tent type for each category of page created.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter7/2/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter7/2/</guid>
+      <description>7.2Updating the index pages by providing content and subsection lists The index pages like /blog need to have a different interface than the regular pages. Rendering it with the blog layout renders only the Markdown content, and we lose the capability to navigate to the child pages in the section and the subsections. These pages deserve separate templates. 7.2.1Using the list template for index pages The index pages provide access to the content within a section.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter7/3/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter7/3/</guid>
+      <description>7.3Providing the taxonomy pages There are two types of taxonomy pages: the taxonomy page (used for each taxonomy term) and the terms page (used for the taxonomy list). The terms pages provide a list of all the terms in the taxonomy (for example, all the tags at /tags), while the taxonomy pages list all pages with a specific term (like all posts with the tag square). Before over- riding any of the pages, let’s see how they look in the existing list template.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter7/4/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter7/4/</guid>
+      <description>7.4Creating our own theme Now that we have moved the significant parts of our theme onto the modern layout, we don’t need Eclectic anymore. We can safely remove it from our codebase and move all the pages over to our custom theme.
+7.4.1Moving to a new theme To move to a custom theme, we need to make sure we do not use any feature from Eclectic. We don’t want broken pages that need more work in our new theme.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter7/5/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter7/5/</guid>
+      <description>7.5Powering up with content views With a theme, we get access to multiple content types. We already saw how content types can automatically map to section names. A content type also can have content views. Content views are partial layouts rendered inline in another layout. Creating these is similar to creating a layout. To understand the problem content views solve, navigate to the public category page on the Acme Corporation website (http://localhost:1313/ categories/public/).</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/1/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/1/</guid>
+      <description>8.1Setting up Hugo Modules Hugo Modules have a dependency on Go. You can install Go using your package man- ager or using the instructions at https://golang.org/doc/install. Remember that Go needs to be present in the system path to be usable by Hugo. To verify if Go is available, run the command go version, which outputs the version of Go in the console. Ensure that the version of Go is greater than 1.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/12/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/12/</guid>
+      <description>8.12Commonly used Hugo Modules APIs Running hugo mod provides a great variety of subcommands that are useful in manag- ing modules in our daily life. For example, hugo mod tidy—Removes unused entries from the go.sum and go.mod files (like getting rid of Eclectic). hug mod clean—Clears the module cache to pick up newer changes (if done locally). Sometimes, the local store may get corrupt, giving us incorrect data. hugo mod graph—Shows the list of dependencies of the current website or mod- ule.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/2/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/2/</guid>
+      <description>8.2Themes as Hugo Modules Themes are the most common shared element across multiple websites. They are the most common use case for Hugo Modules. In section 2.2, where we introduced the concept of themes, we discussed three ways to integrate themes into a website: down- load and copy (which we have used so far), Git submodules (not recommended any- more), and Hugo Modules (which we did not use because download and copy is easier for beginners).</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/3/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/3/</guid>
+      <description>8.3Importing themes Once we have enabled Hugo Modules, we can come back to config.yaml to manage it. If the theme is available as a Git repository on GitHub (as is the case with most Hugo themes), Hugo can do the job of fetching and set- ting it up for us automatically. We will be testing the waters by first import- ing Eclectic via Hugo Modules and then move to AcmeTheme after that.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/4/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/4/</guid>
+      <description>8.4Enabling themes other than Eclectic Adding a theme to a Hugo website is as simple as replacing the URL in config.yaml, but this may not always work. Theme switching can fail for a couple of reasons: Some themes require unique settings in the configuration to be usable. The website may be dependent on shortcodes that are not available in a differ- ent theme. Hugo will fail to compile in case of a missing shortcode.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/5/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/5/</guid>
+      <description>8.5Getting a specific version of a theme Hugo Modules has support for versions via Git tags. This allows us to link to a different version of our dependencies rather than what is the latest mainline. In many projects, mainline is under active development and unstable when a release version is marked separately. We will switch back to AcmeTheme with Hugo Modules. A copy of the AcmeTheme is on GitHub in the github.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/6/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/6/</guid>
+      <description>8.6Viewing the dependencies source code By moving to Hugo Modules, we lost the ability to inspect the source code of the depen- dencies. Also, because dependencies are not a part of the website’s source code, our website will need internet access to be compiled. Internet dependency may turn out to be a limitation in certain use cases. If we archive our website for long-term storage, back- ing up a copy of the dependencies is as important as backing up the source code.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/7/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/7/</guid>
+      <description>8.7Modifying dependencies locally We can change the contents of the _vendor folder and view the changes live in Hugo, but this is a bad practice. The next time we update a dependency, our changes will get overridden. Pushing every commit to the theme repository can also be tiresome. Hugo has a mechanism to provide a local version of a hosted dependency for local development. We need to set up the dependency (the AcmeTheme in this case) as a Hugo module to enable this.</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/8/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/8/</guid>
+      <description>8.8Adding nested dependencies With Hugo Modules so far, we have been able to load the theme dynamically and pro- vide some level of checks (like the minimum Hugo version needed) for the theme to be used correctly. The main power of Hugo Modules is the ability for the theme to have its own dependencies, which we will use now. Because turning a theme into a Hugo module makes it possible for theme-specific dependencies, these will be pulled</description>
+    </item>
+    
+    <item>
+      <title>1.1 JamStack中的工作栈</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/9/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/9/</guid>
+      <description>8.9Modules as template plugins We can share Hugo’s template code in the form of partials across multiple themes. These shared partials can act as plugins that wrap reusable functions. One module that can be useful when developing Hugo templates is the Hugo debug utilities, which provide the debug button we used with the Eclectic theme. We will add this module to the AcmeTheme module to be made available for all websites using this theme.</description>
+    </item>
+    
+    <item>
+      <title>1.10 Cases that don’t map to Hugo</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/10/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/10/</guid>
+      <description>1.10 Cases that don’t map to Hugo#Like all tools, Hugo has its use cases. Apart from all the Jamstack limitations that apply to any of the Jamstack frameworks, we need to understand that Hugo’s focus is on the markup portion of the Jamstack only. While Hugo provides the fastest available Java- Script bundler and has good support for the npm ecosystem, it takes a hands-off approach to the JavaScript and the API layers of the Jamstack.</description>
+    </item>
+    
+    <item>
+      <title>1.11 How to be successful with Hugo and this book</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/11/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/11/</guid>
+      <description>1.11 How to be successful with Hugo and this book#In this book, we will build the website for Acme Corporation, a leading manufacturer of digital shapes. The website will have regular company pages, a blog with support for dynamic comments and searches, a JavaScript-based shape editor, and a storefront to purchase your shapes delivered over email. The final version of the website that we will build in this book is hosted at https://chapter-13-09.</description>
+    </item>
+    
+    <item>
+      <title>1.3 The JAM in Jamstack</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/3/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/3/</guid>
+      <description>1.3 The JAM in Jamstack#The JAM part of the Jamstack stands for JavaScript, APIs, and markup. Let’s take a look at each of these components.
+1.3.1 JavaScript#JavaScript in Jamstack refers to all the approaches to client-side scripting that provide interactivity and dynamic functionality, which is personalized to the user and cannot be precompiled. This enables developers to react to user actions and modifies the user interface at run time.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Why use Jamstack?</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/4/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/4/</guid>
+      <description>1.4 Why use Jamstack?#Prebuilding HTML content presented to the user has unique advantages—from mini- mal operations to outstanding performance and cost reductions. We’ll look at these advantages and more in the following sections.
+1.4.1 Minimal operations#Because content is prebuilt before publication, the number of moving parts in a site is reduced. The service provider takes care of security updates, hardware failures, and network issues. The cloud host provides almost 100% uptime without any active involvement from the website owner.</description>
+    </item>
+    
+    <item>
+      <title>1.5 When not to use the Jamstack</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/5/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/5/</guid>
+      <description>1.5 When not to use the Jamstack#One assumption of the Jamstack is that the content is available at compile time and does not change rapidly. The Jamstack does not offer a lot if this assumption turns out to be false. The following sections provide use cases for when not to use Jamstack.
+1.5.1 When there is dynamic data with no historical significance#If we are building a dashboard-type application with ever-changing data, then precom- pilation as a concept does not provide great value.</description>
+    </item>
+    
+    <item>
+      <title>1.6 Selecting the builder</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/6/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/6/</guid>
+      <description>1.6 Selecting the builder#The Jamstack does not prescribe a specific technology. The developer is free to choose the technology of their liking to build the website. There is an extensive list of static site builders with various tradeoffs. These are made in different programming languages, provide integrations, and support many plugins.
+Jekyll, built in Ruby, is a popular static site builder that seamlessly integrates with GitHub Pages. GitHub can automatically deploy Jekyll-based websites from a reposi- tory without writing a custom build step.</description>
+    </item>
+    
+    <item>
+      <title>1.8 Is speed really important?</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/8/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/8/</guid>
+      <description>1.8 Is speed really important?#We cannot emphasize enough the importance of build performance. Hugo employs many techniques to speed up build times, like having a multithreaded core with sup- port for caching at all layers to prevent as much rework as possible. Speed frees the developer from the burden of waiting for the build to complete after every small change.
+If you launch Hugo in watch mode (a special mode for development), the website comes up in less than a second.</description>
+    </item>
+    
+    <item>
+      <title>1.9 What can we build with Hugo?</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter1/9/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter1/9/</guid>
+      <description>1.9 What can we build with Hugo?#The Jamstack is a versatile concept, and we can apply it to a variety of problems. Hugo has been a poster child for the success of the Jamstack with its ability to handle scale. Hugo shines when information flows from the server to the client, then the users can focus on consumption rather than creation. This approach fits the traditional definition of publishing, where content creators provide content via a medium like the web to con- sumers.</description>
+    </item>
+    
+    <item>
+      <title>4.5 YouTube, Gists, and other snippets via shortcodes</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter4/5/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter4/5/</guid>
+      <description>4.5 YouTube, Gists, and other snippets via shortcodes#As powerful as Markdown is, it does not have all the possible features that we might require in our content pages. Elements like those required for YouTube videos, GitHub Gists, Tweets, etc., are not a part of plain Markdown. While we can add these as HTML, Hugo provides a better, cleaner solution—shortcodes. Shortcodes are snippets of templates that we can include in the content files.</description>
+    </item>
+    
+    <item>
+      <title>8.10 Shared dependencies across the theme and website</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/10/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/10/</guid>
+      <description>8.10 Shared dependencies across the theme and website
+We copied over the partial and shortcodes into the Acme Corporation website from the AcmeTheme module to be portable across themes. That led to duplication of con- tent, which makes it difficult to maintain. We can potentially remove the shortcodes from the theme, but the partials are needed for both the theme and for the website to function. They need to live in the theme, so that it is reusable across websites, and in the website, so we can switch themes.</description>
+    </item>
+    
+    <item>
+      <title>8.11 Content plugins</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/11/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/11/</guid>
+      <description>8.11 Content plugins
+Template plugins are useful abstractions over template code that we can reuse. Hugo Modules also allows us to have content plugins that can package content that we can reuse across multiple websites.
+One example of content shareable across numerous websites is the Terms of Use and the Privacy Policy pages. Websites from the same company share the same Terms of Use page. We can move this page to an independent module and import it across all company websites for reuse.</description>
+    </item>
+    
+    <item>
+      <title>总结</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter3/summary/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter3/summary/</guid>
+      <description>Summary#Markdown has all the features that we need for formatting regular web pages and blog posts. Markdown supports block elements like headings, various types of lists, and sublists. We can provide inline images, links, basic formatting, and code blocks to Markdown-based content using text-based constructs. GitHub Flavored Markdown (GFM) is supported by Hugo, which adds task lists and tables to Markdown. Hugo’s rendering engine also supports features like emoticons, automatic frac- tions, and definition lists.</description>
+    </item>
+    
+    <item>
+      <title>总结</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter4/summary/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter4/summary/</guid>
+      <description>Summary#Hugo offers the flexibility to override global configuration variables and to manage them via multiple files and in various environments. By moving config- uration from a single file to a folder, we can choose options based on numerous conditions. We can organize web pages in Hugo into sections by placing the corresponding markup content into folders. These sections can be nested and typically match the URL scheme for the website.</description>
+    </item>
+    
+    <item>
+      <title>总结</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter5/summary/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter5/summary/</guid>
+      <description>Summary#The Go template language has full support for variables, functions, condition- als, and loops. We can use variables to access the site and page metadata, including informa- tion like menus and all the pages in the website. Hugo can get structured metadata from the front matter as well as from files on disk. Structured data allows for easier use of individual values as variables. We can use the Go template language in shortcodes programmatically to create new features for Markdown.</description>
+    </item>
+    
+    <item>
+      <title>总结</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter6/summary/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter6/summary/</guid>
+      <description>Summary#Content types in Hugo provide the means to write different, potentially inde- pendent templates for different types of content. Hugo automatically maps the section name of the branch bundle to the content type. We can use the base template and code blocks in Hugo to share common snip- pets of the Go template language via an inheritance mechanism. The base tem- plate provides snippets of default code that we can override in the specific templates.</description>
+    </item>
+    
+    <item>
+      <title>总结</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter7/summary/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter7/summary/</guid>
+      <description>Summary#We can use layouts to order different content within the same content type. The cascade option in the front matter allows us to share front matter proper- ties with all pages in a branch bundle. The templates single.html and list.html are essential in completing a Hugo theme. They correspond to leaf bundles (or individual pages) and branch bun- dles, respectively. The index.html, taxonomy.html, and terms.html files default to list.</description>
+    </item>
+    
+    <item>
+      <title>总结</title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter8/summary/</link>
+      <pubDate>Mon, 12 Sep 2022 18:26:30 +0800</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter8/summary/</guid>
+      <description>Summary#Hugo Modules is a powerful way to manage dependencies. We can mount any folder in any Git repository at any location in our project, even if the source repository knows nothing about Hugo or Hugo Modules. Hugo provides the means to manage dependencies in whatever approach we desire. We can keep dependencies in the vendor folder, download them on the fly from a link, or have a local copy on disk.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hugo-in-action.foofun.cn/docs/part1/chapter2/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-in-action.foofun.cn/docs/part1/chapter2/summary/</guid>
+      <description>Summary#Hugo is available for installation in most major package managers on Linux, macOS, and Windows.
+Hugo has extensive command-line functionality to minimize the work that its users need to do. It has handy options that help build all parts of a website, from adding module dependencies to creating new Markdown-based documents.
+A Hugo project consists of folders beyond the content and themes folders: static for static content, data for structured data, layouts for theme overrides, resources for Hugo’s internal caching, assets for images, JavaScript, and CSS files, and public for the generated output.</description>
+    </item>
+    
+  </channel>
+</rss>

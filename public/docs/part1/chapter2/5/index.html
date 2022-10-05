@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="2.5 Meeting the goals for performance and maintainability#Hugo and the Jamstack promise solid performance and low ongoing maintenance. Both of these are not absolutes in themselves. There is a gradient: we need to choose the right balance of features, ease of development and use, maintenance, and perfor- mance to get the best benefit. A website with no images would likely be faster to load than one with hundreds of them, but that does not mean that it would be the best website for all use cases.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="2.5 Meeting the goals for performance and maintainability" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://hugo-in-action.foofun.cn/docs/part1/chapter2/5/" />
+
+<title>2.5 Meeting the goals for performance and maintainability | Hugo In Action</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="zh" href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter2/5/" title="2.5 Meeting the goals for performance and maintainability">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.446a9a279376cbde1669676e99bf25d3f01a4be92d7c08a98735e35d738dee2b.js" integrity="sha256-RGqaJ5N2y94WaWdumb8l0/AaS&#43;ktfAiphzXjXXON7is=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://hugo-in-action.foofun.cn/docs/part1/chapter2/5/index.xml" title="Hugo In Action" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Hugo In Action</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter2/5/">
+          简体中文
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/docs/part1/"><strong>Part 1 Static Hugo websites: Loading fast, building to last</strong></a></li>
+<li>
+  <a href="/docs/part1/chapter1/">1 The Jamstack and Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter1/1/">1.1 The stack in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/2/">1.2 How does Jamstack work?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/3/">1.3 The JAM in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/4/">1.4 Why use Jamstack?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/5/">1.5 When not to use the Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/6/">1.6 Selecting the builder</a></li>
+<li>
+  <a href="/docs/part1/chapter1/7/">1.7 Why choose Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/8/">1.8 Is speed really important?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/9/">1.9 What can we build with Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/10/">1.10 Cases that don’t map to Hugo</a></li>
+<li>
+  <a href="/docs/part1/chapter1/11/">1.11 How to be successful with Hugo and this book</a></li>
+<li>
+  <a href="/docs/part1/chapter1/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter2/">2 Live in 30 minutes: You now have a website</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter2/1/">2.1 Your first Hugo website</a></li>
+<li>
+  <a href="/docs/part1/chapter2/2/">2.2 Adding a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter2/3/">2.3 Adding content</a></li>
+<li>
+  <a href="/docs/part1/chapter2/4/">2.4 Continuous delivery</a></li>
+<li>
+  <a href="/docs/part1/chapter2/5/"class=active>2.5 Meeting the goals for performance and maintainability</a></li>
+<li>
+  <a href="/docs/part1/chapter2/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter3/">3 Using markup for content</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter3/1/">3.1 Writing content in Markdown</a></li>
+<li>
+  <a href="/docs/part1/chapter3/2/">3.2 Markdown in action</a></li>
+<li>
+  <a href="/docs/part1/chapter3/3/">3.3 Other markup languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/4/">3.4 Metadata</a></li>
+<li>
+  <a href="/docs/part1/chapter3/5/">3.5 Other metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/6/">3.6 Front matter</a></li>
+<li>
+  <a href="/docs/part1/chapter3/7/">3.7 Benefits of using markup and metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter4/">4 Content management with Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter4/1/">4.1 Customizing with the Hugo configurations</a></li>
+<li>
+  <a href="/docs/part1/chapter4/2/">4.2 Organizing content with sections and menus</a></li>
+<li>
+  <a href="/docs/part1/chapter4/3/">4.3 Better together with page bundles</a></li>
+<li>
+  <a href="/docs/part1/chapter4/4/">4.4 More than tags: Taxonomies</a></li>
+<li>
+  <a href="/docs/part1/chapter4/5/">4.5 YouTube, Gists, and other snippets via shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/6/">4.6 Content sharing using custom shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter5/">5 Custom pages and customized content with the Go template language</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter5/1/">5.1 Separating data and design</a></li>
+<li>
+  <a href="/docs/part1/chapter5/2/">5.2 Using external data to add content</a></li>
+<li>
+  <a href="/docs/part1/chapter5/3/">5.3 Playing with structured data</a></li>
+<li>
+  <a href="/docs/part1/chapter5/4/">5.4 Enhancing life with the Go template language</a></li>
+<li>
+  <a href="/docs/part1/chapter5/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter6/">6 Structuring web pages</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter6/1/">6.1 Using content types, base templates, and blocks to structure templates</a></li>
+<li>
+  <a href="/docs/part1/chapter6/2/">6.2 Reusing content with partials</a></li>
+<li>
+  <a href="/docs/part1/chapter6/3/">6.3 Asset handling with Hugo Pipes</a></li>
+<li>
+  <a href="/docs/part1/chapter6/4/">6.4 Controlling Markdown rendering</a></li>
+<li>
+  <a href="/docs/part1/chapter6/5/">6.5 Using bundled templates for common work</a></li>
+<li>
+  <a href="/docs/part1/chapter6/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter7/">7 Creating your own theme</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter7/1/">7.1 More ways to lay out content</a></li>
+<li>
+  <a href="/docs/part1/chapter7/2/">7.2 Updating the index pages by providing content and subsection lists</a></li>
+<li>
+  <a href="/docs/part1/chapter7/3/">7.3 Providing the taxonomy pages</a></li>
+<li>
+  <a href="/docs/part1/chapter7/4/">7.4 Creating our own theme</a></li>
+<li>
+  <a href="/docs/part1/chapter7/5/">7.5 Powering up with content views</a></li>
+<li>
+  <a href="/docs/part1/chapter7/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter8/">8 Hugo Modules: Plugins for everybody</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter8/1/">8.1 Setting up Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/2/">8.2 Themes as Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/3/">8.3 Importing themes</a></li>
+<li>
+  <a href="/docs/part1/chapter8/4/">8.4 Enabling themes other than Eclectic</a></li>
+<li>
+  <a href="/docs/part1/chapter8/5/">8.5 Getting a specific version of a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter8/6/">8.6 Viewing the dependencies source code</a></li>
+<li>
+  <a href="/docs/part1/chapter8/7/">8.7 Modifying dependencies locally</a></li>
+<li>
+  <a href="/docs/part1/chapter8/8/">8.8 Adding nested dependencies</a></li>
+<li>
+  <a href="/docs/part1/chapter8/9/">8.9 Modules as template plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/10/">8.10 Shared dependencies across the theme and website</a></li>
+<li>
+  <a href="/docs/part1/chapter8/11/">8.11 Content plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/summary/">Summary</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>2.5 Meeting the goals for performance and maintainability</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#25-meeting-the-goals-for-performance-and-maintainability">2.5 Meeting the goals for performance and maintainability</a>
+      <ul>
+        <li><a href="#251performance">2.5.1Performance</a></li>
+        <li><a href="#252-maintainability">2.5.2 Maintainability</a></li>
+        <li><a href="#253-choose-the-theme-wisely">2.5.3 Choose the theme wisely</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="25-meeting-the-goals-for-performance-and-maintainability">
+  2.5 Meeting the goals for performance and maintainability
+  <a class="anchor" href="#25-meeting-the-goals-for-performance-and-maintainability">#</a>
+</h1>
+<p>Hugo and the Jamstack promise solid performance and low  ongoing  maintenance. Both of these are not absolutes in themselves. There is a gradient: we need to choose  the right balance of features, ease of development and use, maintenance, and perfor- mance to get the best benefit. A website with no images would likely be faster to load than one with hundreds of them, but that does not mean that it would be the best  website for all use cases. Therefore, when analyzing performance and maintainability, we need to consider the use case.</p>
+<h2 id="251performance">
+  2.5.1Performance
+  <a class="anchor" href="#251performance">#</a>
+</h2>
+<p>Performance is one notable metric that Hugo’s development team uses to benchmark its builds. We should be able to get good performance for a typical use case without any significant difficulties. We are hosting all the web pages for Acme Corporation on a CDN (prerendered), and the client does not need to do much processing to display the site. While we should find the website quick to load, it is vital to get the perfor- mance as a number and tabulate that across builds to be able to compare changes and to fix regressions.</p>
+<p>The standard tool for measuring performance is the Audit tool called Lighthouse (
+  <a href="https://developers.google.com/web/tools/lighthouse/%29">https://developers.google.com/web/tools/lighthouse/)</a>.   It’s   built   into   Google’s Chrome browser (figure 2.14). For Acme Corporation, the About page represents a regular page of the website, which we will measure for performance.</p>
+<p>
+  <img src="Figure2.14.svg" alt="Figure2.14" /></p>
+<p>Figure 2.14 Performance audit for the About page for Acme Corporation using the Google Chrome Lighthouse performance test.</p>
+<blockquote class="book-hint warning">
+  <strong>NOTE</strong> Chrome regularly updates the Lighthouse tool with new tests, so the measurement results might not exactly match the screenshot shown.
+</blockquote>
+
+<p>It is essential to measure the hosted site’s performance on the CDN as the develop- ment server from Hugo is not what the users get in production. It is built for develop- ment and does not provide the right results. To measure the hosted site’s performance,</p>
+<ul>
+<li>1 Go to the View &gt; Developer  &gt; Developer Tools menu in Google  Chrome to  open the web inspector.</li>
+<li>2 Go to the Lighthouse tab and run an audit. You should be able to achieve a decent audit score for performance on most Hugo websites.</li>
+</ul>
+<p>Lighthouse may suggest issues in the theme. If so, there is an option to clone the theme or to create a bug for the theme developer to fix.</p>
+<h2 id="252-maintainability">
+  2.5.2 Maintainability
+  <a class="anchor" href="#252-maintainability">#</a>
+</h2>
+<p>The maintainability of the web setup is difficult to measure directly. There is no  tool   to tell whether a stack is maintainable. One way to check how  much effort it would  take to maintain a system is to list each of its dependencies and figure out which dependencies require ongoing security updates, which need to be abandoned by the developer, or which can become difficult to update due to nested dependencies. We should also measure the effort to remove a dependency in case it is not actively main- tained. Luckily, for the Hugo-based setup we just discussed, we have few dependen- cies. In our measurement system, we can consider a rewrite, huge updates, or partial rewrites as high risks, and tweaks that do not involve many changes as medium risks.  At the same time, a low risk would refer to no minimal manual intervention. Let’s try   to assess this for the website we have built so far, right after the next exercise.</p>
+<blockquote class="book-hint info">
+  <p><strong>Exercise 2.8</strong></p>
+<p>What is the primary reason to benchmark the performance of a website?</p>
+<ul>
+<li>a. Find overall performance issues.</li>
+<li>b. Plot a graph to show on our website.</li>
+<li>c. Compare performance across multiple builds of our website and multiple builds of Hugo to find faulty behavior.</li>
+<li>d. Find bugs in our website.</li>
+</ul>
+
+</blockquote>
+
+<p>Our Acme Corporation’s website created in this chapter depends on Hugo. Hugo has had breaking changes in the past releases, but most of them have been minor. We    do not need to update for security fixes because it is a development-only depen- dency. This could be rated as low in an ongoing effort if we are happy with the website or as medium for an upgrade.</p>
+<p>The hosting on GitHub Pages requires no ongoing effort to maintain. This is among the most critical services for developers on the internet. We  can,  therefore,  rate both ongoing maintenance and upgrade as low. If we use Netlify, it manages the upkeep for us, and the effort there is also low. Because it is a lot less popular  than GitHub, there is an inherent risk of Netlify pivoting to a new business  model or shutting its doors. Migration to GitHub is easy for the type of website built here, and its overall risk is low.</p>
+<p>The Eclectic theme chosen for Acme Corporation is dependent on a few JavaScript-based plugins. These plugins are stable, however, and haven’t had significant changes in years. Still, Eclectic is not heavily used, and if it gets abandoned, the team at Acme Corporation will have to pick up the task of adding fixes to support newer Hugo versions when they want to update the website. That would be a medium effort commitment (unless they want new features).</p>
+<p>Overall, the ongoing work to keep the website we built in this chapter alive is meager.  If we need to upgrade it, the effort would be low to medium, depending on the break- ing changes in Hugo and the theme developer’s ability to adapt to those. Note that as we progress further along with this book, we will add more dependencies to our web- site, especially in part 2. This will increase the maintenance overhead. While  an  attempt has been made to look for dependencies that are self-contained, readers are advised to weigh the pros and cons of adding dependencies independently every time something is needed in their own projects.</p>
+<h2 id="253-choose-the-theme-wisely">
+  2.5.3 Choose the theme wisely
+  <a class="anchor" href="#253-choose-the-theme-wisely">#</a>
+</h2>
+<p>The performance and maintenance risks of a website depend heavily on the theme selected. If the theme is not good, Hugo’s hard work maintaining its performance will not show in your website’s build time. The main maintenance risk to a Hugo-based website is the risk of depending on a theme that stops being compatible with the newer versions of Hugo. We can continue to use the older version of Hugo and the theme indefinitely without worrying too much about security issues because the con- tent is static. But if we ever want to update Hugo and the theme is not supported any- more, we would be on our own to maintain the theme. It is a good idea to be theme agnostic, at least early on in a website project, so that if we find a problem with the theme we are using, we can move to a different one quickly.</p>
+<p>Themes can also be an excellent source for learning how to use Hugo best. Many developers using Hugo choose the themes as the starting point rather than the abso-   lute solution. One big reason to choose Hugo is to customize everything, and forking  the theme is a powerful way to perform that task. We will be moving out of the Eclectic theme into our custom theme by the end of chapter 7.</p>
+<p>If we want to continue to build our website with a theme maintained by someone else, it is a good idea to investigate portability. Hugo provides standardization across themes, and switching Hugo themes is not difficult (see listing 2.8). We will be adding another theme to Acme Corporation’s website to make sure our code is portable. We provide a copy of the Universal theme for Hugo in chapter resources (
+  <a href="https://github.com/">https://github.com/</a> hugoinaction/hugoinaction/tree/chapter-02-resources/08)  and  also  host  it  at  github
+.com/hugoinaction/Universal. You can copy that theme to the themes folder and enable it with the website configuration. You may need to restart the development server.</p>
+<details open><summary>Listing 2.8  Changing a theme to Universal (config.yaml)</summary>
+  <div class="markdown-inner">
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">theme</span>: <span style="color:#ae81ff">Universal</span>
+</span></span></code></pre></div>
+  </div>
+</details>
+
+<p>While the previous code works and renders the website, there is more configuration that we need to do to get the maximum benefit of the Universal theme. For that, place logo.png in the static/image/logo.png folder and update the configuration to include the parameters in the following listing (below the existing params for footer) for Universal to be able to parse them (
+  <a href="https://github.com/hugoinaction/hugoinaction/">https://github.com/hugoinaction/hugoinaction/</a> tree/chapter-02-resources/09).</p>
+<details open><summary>Listing 2.9  Changes to support the Universal theme (config.yaml)</summary>
+  <div class="markdown-inner">
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">theme</span>: <span style="color:#ae81ff">Universal</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">params</span>: 
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">footer</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">...</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">style</span>: <span style="color:#ae81ff">blue</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">logo</span>: <span style="color:#ae81ff">/image/logo.png </span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">logo_small</span>: <span style="color:#ae81ff">/image/logo.png </span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">about_us</span>: &gt;<span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Acme Corporation is the world&#39;s leading manufacturer of digital shapes. From squares and circles to triangles and hexagons, we have it all. Browse through our collection of various forms with different thicknesses and line styles. We shape the world.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    You live in it.</span>    
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">recent_posts</span>: 
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">enable</span>: <span style="color:#66d9ef">true</span>
+</span></span></code></pre></div>
+  </div>
+</details>
+
+<p>The configuration file for Universal is available in both TOML and YAML format in the code resources with this book (
+  <a href="https://github.com/hugoinaction/hugoinaction/tree/">https://github.com/hugoinaction/hugoinaction/tree/</a> chapter-02-resources/10). Note that the configuration for Eclectic has not been removed, and we can switch between the two themes easily.</p>
+<blockquote class="book-hint info">
+  <strong>CODE CHECKPOINT</strong>	https://chapter-02-05.hugoinaction.com, and source code: 
+  <a href="https://github.com/hugoinaction/hugoinaction/tree/chapter-02-05">https://github.com/hugoinaction/hugoinaction/tree/chapter-02-05</a>.
+</blockquote>
+
+<p>Because each theme has a unique home page, switching themes will be considerably easier if we choose our own customized HTML-based home page. That way, if we render now or with a live reload, the home page remains the same. Because the About page is styled, it will match the Universal theme (figure 2.15) if we switch to that theme.</p>
+<p>
+  <img src="Figure2.15.svg" alt="Figure2.15" /></p>
+<p>Figure 2.15 Terms of Use page for Acme Corporation in code (left), Eclectic (middle), and Universal (right). When we switch themes in Hugo, most of the content that we provide as Markdown still works. Only the parameters provided in places like the configuration file need to be reworked.</p>
+<p>We will be reverting to Eclectic for the rest of the book. With a running website, it is time to add some more content, so we will do that in chapter 3.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://gitee.com/zhang3/hugo-in-action.git/commit/62201e1ddd5fcd514e4415df504ead6bed619e34" title='Last modified by zhang3 | 2022-September-14' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2022-September-14</span>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#25-meeting-the-goals-for-performance-and-maintainability">2.5 Meeting the goals for performance and maintainability</a>
+      <ul>
+        <li><a href="#251performance">2.5.1Performance</a></li>
+        <li><a href="#252-maintainability">2.5.2 Maintainability</a></li>
+        <li><a href="#253-choose-the-theme-wisely">2.5.3 Choose the theme wisely</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

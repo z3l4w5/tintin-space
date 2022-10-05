@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="1.9 What can we build with Hugo?#The Jamstack is a versatile concept, and we can apply it to a variety of problems. Hugo has been a poster child for the success of the Jamstack with its ability to handle scale. Hugo shines when information flows from the server to the client, then the users can focus on consumption rather than creation. This approach fits the traditional definition of publishing, where content creators provide content via a medium like the web to con- sumers.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="1.9 What can we build with Hugo?" />
+<meta property="og:description" content="1.9 What can we build with Hugo?#The Jamstack is a versatile concept, and we can apply it to a variety of problems. Hugo has been a poster child for the success of the Jamstack with its ability to handle scale. Hugo shines when information flows from the server to the client, then the users can focus on consumption rather than creation. This approach fits the traditional definition of publishing, where content creators provide content via a medium like the web to con- sumers." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hugo-in-action.foofun.cn/docs/part1/chapter1/9/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2022-09-12T18:26:30+08:00" />
+<meta property="article:modified_time" content="2022-09-13T22:22:43+08:00" />
+
+<title>1.9 What can we build with Hugo? | Hugo In Action</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="zh" href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter1/9/" title="1.9 我们可以用Hugo建造什么？">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.446a9a279376cbde1669676e99bf25d3f01a4be92d7c08a98735e35d738dee2b.js" integrity="sha256-RGqaJ5N2y94WaWdumb8l0/AaS&#43;ktfAiphzXjXXON7is=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Hugo In Action</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://hugo-in-action.foofun.cn/zh/docs/part1/chapter1/9/">
+          简体中文
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+  <a href="/docs/part1/"><strong>Part 1 Static Hugo websites: Loading fast, building to last</strong></a></li>
+<li>
+  <a href="/docs/part1/chapter1/">1 The Jamstack and Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter1/1/">1.1 The stack in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/2/">1.2 How does Jamstack work?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/3/">1.3 The JAM in Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/4/">1.4 Why use Jamstack?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/5/">1.5 When not to use the Jamstack</a></li>
+<li>
+  <a href="/docs/part1/chapter1/6/">1.6 Selecting the builder</a></li>
+<li>
+  <a href="/docs/part1/chapter1/7/">1.7 Why choose Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/8/">1.8 Is speed really important?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/9/"class=active>1.9 What can we build with Hugo?</a></li>
+<li>
+  <a href="/docs/part1/chapter1/10/">1.10 Cases that don’t map to Hugo</a></li>
+<li>
+  <a href="/docs/part1/chapter1/11/">1.11 How to be successful with Hugo and this book</a></li>
+<li>
+  <a href="/docs/part1/chapter1/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter2/">2 Live in 30 minutes: You now have a website</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter2/1/">2.1 Your first Hugo website</a></li>
+<li>
+  <a href="/docs/part1/chapter2/2/">2.2 Adding a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter2/3/">2.3 Adding content</a></li>
+<li>
+  <a href="/docs/part1/chapter2/4/">2.4 Continuous delivery</a></li>
+<li>
+  <a href="/docs/part1/chapter2/5/">2.5 Meeting the goals for performance and maintainability</a></li>
+<li>
+  <a href="/docs/part1/chapter2/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter3/">3 Using markup for content</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter3/1/">3.1 Writing content in Markdown</a></li>
+<li>
+  <a href="/docs/part1/chapter3/2/">3.2 Markdown in action</a></li>
+<li>
+  <a href="/docs/part1/chapter3/3/">3.3 Other markup languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/4/">3.4 Metadata</a></li>
+<li>
+  <a href="/docs/part1/chapter3/5/">3.5 Other metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/6/">3.6 Front matter</a></li>
+<li>
+  <a href="/docs/part1/chapter3/7/">3.7 Benefits of using markup and metadata languages</a></li>
+<li>
+  <a href="/docs/part1/chapter3/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter4/">4 Content management with Hugo</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter4/1/">4.1 Customizing with the Hugo configurations</a></li>
+<li>
+  <a href="/docs/part1/chapter4/2/">4.2 Organizing content with sections and menus</a></li>
+<li>
+  <a href="/docs/part1/chapter4/3/">4.3 Better together with page bundles</a></li>
+<li>
+  <a href="/docs/part1/chapter4/4/">4.4 More than tags: Taxonomies</a></li>
+<li>
+  <a href="/docs/part1/chapter4/5/">4.5 YouTube, Gists, and other snippets via shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/6/">4.6 Content sharing using custom shortcodes</a></li>
+<li>
+  <a href="/docs/part1/chapter4/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter5/">5 Custom pages and customized content with the Go template language</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter5/1/">5.1 Separating data and design</a></li>
+<li>
+  <a href="/docs/part1/chapter5/2/">5.2 Using external data to add content</a></li>
+<li>
+  <a href="/docs/part1/chapter5/3/">5.3 Playing with structured data</a></li>
+<li>
+  <a href="/docs/part1/chapter5/4/">5.4 Enhancing life with the Go template language</a></li>
+<li>
+  <a href="/docs/part1/chapter5/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter6/">6 Structuring web pages</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter6/1/">6.1 Using content types, base templates, and blocks to structure templates</a></li>
+<li>
+  <a href="/docs/part1/chapter6/2/">6.2 Reusing content with partials</a></li>
+<li>
+  <a href="/docs/part1/chapter6/3/">6.3 Asset handling with Hugo Pipes</a></li>
+<li>
+  <a href="/docs/part1/chapter6/4/">6.4 Controlling Markdown rendering</a></li>
+<li>
+  <a href="/docs/part1/chapter6/5/">6.5 Using bundled templates for common work</a></li>
+<li>
+  <a href="/docs/part1/chapter6/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter7/">7 Creating your own theme</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter7/1/">7.1 More ways to lay out content</a></li>
+<li>
+  <a href="/docs/part1/chapter7/2/">7.2 Updating the index pages by providing content and subsection lists</a></li>
+<li>
+  <a href="/docs/part1/chapter7/3/">7.3 Providing the taxonomy pages</a></li>
+<li>
+  <a href="/docs/part1/chapter7/4/">7.4 Creating our own theme</a></li>
+<li>
+  <a href="/docs/part1/chapter7/5/">7.5 Powering up with content views</a></li>
+<li>
+  <a href="/docs/part1/chapter7/summary/">Summary</a></li>
+</ul>
+</li>
+<li>
+  <a href="/docs/part1/chapter8/">8 Hugo Modules: Plugins for everybody</a>
+<ul>
+<li>
+  <a href="/docs/part1/chapter8/1/">8.1 Setting up Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/2/">8.2 Themes as Hugo Modules</a></li>
+<li>
+  <a href="/docs/part1/chapter8/3/">8.3 Importing themes</a></li>
+<li>
+  <a href="/docs/part1/chapter8/4/">8.4 Enabling themes other than Eclectic</a></li>
+<li>
+  <a href="/docs/part1/chapter8/5/">8.5 Getting a specific version of a theme</a></li>
+<li>
+  <a href="/docs/part1/chapter8/6/">8.6 Viewing the dependencies source code</a></li>
+<li>
+  <a href="/docs/part1/chapter8/7/">8.7 Modifying dependencies locally</a></li>
+<li>
+  <a href="/docs/part1/chapter8/8/">8.8 Adding nested dependencies</a></li>
+<li>
+  <a href="/docs/part1/chapter8/9/">8.9 Modules as template plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/10/">8.10 Shared dependencies across the theme and website</a></li>
+<li>
+  <a href="/docs/part1/chapter8/11/">8.11 Content plugins</a></li>
+<li>
+  <a href="/docs/part1/chapter8/summary/">Summary</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>1.9 What can we build with Hugo?</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#19-what-can-we-build-with-hugo">1.9 What can we build with Hugo?</a>
+      <ul>
+        <li><a href="#191-personal-websites-and-blogs">1.9.1 Personal websites and blogs</a></li>
+        <li><a href="#192-nontechnology-business-websites">1.9.2 Nontechnology business websites</a></li>
+        <li><a href="#193-documentation-websites">1.9.3 Documentation websites</a></li>
+        <li><a href="#194-hybrid-jamstack-based-websites">1.9.4 Hybrid Jamstack-based websites</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="19-what-can-we-build-with-hugo">
+  1.9 What can we build with Hugo?
+  <a class="anchor" href="#19-what-can-we-build-with-hugo">#</a>
+</h1>
+<p>The Jamstack is a versatile concept, and we can apply it to a variety of problems. Hugo has been a poster child for the success of the Jamstack with its ability to handle scale. Hugo shines when information flows from the server to the client, then the users can focus on consumption rather than creation. This approach fits the traditional definition of publishing, where content creators provide content via a medium like the web to con- sumers. The following sections introduce us to the things that Hugo specializes in.</p>
+<h2 id="191-personal-websites-and-blogs">
+  1.9.1 Personal websites and blogs
+  <a class="anchor" href="#191-personal-websites-and-blogs">#</a>
+</h2>
+<p>Hugo is well suited for getting up and running with a personal website. Big goals for personal websites are low maintenance, low costs, and the flexibility to showcase your tastes. Throughout this book, you will see how we can build something with little supervision, almost free hosting, and enough flexibility to customize as much as you desire. You get outstanding performance, the ability to update when and where you want, full SEO support, and a quick start.</p>
+<p>You can pick up any publicly available Hugo theme to get started and be up and running with a decent website in minutes. (You will be surprised at how many features are available without any customization.) Once there, it is straightforward to fork the theme and start customizing it to leave your unique impression on the internet.</p>
+<h2 id="192-nontechnology-business-websites">
+  1.9.2 Nontechnology business websites
+  <a class="anchor" href="#192-nontechnology-business-websites">#</a>
+</h2>
+<p>Hugo scales to teams updating content in parallel without any problem. Businesses whose core competencies do not include building websites need something easy to maintain, with low cost, and outstanding performance. They also want flexibility and control. Hugo ticks all of these boxes. It is well thought out and easy to understand for any vendor team. Hugo provides few places where a developer could write harmful code that would slow down the website. The entire mechanism is flexible enough to add the one custom page that the business needs immediately without going through and ripping apart the whole website.</p>
+<p>With the JavaScript and API layer of the Jamstack, you can extend Hugo websites  to provide features reserved for dynamic websites updating on the fly. You will see in this book how we can build low-cost, low-maintenance features like shopping carts while statically managing the rest of the website.</p>
+<p>How to be successful with Hugo and this book</p>
+<h2 id="193-documentation-websites">
+  1.9.3 Documentation websites
+  <a class="anchor" href="#193-documentation-websites">#</a>
+</h2>
+<p>Hugo has excellent support for reading structured data from a CSV or JSON files and then creating a website from those, and you can still apply custom themes! It has built- in support for syntax highlighting and can scale to a large number of pages quickly. These make it well suited to write custom websites that can read from the API docs   and prepare a neatly formatted version from the specification.</p>
+<h2 id="194-hybrid-jamstack-based-websites">
+  1.9.4 Hybrid Jamstack-based websites
+  <a class="anchor" href="#194-hybrid-jamstack-based-websites">#</a>
+</h2>
+<p>All websites have pages for displaying content. These pages include, for example, a privacy policy, a generic About Us page, a blog, a product listing page, and a news- room where the company releases press statements. Hugo and the Jamstack can help keep that content running at a low cost with high availability and good performance. The server technology-based pages can be delivered separately or can be built-in Java- Script, communicating with the servers using APIs exposed by them.</p>
+<blockquote class="book-hint info">
+  <p><strong>Exercise 1.5</strong></p>
+<p>True or False: Hugo-based websites require the full setup to be present locally to write content.</p>
+
+</blockquote>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://gitee.com/zhang3/hugo-in-action.git/commit/239477c4d240d7ab2165147bef127b143ef87fc7" title='Last modified by zhang3 | 2022-September-13' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2022-September-13</span>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#19-what-can-we-build-with-hugo">1.9 What can we build with Hugo?</a>
+      <ul>
+        <li><a href="#191-personal-websites-and-blogs">1.9.1 Personal websites and blogs</a></li>
+        <li><a href="#192-nontechnology-business-websites">1.9.2 Nontechnology business websites</a></li>
+        <li><a href="#193-documentation-websites">1.9.3 Documentation websites</a></li>
+        <li><a href="#194-hybrid-jamstack-based-websites">1.9.4 Hybrid Jamstack-based websites</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

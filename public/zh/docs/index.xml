@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Hugo In Action</title>
+    <link>https://hugo-in-action.foofun.cn/zh/docs/</link>
+    <description>Recent content in Docs on Hugo In Action</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Sep 2022 18:26:30 +0800</lastBuildDate><atom:link href="https://hugo-in-action.foofun.cn/zh/docs/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
