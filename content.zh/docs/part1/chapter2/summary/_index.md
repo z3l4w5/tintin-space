@@ -6,20 +6,20 @@ title: "总结"
 
 Hugo可以安装在Linux、MacOS和Windows上的大多数主要包管理器中。
 
-Hugo has extensive command-line functionality to minimize the work that its users need to do. It has handy options that help build all parts of a website, from adding module dependencies to creating new Markdown-based documents.
+Hugo具有广泛的命令行功能，可最大程度地减少用户需要做的工作。 它有方便的选项，可以帮助构建网站的所有部分，从添加模块依赖项到创建新的基于Markdown的文档。
 
-A Hugo project consists of folders beyond the content and themes folders: static for static content, data for structured data, layouts for theme overrides, resources for Hugo’s internal caching, assets for images, JavaScript, and CSS files, and public for the generated output. It also includes archetypes for posted templates and a configuration file for global settings.
+Hugo项目由内容和主题文件夹之外的文件夹组成: 静态内容的static，结构化数据的data，主题覆盖的layouts，Hugo内部缓存的resources，图像、JavaScript和CSS文件的asserts，以及生成的输出的public。 它还包括发布的模板的archetypes和全局设置的配置文件。
 
-Hugo themes can be added in various ways, the simplest of which is to directly copy a theme to the themes folder. We need to configure these with standard   and theme-specific parameters and file placements before using.
+Hugo主题可以通过各种方式添加，其中最简单的是将主题直接复制到主题文件夹中。 在使用之前，我们需要使用标准的和特定于主题的参数和文件放置来配置这些参数。
 
-Content can be added as Markdown, theme-specific structured data, or in an overridden HTML template.
+内容可以添加为Markdown，主题特定的结构化数据，也可以添加到覆盖的HTML模板中。
 
-Hugo websites can be hosted easily across the planet via GitHub Pages and Netlify, which provide continuous delivery support without making the devel- oper do much work.
+Hugo网站可以通过GitHub页面和Netlify轻松地在全球范围内托管，它们提供了持续的交付支持，而不需要开发人员做很多工作。
 
-We can switch themes, but if we use a lot of theme-specific data (like data sup- plied via params in the configuration), then that work needs to be redone. We should investigate theme switching early on so that we can switch out quickly if the Hugo theme gets abandoned.
+我们可以切换主题，但如果我们使用大量特定于主题的数据(如通过配置中的参数提供的数据)，则需要重做这项工作。 我们应该尽早调查主题切换，以便在Hugo主题被放弃时可以迅速切换。
 
-We can use Google Chrome’s Lighthouse feature for measuring performance.
+我们可以使用谷歌浏览器的Lighthouse功能来衡量性能。
 
-We should also do a full dependency audit to check maintainability.
+我们还应该做一个完整的依赖项审计来检查可维护性。
 
-Every website needs to be monitored for maintainability and performance regu- larly during development to ensure quality. Hugo offers excellent performance and has a small set of dependencies, but the website performance and main- tainability still depend on the chosen theme.
+每个网站都需要在开发过程中定期监测其可维护性和性能，以确保质量。 Hugo提供了出色的性能，并且仅有少量的依赖项，但是网站的性能和可维护性仍然取决于所选的主题。
