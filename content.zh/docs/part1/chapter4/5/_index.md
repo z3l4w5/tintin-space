@@ -30,7 +30,7 @@ CODE CHECKPOINT     https://chapter-04-10.hugoinaction.com, and source code: htt
 
 图4.11在Hugo中有多种使用内置Shortcode的方法。 你可以直接调用youtube Shortcode，也可以将内容传递给highlight shortcode或其它内嵌Shortcode。
 
-##4.5.1 带内容的Shortcode
+## 4.5.1 带内容的Shortcode
 
 Shortcode也可以将内容作为Shortcode作者可以使用Go模板语言处理的参数。 这样，Shortcode创建者可以在呈现最终的HTML之前对传递的内容进行处理。 我们给Hugo Shortcode的内容可以是HTML或标记的形式。
 

@@ -1,7 +1,6 @@
 ---
 weight: 2
 title: "1.2 How does Jamstack work?"
-date: 2022-09-12T18:26:30+08:00
 draft: true
 ---
 

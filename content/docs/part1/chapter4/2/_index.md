@@ -2,16 +2,15 @@
 weight: 2
 title: "4.2 Organizing content with sections and menus"
 date: 2022-09-12T18:26:30+08:00
-draft: true
 ---
 
 # 4.2 Organizing content with sections and menus
 
-The essential tool to lay out content is the desired structure of the website that we will create from it. If we can physically represent the content we want to express on the sitemap logically, it makes our lives easier. This section provides some insights on how to go about laying out your content.
+The essential tool to layout content is the desired structure of the website that we will create from it. If we can physically represent the content we want to express on the sitemap logically, it makes our lives easier. This section provides some insights on how to go about laying out your content.
 
 ## 4.2.1 Sections
 
-When a website has a lot of content, placing all of that in top-level pages makes man- aging the content challenging. Therefore, we can classify content into sections like blog, news, or products. We can use the path component of a web page’s URL to iden- tify its section. For example, in the URL https://example.org/blog/community/ welcome, the page named welcome belongs to the community subsection of the blog section of the website example.org. A subsection is not really a special construct in Hugo; it’s just a section in a section. Sections also have an index page like https:// example.org/blog that introduces the sections and provide a list of subsections and pages in them.
+When a website has a lot of content, placing all of that in top-level pages makes managing the content challenging. Therefore, we can classify content into sections like blog, news, or products. We can use the path component of a web page’s URL to identify its section. For example, in the URL https://example.org/blog/community/welcome, the page named welcome belongs to the community subsection of the blog section of the website example.org. A subsection is not really a special construct in Hugo; it’s just a section in a section. Sections also have an index page like https://example.org/blog that introduces the sections and provide a list of subsections and pages in them.
 
 We can list all the areas in the website in the main menu or on the home page. To create a section in Hugo, we create a subfolder in the content folder. You can have nested subfolders for nested sections. Technically, the content folder (also called content root) that contains the home page (also called the root page or the index page) for the entire website is also a section, and all website sections are subsections of the content root. We can override the front matter of the home page using the content/_index.md file. The content root is the only section whose _index.md is optional. Because we override the index template with a plain HTML file in the Acme Corporation website, adding front matter specific to the page in content/_index.md has no effect.
 
@@ -19,9 +18,9 @@ We can list all the areas in the website in the main menu or on the home page. T
 **NOTE** We need to create a markup file named _index.md, even if empty, at the root of every section. Hugo uses this file to identify a website section. Hugo does not consider a folder to be a section without this file and might not display its contents.
 {{< /hint >}}
 
-Each section can have multiple pages that form its content. The sections have a tem- plate for the index page where we have access to all the pages and subsections. We use the section’s index page to help the user navigate the section. Custom parameters and data can customize the index template via the _index.md file in the section folder. We are free to choose the organization of pages as we desire to get the content structure we want.
+Each section can have multiple pages that form its content. The sections have a template for the index page where we have access to all the pages and subsections. We use the section’s index page to help the user navigate the section. Custom parameters and data can customize the index template via the _index.md file in the section folder. We are free to choose the organization of pages as we desire to get the content structure we want.
 
-Let’s add a news and a blog section to Acme Corporation’s website. In the blog sec- tion, let’s also add a community subsection for blog posts from community members using Acme products. Also, we will enable the automatic setting for the Git author dates for the content by setting enableGitInfo: true in the configuration file. The following listing enables access to Git commit information while building the website.
+Let’s add a news and a blog section to Acme Corporation’s website. In the blog section, let’s also add a community subsection for blog posts from community members using Acme products. Also, we will enable the automatic setting for the Git author dates for the content by setting enableGitInfo: true in the configuration file. The following listing enables access to Git commit information while building the website.
 
 {{< details title="Listing 4.4  Accessing Git commit information (config/_default/config.yaml)" open=true >}}
 ```yaml
@@ -30,7 +29,7 @@ enableGitInfo: true
 ```
 {{< /details >}}
 
-The content for these sections is provided in the chapter resources (https://github.com/hugoinaction/hugoinaction/tree/chapter-04-resources/02).  Figure  4.4 shows the corresponding Blog page. The sections present on the Acme Corporation website are shown on the right as filenames. The following listing provides the code for organizing the content in sections for the Acme Corporation website. (The list- ing’s Markdown icon is from octoicons; the folder icons are from flaticons.)
+The content for these sections is provided in the chapter resources (https://github.com/hugoinaction/hugoinaction/tree/chapter-04-resources/02).  Figure  4.4 shows the corresponding Blog page. The sections present on the Acme Corporation website are shown on the right as filenames. The following listing provides the code for organizing the content in sections for the Acme Corporation website. (The listing’s Markdown icon is from octoicons; the folder icons are from flaticons.)
 
 ![Figure4.4](Figure4.4.svg)
 
@@ -40,7 +39,7 @@ Figure 4.4 The blog for Acme Corporation’s website showing summaries from the 
 ![Listing4.5](Listing4.5.svg)
 {{< /details >}}    	
 
-We can navigate to http://localhost:1313/blog to view the entries in the blog section, to http://localhost:1313/blog/community to see the posts in the subsection for   com- munity-provided entries, and to http://localhost:1313/news to see those in the news section.
+We can navigate to http://localhost:1313/blog to view the entries in the blog section, to http://localhost:1313/blog/community to see the posts in the subsection for   community-provided entries, and to http://localhost:1313/news to see those in the news section.
 
 {{< hint warning >}}
 **NOTE** You need to commit the files to a Git repository for the dates to be read from Git by Hugo.
@@ -55,9 +54,9 @@ We can use the _index.md file in the blog folder to provide the settings and the
 {{< hint info >}}
 **Content summary**
 
-The index pages of the sections in the Acme Corporation website automatically pro- vide a summary and titles of the posts in the section. Hugo generates the summary information automatically if we do not provide it. Although the index pages are the most common places where we can use a post’s summary, it can also be used else- where by the theme. Here are the ways to provide the summary:
-- Automatic —By default, Hugo picks up the first 70 words of the content as the summary for the theme. The summaryLength variable in the website configu- ration file controls the number of words in the default summary.
-- Manual—We can specify the summary length with the marker &lt;!--more--> at a location in the content to clip the summary if desired. Note that <!-- more--> is matched verbatim by Hugo. Adding spaces, changing to upper- case, or not having a proper HTML comment is not understood by Hugo. You can see this in use in the content/blog/tropical triangles/index.md file.
+The index pages of the sections in the Acme Corporation website automatically provide a summary and titles of the posts in the section. Hugo generates the summary information automatically if we do not provide it. Although the index pages are the most common places where we can use a post’s summary, it can also be used else- where by the theme. Here are the ways to provide the summary:
+- Automatic —By default, Hugo picks up the first 70 words of the content as the summary for the theme. The summaryLength variable in the website configuration file controls the number of words in the default summary.
+- Manual—We can specify the summary length with the marker &lt;!--more--> at a location in the content to clip the summary if desired. Note that &lt;!-- more--> is matched verbatim by Hugo. Adding spaces, changing to upper- case, or not having a proper HTML comment is not understood by Hugo. You can see this in use in the content/blog/tropical triangles/index.md file.
 - Front matter —We can use the summary variable in the front matter to supply the summary text.
 
 Note that the summary variable is different than the description variable. The summary variable in Hugo is a teaser into the content, while the description variable is more about the content sent to search engines. The description field can only be supplied via the front matter and does not have an automatic value based on content. Some themes like Eclectic give a higher priority to description and fall back to summary in the index pages.
@@ -65,7 +64,7 @@ Note that the summary variable is different than the description variable. The s
 
 ## 4.2.2 Menus
 
-The sections that we added to Acme Corporations’s website are not linked and, there- fore, not discoverable from the home page or from any content pages. Hugo provides a generic way to enable content to show up in the menus. We can include multiple menus on a website, and each theme defines its own set of menus and submenus. Each menu has a name, like main for the main menu, in the Eclectic and Universal themes. Each menu consists of a list of entries that form the whole of the menu.
+The sections that we added to Acme Corporations’s website are not linked and, therefore, not discoverable from the home page or from any content pages. Hugo provides a generic way to enable content to show up in the menus. We can include multiple menus on a website, and each theme defines its own set of menus and submenus. Each menu has a name, like main for the main menu, in the Eclectic and Universal themes. Each menu consists of a list of entries that form the whole of the menu.
 
 We have already split the menu created in chapter 2 in the configuration file in section 4.1. Listing 4.6 shows the configuration that we created in menu.yaml. Let’s go over some of the fields in that configuration. Each menu entry has multiple fields:
 - The identifier field uniquely defines the menu so Hugo can find it.
@@ -137,7 +136,7 @@ menu:
 {{< /details >}}
     	
 
-We also need to add the terms of use and privacy policy to the footer menu. The fol- lowing two listings show these configurations.
+We also need to add the terms of use and privacy policy to the footer menu. The following two listings show these configurations.
 
 {{< details title="Listing 4.10  Menu for the terms of use (content/terms.md)" open=true >}}
 ```yaml
@@ -161,7 +160,7 @@ menu:
 ```
 {{< /details >}}
 
-While the footer menu has content, Eclectic does not show it until we explicitly enable it by adding menu: true in the config/_default/params.yaml file for the footer sec- tion. The following listing shows how to do that. Note that you may need to restart   your development server for these changes to take effect.
+While the footer menu has content, Eclectic does not show it until we explicitly enable it by adding menu: true in the config/_default/params.yaml file for the footer section. The following listing shows how to do that. Note that you may need to restart   your development server for these changes to take effect.
 
 {{< details title="Listing 4.12 Enabling the footer menu (config/_default/params.yaml)" open=true >}}
 ```yaml
@@ -176,7 +175,7 @@ footer:
 ```
 {{< /details >}}
 
-Because the home page does not use a menu yet, we will need to manually update the website’s home page to change the Explore button to link to the Blog page and then add an entry for the Blog and News pages in the footer in layouts/index.html. The fol- lowing listing enables direct links to the blog and news section in the website footer and changes the Explore button to link to the Blog page in the index page of the website.
+Because the home page does not use a menu yet, we will need to manually update the website’s home page to change the Explore button to link to the Blog page and then add an entry for the Blog and News pages in the footer in layouts/index.html. The following listing enables direct links to the blog and news section in the website footer and changes the Explore button to link to the Blog page in the index page of the website.
 
 {{< details title="Listing 4.13  Enabling direct links and changing a button (layouts/index.html)" open=true >}}
 ```html
@@ -210,7 +209,7 @@ Which menu placement is better if we want to cut and paste pages from one Hugo w
 {{< hint info >}}
 **Content management with a GUI**
 
-For authors and editors that require a graphical environment to manage content without losing performance benefits with static site builders like Hugo, there are wrap- pers like Forestry.io, Hokus CMS, and Netlify CMS. These content management systems have graphical forms instead of YAML and Markdown. Tools like these can help teams with a diverse set of requirements to come on board and get the benefits of using Hugo. Nontechnical team members who prefer a graphical form can benefit from the Jamstack with a comfortable GUI on top. These forms place the files in suit- able locations and update the appropriate entries in the front matter and the config- uration files. We can use them interchangeably, along with directly editing the files.
+For authors and editors that require a graphical environment to manage content without losing performance benefits with static site builders like Hugo, there are wrappers like Forestry.io, Hokus CMS, and Netlify CMS. These content management systems have graphical forms instead of YAML and Markdown. Tools like these can help teams with a diverse set of requirements to come on board and get the benefits of using Hugo. Nontechnical team members who prefer a graphical form can benefit from the Jamstack with a comfortable GUI on top. These forms place the files in suit- able locations and update the appropriate entries in the front matter and the configuration files. We can use them interchangeably, along with directly editing the files.
 
-Appendix C goes over integrating Netlify CMS with your website as the administrative interface for the content management system. The corresponding changes are pres- ent in all code checkpoints from chapter-04-03 onward.
+Appendix C goes over integrating Netlify CMS with your website as the administrative interface for the content management system. The corresponding changes are present in all code checkpoints from chapter-04-03 onward.
 {{< /hint >}}

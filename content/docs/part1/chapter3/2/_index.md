@@ -33,8 +33,7 @@ Figure 3.10 The About Us page for Acme Corporation using advanced Markdown featu
   - a Convert the text “smiles” to the emoji (:smile:).
   - b Convert the description of team members in the Team area to an HTML definition list.
 
-The  completed  About  page  is  provided  in  the  chapter  resources  (https://github
-.com/hugoinaction/hugoinaction/tree/chapter-03-resources/03) and as a code checkpoint for comparison.
+The  completed  About  page  is  provided  in  the  chapter  resources  (https://github.com/hugoinaction/hugoinaction/tree/chapter-03-resources/03) and as a code checkpoint for comparison.
 
 {{< hint info >}}
 **CODE CHECKPOINT**	https://chapter-03-03.hugoinaction.com, and source code: https://github.com/hugoinaction/hugoinaction/tree/chapter-03-03.

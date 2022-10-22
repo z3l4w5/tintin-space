@@ -122,13 +122,13 @@ This code reads the pages from the one-level deeper subsections and appends them
 **NOTE** We can override the page size specified in the configuration using the Paginate property by passing it as an additional argument to the .Paginate function. For example, .Paginate $posts 5 puts 5 posts in one page.
 {{< /hint >}}
 
-## 7.2.4Rendering a list of subsections
+## 7.2.4 Rendering a list of subsections
 
 The community blogs are a subsection of the blog section of the website. Each index page has a variable called .Sections, which gets a list of the child sections for index pages. Using this variable allows us to show the child pages for each section with the current page. Without providing a list of subsections on the list pages, we leave pages like these unreachable. In this section, we will also add a list of subsections to the first of the section pages (figure 7.6).
 
 {{< figure src="Figure7.6.svg" title="Figure 7.6 The index page for the Acme Corporation website using a list instead of an index template. (Images by tookapic, ds_30, and Robert Wilkos on Pixabay.)" >}}
 
-We can use the Paginator object to detect if this is the first page (https:// github.com/hugoinaction/hugoinaction/tree/chapter-07-resources/05).  If  the  user is on page 1, we can display the header for posts (versus subsections) and the list of subsections. The following listing uses .Sections in the index page of a section to provide the subsections in a Hugo template.
+We can use the Paginator object to detect if this is the first page (https://github.com/hugoinaction/hugoinaction/tree/chapter-07-resources/05).  If  the  user is on page 1, we can display the header for posts (versus subsections) and the list of subsections. The following listing uses .Sections in the index page of a section to provide the subsections in a Hugo template.
 
 {{< details title="Listing 7.16  Providing the list of subsections (layouts/modern/list.html)" open=true >}}
 ![Listing7.16](Listing7.16.svg)

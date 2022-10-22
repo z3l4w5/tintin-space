@@ -14,9 +14,9 @@ We can provide inline images, links, basic formatting, and code blocks to Markdo
 
 GitHub Flavored Markdown (GFM) is supported by Hugo, which adds task lists and tables to Markdown.
 
-Hugo’s rendering engine also supports features like emoticons, automatic frac- tions, and definition lists.
+Hugo’s rendering engine also supports features like emoticons, automatic fractions, and definition lists.
 
-Hugo supports multiple languages for content, including AsciiDoc for long- form content, pandoc for extended 
+Hugo supports multiple languages for content, including AsciiDoc for long-form content, pandoc for extended 
 
 Markdown, and reStructuredText for documentation.
 

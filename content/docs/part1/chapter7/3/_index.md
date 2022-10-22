@@ -7,13 +7,12 @@ draft: true
 
 # 7.3 Providing the taxonomy pages
 
-There are two types of taxonomy pages: the taxonomy page (used for each taxonomy term) and the terms page (used for the taxonomy list). The terms pages provide a list of all the terms in the taxonomy (for example, all the tags at /tags), while the taxonomy pages list all pages with a specific term (like all posts with the tag square). Before over- riding any of the pages, let’s see how they look in the existing list template. Let’s replace the type as a cascading property in content/categories/_index with modern and see how the pages look. The terms in a category turned into child pages for the category, while the individual posts became the child pages of each taxonomy page.
+There are two types of taxonomy pages: the taxonomy page (used for each taxonomy term) and the terms page (used for the taxonomy list). The terms pages provide a list of all the terms in the taxonomy (for example, all the tags at /tags), while the taxonomy pages list all pages with a specific term (like all posts with the tag square). Before overriding any of the pages, let’s see how they look in the existing list template. Let’s replace the type as a cascading property in content/categories/_index with modern and see how the pages look. The terms in a category turned into child pages for the category, while the individual posts became the child pages of each taxonomy page.
 
-Hugo tries to ease the life of theme authors by fitting various content into the two types of pages: list page and single page. The index page, the terms page, and the tax- onomy page fall back to the list page if the corresponding pages are not present (the single template is for individual pages). We can override these pages by creating a taxonomy.html and terms.html layout for the taxonomy page and a list of terms, respectively. Because the list template does not read taxonomy terms, locations like /categories will not show any content yet.
+Hugo tries to ease the life of theme authors by fitting various content into the two types of pages: list page and single page. The index page, the terms page, and the taxonomy page fall back to the list page if the corresponding pages are not present (the single template is for individual pages). We can override these pages by creating a taxonomy.html and terms.html layout for the taxonomy page and a list of terms, respectively. Because the list template does not read taxonomy terms, locations like /categories will not show any content yet.
 
 {{< hint warning >}}
-**NOTE** A Hugo website needs only two templates: a list.html and a single.html to be complete. Remember from chapter 4, there are two types of bundles in Hugo: branch bundles and page bundles. The two templates, list.html and single
-.html, correspond to these bundle types, respectively. All other templates are specialized cases of the list template. If we remove index.html, Hugo selects the list.html for the website’s index page. Similarly, the taxonomy pages use the list template to render unless we provide a custom template.
+**NOTE** A Hugo website needs only two templates: a list.html and a single.html to be complete. Remember from chapter 4, there are two types of bundles in Hugo: branch bundles and page bundles. The two templates, list.html and single.html, correspond to these bundle types, respectively. All other templates are specialized cases of the list template. If we remove index.html, Hugo selects the list.html for the website’s index page. Similarly, the taxonomy pages use the list template to render unless we provide a custom template.
 {{< /hint >}}
 
 {{< hint info >}}
@@ -26,8 +25,8 @@ The terms page shows a list of terms in a taxonomy. We can define pages for indi
 
 {{< figure src="Figure7.7.svg" title="Figure 7.7 The terms page for the categories taxonomy type in the Acme Corporation website. The terms page provides unique variables to access all the terms and to use the pages in the terms if the list template does not seem the best suited for the specific page." >}}
 
-In layouts/modern/terms.html, we will provide the same minimal details that we used for the subsections that we will be moving to a partial (https://github.com/hugoinac- tion/hugoinaction/tree/chapter-07-resources/06). Note that because not all taxono- mies have a file, we need to wrap the h3 in if checks in the partial. The .Data.Terms variable allows access to all the terms in the given taxonomy type. We have many
-options to get sorted versions of this data. Alphabetically, the one we will use in the fol- lowing listing is the most popular.
+In layouts/modern/terms.html, we will provide the same minimal details that we used for the subsections that we will be moving to a partial (https://github.com/hugoinaction/hugoinaction/tree/chapter-07-resources/06). Note that because not all taxonomies have a file, we need to wrap the h3 in if checks in the partial. The .Data.Terms variable allows access to all the terms in the given taxonomy type. We have many
+options to get sorted versions of this data. Alphabetically, the one we will use in the following listing is the most popular.
 
 {{< details title="Listing 7.17  Rendering a list of taxonomy terms (layout/modern/terms.html)" open=true >}}
 ![Listing7.17](Listing7.17.svg)
@@ -78,7 +77,7 @@ Most developers do not need to override the taxonomy pages because the list temp
 {{< /hint >}}
 
 {{< hint warning >}}
-**NOTE** Remember, in chapter 4, we provided both the singular and plural text  for a taxonomy. Hugo allows access to both the strings for our use. It does not automatically convert those because that cannot be reliably done across lan- guages (not programming but human languages) without a vast database. We can use any of the strings as we see fit in the template.
+**NOTE** Remember, in chapter 4, we provided both the singular and plural text  for a taxonomy. Hugo allows access to both the strings for our use. It does not automatically convert those because that cannot be reliably done across languages (not programming but human languages) without a vast database. We can use any of the strings as we see fit in the template.
 {{< /hint >}}
 
 {{< hint info >}}

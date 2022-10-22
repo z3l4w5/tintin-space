@@ -9,7 +9,7 @@ draft: true
 
 Hugo and the Jamstack promise solid performance and low  ongoing  maintenance. Both of these are not absolutes in themselves. There is a gradient: we need to choose  the right balance of features, ease of development and use, maintenance, and perfor- mance to get the best benefit. A website with no images would likely be faster to load than one with hundreds of them, but that does not mean that it would be the best  website for all use cases. Therefore, when analyzing performance and maintainability, we need to consider the use case.
 
-## 2.5.1Performance
+## 2.5.1 Performance
 
 Performance is one notable metric that Hugo’s development team uses to benchmark its builds. We should be able to get good performance for a typical use case without any significant difficulties. We are hosting all the web pages for Acme Corporation on a CDN (prerendered), and the client does not need to do much processing to display the site. While we should find the website quick to load, it is vital to get the perfor- mance as a number and tabulate that across builds to be able to compare changes and to fix regressions.
 
@@ -44,7 +44,7 @@ What is the primary reason to benchmark the performance of a website?
 - d. Find bugs in our website.
 {{< /hint >}}
 
-Our Acme Corporation’s website created in this chapter depends on Hugo. Hugo has had breaking changes in the past releases, but most of them have been minor. We    do not need to update for security fixes because it is a development-only depen- dency. This could be rated as low in an ongoing effort if we are happy with the website or as medium for an upgrade.
+Our Acme Corporation’s website created in this chapter depends on Hugo. Hugo has had breaking changes in the past releases, but most of them have been minor. We    do not need to update for security fixes because it is a development-only dependency. This could be rated as low in an ongoing effort if we are happy with the website or as medium for an upgrade.
 
 The hosting on GitHub Pages requires no ongoing effort to maintain. This is among the most critical services for developers on the internet. We  can,  therefore,  rate both ongoing maintenance and upgrade as low. If we use Netlify, it manages the upkeep for us, and the effort there is also low. Because it is a lot less popular  than GitHub, there is an inherent risk of Netlify pivoting to a new business  model or shutting its doors. Migration to GitHub is easy for the type of website built here, and its overall risk is low.
 
@@ -56,10 +56,9 @@ Overall, the ongoing work to keep the website we built in this chapter alive is 
 
 The performance and maintenance risks of a website depend heavily on the theme selected. If the theme is not good, Hugo’s hard work maintaining its performance will not show in your website’s build time. The main maintenance risk to a Hugo-based website is the risk of depending on a theme that stops being compatible with the newer versions of Hugo. We can continue to use the older version of Hugo and the theme indefinitely without worrying too much about security issues because the con- tent is static. But if we ever want to update Hugo and the theme is not supported any- more, we would be on our own to maintain the theme. It is a good idea to be theme agnostic, at least early on in a website project, so that if we find a problem with the theme we are using, we can move to a different one quickly.
 
-Themes can also be an excellent source for learning how to use Hugo best. Many developers using Hugo choose the themes as the starting point rather than the abso-   lute solution. One big reason to choose Hugo is to customize everything, and forking  the theme is a powerful way to perform that task. We will be moving out of the Eclectic theme into our custom theme by the end of chapter 7.
+Themes can also be an excellent source for learning how to use Hugo best. Many developers using Hugo choose the themes as the starting point rather than the absolute solution. One big reason to choose Hugo is to customize everything, and forking  the theme is a powerful way to perform that task. We will be moving out of the Eclectic theme into our custom theme by the end of chapter 7.
 
-If we want to continue to build our website with a theme maintained by someone else, it is a good idea to investigate portability. Hugo provides standardization across themes, and switching Hugo themes is not difficult (see listing 2.8). We will be adding another theme to Acme Corporation’s website to make sure our code is portable. We provide a copy of the Universal theme for Hugo in chapter resources (https://github.com/ hugoinaction/hugoinaction/tree/chapter-02-resources/08)  and  also  host  it  at  github
-.com/hugoinaction/Universal. You can copy that theme to the themes folder and enable it with the website configuration. You may need to restart the development server.
+If we want to continue to build our website with a theme maintained by someone else, it is a good idea to investigate portability. Hugo provides standardization across themes, and switching Hugo themes is not difficult (see listing 2.8). We will be adding another theme to Acme Corporation’s website to make sure our code is portable. We provide a copy of the Universal theme for Hugo in chapter resources (https://github.com/hugoinaction/hugoinaction/tree/chapter-02-resources/08)  and  also  host  it  at  github.com/hugoinaction/Universal. You can copy that theme to the themes folder and enable it with the website configuration. You may need to restart the development server.
 
 {{< details title="Listing 2.8  Changing a theme to Universal (config.yaml)" open=true >}}
 ```yaml
@@ -67,7 +66,7 @@ theme: Universal
 ```
 {{< /details >}}
 
-While the previous code works and renders the website, there is more configuration that we need to do to get the maximum benefit of the Universal theme. For that, place logo.png in the static/image/logo.png folder and update the configuration to include the parameters in the following listing (below the existing params for footer) for Universal to be able to parse them (https://github.com/hugoinaction/hugoinaction/ tree/chapter-02-resources/09).
+While the previous code works and renders the website, there is more configuration that we need to do to get the maximum benefit of the Universal theme. For that, place logo.png in the static/image/logo.png folder and update the configuration to include the parameters in the following listing (below the existing params for footer) for Universal to be able to parse them (https://github.com/hugoinaction/hugoinaction/tree/chapter-02-resources/09).
 
 {{< details title="Listing 2.9  Changes to support the Universal theme (config.yaml)" open=true >}}
 ```yaml

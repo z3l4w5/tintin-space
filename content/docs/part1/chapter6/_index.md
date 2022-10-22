@@ -5,7 +5,7 @@ title: "6 Structuring web pages"
 bookCollapseSection: true
 ---
 
-# Structuring web pages
+# 6 Structuring web pages
 
 {{< hint info >}}
 **This chapter covers**

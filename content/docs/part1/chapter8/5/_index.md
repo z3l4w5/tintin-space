@@ -22,10 +22,10 @@ theme: github.com/hugoinaction/AcmeTheme
 {{< /details >}}
 
 {{< hint warning >}}
-**NOTE** The live server should not be running when updating to AcmeTheme, and we should not call hugo server at this point. It will lead to the installa- tion of the main branch of AcmeTheme.
+**NOTE** The live server should not be running when updating to AcmeTheme, and we should not call hugo server at this point. It will lead to the installation of the main branch of AcmeTheme.
 {{< /hint >}}
 
-Next, we need to install the theme from the v0.8.0 tag. There are two ways to do this: adding an entry to the go.mod file manually or running the installation command from the command line. The hugo mod subcommands are associated with Hugo Mod- ules, which provide access to the management features related to Hugo Modules. We use hugo mod init to define a new module that makes up our website. The hugo mod get command fetches the module-based dependencies manually. The -u command- line flag overwrites the existing entry in go.mod if present. The following listing adds an entry to the go.mod file for the v0.8.0 version.
+Next, we need to install the theme from the v0.8.0 tag. There are two ways to do this: adding an entry to the go.mod file manually or running the installation command from the command line. The hugo mod subcommands are associated with Hugo Modules, which provide access to the management features related to Hugo Modules. We use hugo mod init to define a new module that makes up our website. The hugo mod get command fetches the module-based dependencies manually. The -u commandline flag overwrites the existing entry in go.mod if present. The following listing adds an entry to the go.mod file for the v0.8.0 version.
 
 {{< details title="Listing 8.4  Adding a specific version of AcmeTheme" open=true >}}
 ```shell

@@ -7,7 +7,7 @@ draft: true
 
 # 8.3 Importing themes
 
-Once we have enabled Hugo Modules, we can come back to config.yaml to manage it. If the theme is available as a Git repository on GitHub (as is the case with most Hugo themes), Hugo can do the job of fetching and set- ting it up for us automatically. We will be testing the waters by first import- ing Eclectic via Hugo Modules and then move to AcmeTheme after that. Unlike downloading the theme manually from GitHub and placing it in the themes folder, we can put github.com/hugoinaction/Eclectic in the theme configuration setting as listing 8.2 shows, and Hugo will do the downloading for us.
+Once we have enabled Hugo Modules, we can come back to config.yaml to manage it. If the theme is available as a Git repository on GitHub (as is the case with most Hugo themes), Hugo can do the job of fetching and setting it up for us automatically. We will be testing the waters by first importing Eclectic via Hugo Modules and then move to AcmeTheme after that. Unlike downloading the theme manually from GitHub and placing it in the themes folder, we can put github.com/hugoinaction/Eclectic in the theme configuration setting as listing 8.2 shows, and Hugo will do the downloading for us.
 
 {{< hint info >}}
 **NOTE** If you are working offline, read along to section 8.7, where we get back to using the theme locally, discussing how we can achieve that for other dependencies.
@@ -20,7 +20,7 @@ theme: github.com/hugoinaction/Eclectic
 {{< /details >}}
 
 That’s it. The next time we run hugo server or push to GitHub pages or to Netlify, Hugo automatically fetches the Eclectic theme from the internet and uses that to render our website. When we run hugo  server after linking to a GitHub repository, many things happen (see figure 8.3):
-- In the background, Hugo figures out and installs the correct ver- sion of the dependency. Hugo also caches this locally for subse- quent runs.
+- In the background, Hugo figures out and installs the correct version of the dependency. Hugo also caches this locally for subsequent runs.
 - The go.mod file is updated with the direct list of dependencies on the website.
 - A new file called go.sum is created, ensuring that Hugo will fetch the correct version of the dependency specified in the go.mod file. Like Gemfile.lock in Ruby and package-lock.json in the Node.js world, this file ensures consistency and reproducibility of the build by listing exact versions of all direct and indirect dependencies.
 

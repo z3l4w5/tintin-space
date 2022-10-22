@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2240"
+   xml:space="preserve"
+   width="495.91998"
+   height="484.47998"
+   viewBox="0 0 495.91998 484.47998"
+   sodipodi:docname="Table3.3.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+     id="metadata2246"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs2244" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview2242"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0630631"
+     inkscape:cx="148.3643"
+     inkscape:cy="183.34274"
+     inkscape:window-x="1672"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2248" /><g
+     id="g2248"
+     inkscape:groupmode="layer"
+     inkscape:label="Hugo in Action Static sites and dynamic Jamstack apps (Atishay Jain) (z-lib.org)"
+     transform="matrix(1.3333333,0,0,-1.3333333,-124.16,680.21065)"><g
+       id="g2300"><path
+         d="m 93.12,488.918 h 63.42 v 21 H 93.12 Z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2302"
+         inkscape:connector-curvature="0" /></g><g
+       id="g2304"><text
+         transform="matrix(1,0,0,-1,113.1,497.618)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2308"><tspan
+           x="0 5.2747798 9.59196 16.143539"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2306">Name</tspan></text>
+</g><g
+       id="g2310"><path
+         d="m 156.54,488.918 h 114.12 v 21 H 156.54 Z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2312"
+         inkscape:connector-curvature="0" /></g><g
+       id="g2314"><text
+         transform="matrix(1,0,0,-1,199.2,497.618)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2318"><tspan
+           x="0 5.2827601 9.6079197 12.01788 16.34304 20.6682 22.758961"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2316">Default</tspan></text>
+</g><g
+       id="g2320"><path
+         d="m 270.66,488.918 h 122.28 v 21 H 270.66 Z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2322"
+         inkscape:connector-curvature="0" /></g><g
+       id="g2324"><text
+         transform="matrix(1,0,0,-1,323.52,497.618)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2328"><tspan
+           x="0 5.2827601 9.2448301"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2326">Use</tspan></text>
+</g><g
+       id="g2330"><path
+         d="m 392.94,488.918 h 72.12 v 21 h -72.12 z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2332"
+         inkscape:connector-curvature="0" /></g><g
+       id="g2334"><text
+         transform="matrix(1,0,0,-1,412.26,497.618)"
+         style="font-variant:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2338"><tspan
+           x="0 4.6363802 8.9535599 13.27074 19.822321 24.1395 26.222281"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2336">Example</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,99.12,478.598)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2342"><tspan
+           x="0 4.8039598 9.6079197 14.41188 19.215839"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2340">title</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.54,478.598)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2346"><tspan
+           x="0 5.2795682 9.5991421 16.137955 20.457527 22.857115 27.176687 29.576275 31.975861 34.554996 38.874569 43.194145 45.593731 47.993317 49.912506 51.831696 56.151272 114.11081 119.16215 123.25589 127.50923 131.76257 133.44156 135.3009 139.55424 141.23323 145.32697 149.58031 156.06805 162.55579 166.80913 169.26857 172.50764 174.24649 178.49983 182.69891 186.63304 190.83212 194.92586 196.6647 200.91805 205.11713 209.37047 211.1093 216.00104 220.89278 225.78453"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2344">Name of the file Used in summary pages and RSS </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.661,468.578)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2350"><tspan
+           x="0 2.33814 6.5914798 10.78896 15.04629 19.14003 20.397678 24.651018 27.108858 31.362198 34.780033 36.639374 40.892712 45.090191 49.347523 50.605171 53.102909 57.300388 58.617889 62.711628 66.909111 71.162445 73.620285 77.394829 81.592308 82.909805 87.107285 91.364616 95.262047 97.119789 101.37313 105.57061 109.66435 112.00249"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2348">feeds provided to search engines. </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.661,458.618)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2354"><tspan
+           x="0 6.4957199 10.75704 12.74007 19.23579 23.49711 26.740183 28.723211 33.942131 38.145199 42.406517 44.869946 46.852974 49.358692 53.56176 55.544788 59.646511 63.907829 68.110893 73.333809 75.316833 77.780266 82.04158 86.302902 90.404625 94.607689 96.590721 100.85204 103.31546 107.57678 111.72"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2352">We may want to show these prop-</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.661,448.599)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2358"><tspan
+           x="0 4.2533398 6.710382 9.2081223 11.005218 15.258558 19.352299 21.688843 25.885525 30.142056 32.4786 34.935642 39.132324 43.385666 45.722206 49.918892 54.175423 58.072056 62.328587 64.665131 66.462227 68.979118 73.072861 77.269539 79.128883 81.405579"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2356">erties on the page itself.</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.941,478.599)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2362"><tspan
+           x="0 4.4767799 8.7939596 13.11114 17.42832 19.989901 22.38789 27.503071"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2360">About Us</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,99.121,431.619)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2366"><tspan
+           x="0 4.8039598 9.6079197 14.41188 19.215839 24.0198 28.823759 33.62772 38.37183 43.175789 47.979752"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2364">description</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.541,431.619)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2370"><tspan
+           x="0 4.79598 9.1131601 15.66474 19.98192 22.543501 25.90308 28.300272 32.457851 35.019432 37.536324 39.453121 43.770302 47.76828 114.06532 118.56205 121.12363 125.44081 128.91769 130.83449 135.15167 139.46886 143.78604 145.94302 148.45992 152.7771 154.99394 159.15152 163.4687 167.78589 170.34746 174.18584 178.50302 180.66002 184.9772 189.29437 193.29236 195.21553 199.53271 203.8499 208.00748 210.40945 212.6263 216.46468 220.78186 225.09904"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2368">&lt;empty string&gt;Provided to search engines; can </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.661,421.599)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2374"><tspan
+           x="0 4.32516 8.6503201 11.050704 15.375864 19.541424 23.866585 28.191744 30.592129 32.523289 36.84845 39.188183 41.119343 43.050503 47.216064 49.736149 51.656136 55.981297 59.987255 62.387642 66.712799 71.037956 75.043922 79.303642 83.503517"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2372">be used in listing pages.</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.941,431.619)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2378"><tspan
+           x="0 6.6010561 10.922226 13.443108 15.363894 19.681074 22.083054 26.240635 28.641815 30.564997 34.882175 39.199356 43.516537 45.439716 49.756897 53.754875"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2376">World’s leading </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.941,421.599)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2382"><tspan
+           x="0 6.6026521 10.927812 15.252972 19.578133 21.988092 26.25021 30.092581 32.66214 36.987301 39.556862 43.882019 46.404499 48.807278 53.132435 55.542397"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2380">manufacturer of </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.941,411.58)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2386"><tspan
+           x="0 4.3171802 6.2403598 10.23834 12.16152 14.7231 19.040279 20.963461 22.042356 26.199936 30.517117 34.834297 39.151478 43.468655 47.626236 50.028217 51.107113 57.706573 62.026146"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2384">digital shapes. We </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.941,401.56)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2390"><tspan
+           x="0 4.1655598 8.4907198 12.81588 17.141041 21.4662 23.868179 26.38986 30.715019 35.04018 37.442162 42.724918 47.050079 49.61964 51.5508 55.875961 58.285919"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2388">shape the world. </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.941,391.6)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2394"><tspan
+           x="0 4.4847598 8.8099203 13.13508 15.538656 17.469816 19.400976 22.928137 27.191051 29.594627 31.525787 35.850948 38.254524 40.185684 42.755245"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2392">You live in it.</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,99.122,374.56)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2398"><tspan
+           x="0 4.8039598 9.6079197 14.41188"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2396">date</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.542,374.56)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2402"><tspan
+           x="0 5.2747798 7.1979599 9.7595396 11.52312 18.074699 22.39188 26.709061 28.63224 31.03422 32.957401 37.274578 41.591759 43.991344 48.308525 52.625706 55.187286 59.504467 61.904053 63.827232 66.22921"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2400">Git-modified date if </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.542,364.6)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2406"><tspan
+           x="0 4.8039598 9.6079197 14.41188 19.215839 24.0198 28.823759 33.62772 38.431679 43.235641 48.0396 52.843559 57.647518"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2404">enableGitInfo</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,227.34159,364.6)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2410"><tspan
+           x="0 1.9152 6.0647998"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2408">is </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,235.802,364.6)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2414"><tspan
+           x="0 4.8039598 9.6079197 14.41188"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2412">true</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.542,354.581)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2418"><tspan
+           x="0 1.92318 6.2403598 8.6391478 12.477528 16.794708 21.111889 23.513868 25.437048 29.435028 31.773169 35.13195 39.449131 46.047791 47.97097 50.372952 52.77174 57.088921 59.607407 63.924587 68.241768 70.803345 76.078125 78.001305 82.15889 86.476067 88.874855 90.798035 93.359619 95.761597 99.919174"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2416">in config.yaml, otherwise it’s </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.542,344.561)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2422"><tspan
+           x="0 3.19998 7.5171599 11.83434 16.15152 20.4687 23.030279 26.38986 28.790243 33.586224 35.988205 38.388588 43.184566 47.980549 50.380932 54.857712 60.132492"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2420">January 1, 01 AD.</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.662,374.561)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2426"><tspan
+           x="0 3.9979801 8.3151598 12.63234 14.968884 19.286064 23.542597 26.104176 30.421356 32.7579 34.68108 38.838661 41.115353 45.432533 49.590115 53.747692 58.064873 61.903255 63.826435 68.143616 70.660507 74.977684 79.294868 81.631409 86.906189 88.829369 91.34626 95.663445 97.999985 100.56157 104.87875 106.80193 110.9595"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2424">The date is associated with this </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.662,364.601)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2430"><tspan
+           x="0 4.3171802 8.6343603 12.63234 16.94952 19.3515 21.748692 25.746672 30.063852 31.987032 36.144611 38.541805 40.943783 42.866962 47.184143 49.107323 53.424503 55.821697 60.138878 64.456055 66.379234 70.696419 74.853996 77.25119 79.17437 83.491547 85.888741 90.046318 94.363503 96.925079 99.442772 101.36595 105.68313 109.68111"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2428">page. This field helps in sorting </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.662,354.582)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2434"><tspan
+           x="0 2.5695601 6.8947201 11.21988 13.625052 17.950212 22.275372 26.281332 30.606491 34.772053 37.177223 41.502384 44.869946 47.275116 49.799191 54.124352 58.449509 60.854683 64.701042 67.270599 71.595764 75.920921 78.445 80.37616 84.701317 89.026474 91.431648 95.756805 100.08197 102.65153 106.97668"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2432">the pages by the creation date.</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.942,374.562)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2438"><tspan
+           x="0 3.2079599 7.5331202 11.85828 16.183439 20.5086 23.031876 26.395447 28.799023 33.602982 38.40694 40.816902 43.220478 48.024437 52.8284 57.632359"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2436">January 01, 2020</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,99.122,327.582)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2442"><tspan
+           x="0 4.8039598 9.6079197 14.41188 19.215839 24.0198 28.823759 33.62772"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2440">keywords</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.543,327.582)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2446"><tspan
+           x="0 4.79598 9.1131601 15.66474 19.98192 22.543501 25.90308 28.300272 30.223452 32.146633 36.304211 38.865791 114.10283 119.05841 123.37559 126.73517 132.00995 136.32713 138.8887 143.20589 147.36346 149.70001 154.0172 158.17477 162.49196 166.80913 169.20633 171.1295 175.44669 177.84387 180.40546 184.72264 189.03981 191.37636 197.97342 202.2906 204.8075 209.12468 213.44186 217.75903 220.32062 224.6378"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2444">&lt;empty list&gt;Keywords used in the metadata </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.663,317.562)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2450"><tspan
+           x="0 4.3171802 8.6343603 12.79194 16.94952 21.266701 25.583879 27.981071 32.298252 36.615433 39.012623 41.530315 45.848293 48.245483 52.562664 56.879845 59.441425 63.599003 65.996193 70.313377 74.630554 78.947739 81.344925 85.50251 89.819687 94.136871 96.698448 100.53683 104.85401"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2448">passed on to bots and search </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.663,307.603)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2454"><tspan
+           x="0 4.3171802 8.6343603 12.63234 14.55552 18.8727 23.18988 27.34746"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2452">engines.</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.943,327.583)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2458"><tspan
+           x="0 4.4847598 8.3311195 14.89068 19.215839 21.617821 26.581381 30.90654 33.428219 37.75338 42.078541 44.648102 48.973259"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2456">Acme Corpora-</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.943,317.563)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2462"><tspan
+           x="0 2.5695601 4.50072 8.8258801 13.15104 15.561 17.96298 22.447741 26.229462 32.831318 37.152485 39.554466 43.515739 45.437321 49.762482 54.087643"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2460">tion, Acme Line </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.943,307.603)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2466"><tspan
+           x="0 4.9555802 9.2727604 15.82434 20.14152 24.4587 28.775881 32.13546 34.537441 36.934631 41.890213 43.813393 46.331081 50.168663 52.091843 56.409023 58.811005"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2464">Company, Circle, </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.943,297.584)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2470"><tspan
+           x="0 4.00596 5.93712 10.26228 14.58744 16.9974 19.39938 23.40534 25.927019 27.858179 32.183338 36.508499 40.514462 42.445621"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2468">Line, Triangle</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,99.123,280.604)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2474"><tspan
+           x="0 4.8039598 9.6079197 14.41188"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2472">type</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.543,280.604)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2478"><tspan
+           x="0 5.2747798 9.59196 16.143539 20.46072 22.859509 27.176687 29.578669 31.977455 34.539036 38.856216 43.173397 45.572186 49.729763 54.046944 58.364124 60.766106 65.083282 67.006462 71.323647 75.640823 78.159309 80.558098 84.396477 88.713661 93.030838"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2476">Name of the subfolder con-</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.543,270.584)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2482"><tspan
+           x="0 2.5615799 6.8787599 8.80194 13.11912 15.0423 19.35948 23.315964 25.11306 27.674641 31.991819 36.308998 38.106094 41.944477 46.261658 48.778549 51.355289 55.67247 59.989651 62.506542 64.303635 66.70562 68.628799 70.551979 74.869156 77.271141 79.068237 83.385414 87.702591 90.104576 94.421753 98.738937 100.66212 103.22369"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2480">taining the current file; default </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.543,260.564)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2486"><tspan
+           x="0 1.9152 4.3091998 6.2251978 8.7787981 13.087998 15.003198 19.152798 21.128647 23.522646 25.437845 27.353046 31.662247 33.578243 35.493443 39.643044 41.618893 45.928093 48.481693 52.790894 56.986774 61.295975 65.605179 68.158775 70.134621 74.443825 76.359024 78.912621 83.221825 87.052223 89.605827 91.521027 94.872627 96.78862 98.703819 103.01302"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2484">if this file is present directly in </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.543,250.605)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2490"><tspan
+           x="0 2.5615799 6.8787599 11.19594 13.592334 17.430714 21.747894 26.065075 28.581167 32.89835 37.215527 39.777107 42.173504 44.575481 48.892662 50.815842 55.133022 59.450203 61.966297"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2488">the content folder.</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.664,280.605)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2494"><tspan
+           x="0 4.9635601 9.2887201 13.61388 16.183439 20.5086 24.833759 27.35544 29.75742 32.326981 35.694538 40.019699 44.34486 46.746841 49.156799 53.48196 56.003639 58.405621 60.975182 65.300339 69.625504 72.027481 74.597038 78.85836 83.183517 89.785378 94.110535 96.520493"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2492">Content type for the theme. </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.664,270.585)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2498"><tspan
+           x="0 4.4847598 8.8099203 12.65628 16.98144 19.384218 21.953777 25.321339 29.646498 33.971657 36.374435 40.156956 44.478924 48.804085 51.206863 53.776421 58.101582 62.426743 66.7519 71.077065 73.646622 76.0494 80.311516 82.233902 84.64386 87.053818 91.378983 93.94854 98.273697 102.59886 105.16842 107.09958 110.46714"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2496">Each type can render differently </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.664,260.565)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2502"><tspan
+           x="0 2.4019799 7.6767602 11.99394 14.39193 18.70911 20.63229 24.789869 28.62825 32.945431 37.103008 41.26059 43.658581 47.49696 51.81414 56.131321 58.692902 63.010078 67.327263 69.845749 72.243736 74.805321 78.164902 82.482079 86.799255 90.956841 93.354828 95.278008 99.595184"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2500">(we discuss content types in </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.664,250.605)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2506"><tspan
+           x="0 3.84636 8.1715202 12.49668 16.82184 19.391399 23.71656 26.286119 28.688898 33.492859 35.902817"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2504">chapter 6).</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.944,280.605)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2510"><tspan
+           x="0 4.8119402 9.1450796 13.47822 17.65176 21.9849 26.248613 28.826155"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2508">&lt;absent&gt;</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,99.124,233.566)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2514"><tspan
+           x="0 4.8039598 9.6079197 14.41188"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2512">slug</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.544,233.566)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2518"><tspan
+           x="0 4.8039598 7.2139201 11.53908 13.47024 17.795401 22.12056 24.690121 29.49408"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2516">&lt;folder&gt;/</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,162.544,223.606)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2522"><tspan
+           x="0 4.79598 7.3575602 9.2807398 11.79843 13.72161 18.03879 20.436781 24.75396 27.31554 29.71353 32.115509 34.038689 35.961868 40.279049 44.59623 48.91341 55.464989 59.782169 62.180161 64.10334 66.505318 68.903313 73.22049 77.537666 80.055359 82.453346 85.014931 86.93811 89.499687 91.422867 95.740051"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2520">&lt;title or filename if not title&gt;</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.665,233.566)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2526"><tspan
+           x="0 4.00596 8.3311195 12.65628 14.999208 20.122368 25.085928 29.091888 31.495464 35.820625 38.163551 40.567127 43.136688 47.461849 51.787006 54.190582 56.600544 58.531704 60.462864 64.788025 67.191597 69.122757 73.447922 75.851494 78.374771 82.699928 87.025093 89.428665 94.711426 99.036591 103.36175"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2524">The URL of the file in the web </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.665,223.606)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2530"><tspan
+           x="0 4.32516 6.8947201 11.21988 16.50264 20.6682 24.993361 27.56292 29.972879 32.015759 37.298519 41.62368 45.586548 49.91011 51.952991 56.278152 58.209312 62.37487 66.700035 68.68306 73.008224 75.577782 79.902939 83.430099 85.361259 89.686424 94.011581 98.177139 100.22002 102.7433 107.06846 111.39362"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2528">browser. Hugo also provides the </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.665,213.586)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2534"><tspan
+           x="0 4.8039598 9.6079197"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2532">url</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,292.80768,213.586)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2538"><tspan
+           x="0 2.40996 4.3411198 8.6662798 10.59744 14.9226 16.725283 19.135242 23.460402 26.029963 27.832644 30.355122 34.677887 36.609047 40.774609 42.57729 45.09977 49.422535 53.588093 57.594055 60.004013 61.806698 65.812653 70.137817 74.462975"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2536">field for this task. The </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,369.004,213.586)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2542"><tspan
+           x="0 4.79598 9.5321102 14.32809"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2540">slug</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.665,203.566)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2546"><tspan
+           x="0 1.93116 6.0967202 8.5010939 11.025168 15.348732 19.673891 22.078266 24.488226 26.419386 30.744547 35.069706 37.000866 39.405239 43.7304 48.055561 50.625118 53.149193 55.55357 59.878727 62.288689 64.693062 67.262619 71.587784 75.912941 78.317314 83.440475 88.404037 92.367699 94.772079 99.097237 103.42239 107.74756"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2544">is the final part of the URL and </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.665,193.607)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2550"><tspan
+           x="0 4.3171802 8.6343603 12.95154 17.268721 19.830299 23.987881 26.384274 28.945854 33.263035 37.580215 39.976608 41.899788 46.216969 50.055347 54.372528 56.295708 58.218887 61.578468 65.895645 68.413338 70.336517 74.653702 78.970879 81.367271 83.769249 88.086433 90.64801 93.044403 99.595985 103.91316 105.83635 108.39793 110.32111"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2548">honors the localization for multi-</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.665,183.587)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2554"><tspan
+           x="0 1.93116 6.25632 10.58148 14.58744 18.9126 23.237761 27.243719 31.56888 33.970062 37.750984 42.076145 46.401306 48.970867 53.296024 57.621185 60.190746 62.591927 66.917091 71.082649 73.483833 76.053391 80.313911 84.639069 87.040253 92.20092 97.121391 101.12735"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2552">language content as the URL </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.665,173.567)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2558"><tspan
+           x="0 1.92318 5.9211602 10.23834 14.55552 17.1171 21.43428 25.59186 27.991446 29.914625 32.476208 34.878185 37.277771 39.316662 41.716248 44.115833 49.390614 53.707794 56.10738 60.424561 64.582138 68.899323"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2556">ignores it. If we use </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,347.944,173.567)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2562"><tspan
+           x="0 4.79598 9.59196 14.38794"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2560">slug</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,369.54199,173.567)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2566"><tspan
+           x="0 4.3171802 8.6343603 12.95154"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2564">and </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.665,163.607)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2570"><tspan
+           x="0 1.93116 6.25632 8.8258801 13.15104 15.7206 18.12258 22.447741 26.7729 31.098061 33.500038 35.431198 39.693317 44.018478 48.024437 52.349598 56.674759 60.680717 65.005875 69.17144 71.581398 73.983376 76.55294 80.815056 85.140213 87.542198 91.867355 96.192513 100.19848 104.52364"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2568">later add languages, the page </tspan></text>
+<text
+         transform="matrix(1,0,0,-1,276.665,153.588)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2574"><tspan
+           x="0 6.6002579 10.92063 14.28819 16.688574 20.648251 24.968622 27.538181 29.938566 32.508125 36.833286 41.09301 43.493393 45.424553 49.749714 54.074875 58.080833 62.405994 66.731155 70.737114 75.062271 77.402008 81.727173 84.29673 88.621887 91.031853 92.963013 96.490173"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2572">may get the language prefix.</tspan></text>
+<text
+         transform="matrix(1,0,0,-1,398.945,233.568)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98000002px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text2578"><tspan
+           x="0 4.8119402 9.1450796 13.47822 17.65176 21.9849 26.248613 28.826155"
+           y="0"
+           sodipodi:role="line"
+           id="tspan2576">&lt;absent&gt;</tspan></text>
+</g><g
+       id="g2580"><path
+         d="m 156.42,146.798 h 0.24 v 363.36 h -0.24 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2582"
+         inkscape:connector-curvature="0" /></g><g
+       id="g2584"><path
+         d="m 270.54,146.798 h 0.24 v 363.36 h -0.24 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2586"
+         inkscape:connector-curvature="0" /></g><g
+       id="g2588"><path
+         d="m 392.82,146.798 h 0.24 v 363.36 h -0.24 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2590"
+         inkscape:connector-curvature="0" /></g><g
+       id="g2592"><path
+         d="m 93.12,509.678 h 371.94 v 0.48 H 93.12 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2594"
+         inkscape:connector-curvature="0" /></g><g
+       id="g2596"><path
+         d="m 93.12,488.798 h 371.94 v 0.24 H 93.12 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2598"
+         inkscape:connector-curvature="0" /></g><g
+       id="g2600"><path
+         d="m 93.12,146.798 h 371.94 v 0.24 H 93.12 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path2602"
+         inkscape:connector-curvature="0" /></g></g></svg>

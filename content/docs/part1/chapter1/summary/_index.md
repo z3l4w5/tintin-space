@@ -1,7 +1,7 @@
 ---
-bookFlatSection: true
 title: "Summary"
 ---
+
 # Summary
 
 Jamstack is an approach to web development where most content is stored along with the theme as files and compiled into the website during deployment.
@@ -14,7 +14,6 @@ Hugo is a framework to help build these so-called static websites, which provide
 
 Hugo meets the promise of low ongoing maintenance and a great developer experience, and it scales to a large team.
 
-Hugo especially shines at places where the information flow is from the server to the client, such as personal or company websites, news posts, blogs, docu- mentation, and so forth.
+Hugo especially shines at places where the information flow is from the server to the client, such as personal or company websites, news posts, blogs, documentation, and so forth.
 
-For places where the information flow is from the client to the server or person- alized based on the user, Hugo follows the Jamstack approach. The JavaScript layer is responsible for communicating with the servers over an API.
-
+For places where the information flow is from the client to the server or personalized based on the user, Hugo follows the Jamstack approach. The JavaScript layer is responsible for communicating with the servers over an API.

@@ -28,9 +28,9 @@ Let’s start with index.css. The following listing reads the CSS file using Hug
 
 With resources.GetMatch, we can place the default file in the asset folder of the theme to be overridden in the website. Note that we used the same feature in the products.csv file earlier. To get an exact resource, we can use resources.Get, although GetMatch supports wildcards (also called globs).
 
-The real power of Hugo Pipes comes with the support for processing. Hugo can pro- cess CSS files with the SCSS processor (only in the extended flavor) and the PostCSS postprocessor. SCSS (or SASS) is a CSS superset language that supports nesting, func- tions, and compile-time variables in CSS. The philosophy behind SCSS is compile-time optimization and code generation. This approach matches that of the Jamstack, and  both work well together. Let’s rename the assets/index.css file to assets/index.scss and use the SCSS preprocessor via Hugo Pipes using $css := resources.GetMatch "index.css" | resources.ToCSS.
+The real power of Hugo Pipes comes with the support for processing. Hugo can process CSS files with the SCSS processor (only in the extended flavor) and the PostCSS postprocessor. SCSS (or SASS) is a CSS superset language that supports nesting, functions, and compile-time variables in CSS. The philosophy behind SCSS is compile-time optimization and code generation. This approach matches that of the Jamstack, and  both work well together. Let’s rename the assets/index.css file to assets/index.scss and use the SCSS preprocessor via Hugo Pipes using $css := resources.GetMatch "index.css" | resources.ToCSS.
 
-First, we need to verify if the version of Hugo we have installed is the extended ver- sion. For that, let’s run the command hugo version on the command line. If you have the extended version of Hugo installed, you should see extended in the command- line output:
+First, we need to verify if the version of Hugo we have installed is the extended version. For that, let’s run the command hugo version on the command line. If you have the extended version of Hugo installed, you should see extended in the commandline output:
 
 Hugo Static Site Generator v0.91.2/extended
 
@@ -53,19 +53,19 @@ the regular (non-extended) version of Hugo by default. There is no harm in using
 
 Hugo does not care about the filename extension. We can pass index.css through the SCSS transpiler if we need to. SCSS is beyond the scope of this book. It is not essential to Hugo, and we will not go into it in depth. We only need CSS for styling content, which is the output of SCSS compilation. For readers who do not want to use the extended version of Hugo, we will revert this change, although you are free to con- tinue using SCSS for your websites.
 
-We can use the PostCSS processor for CSS via resources.PostCSS(requires install- ing postcss-cli) without any configuration changes. We can also process JavaScript files through  the  Babel  transcompiler  (requires  installing  @babel/cli  and  @babel/core) for getting access to future JavaScript features via the pipe babel for older versions of web browsers. A much better approach is to use Hugo’s built-in JavaScript bundler, js.Build (we’ll discuss js.Build in chapter 10).
+We can use the PostCSS processor for CSS via resources.PostCSS(requires installing postcss-cli) without any configuration changes. We can also process JavaScript files through  the  Babel  transcompiler  (requires  installing  @babel/cli  and  @babel/core) for getting access to future JavaScript features via the pipe babel for older versions of web browsers. A much better approach is to use Hugo’s built-in JavaScript bundler, js.Build (we’ll discuss js.Build in chapter 10).
 
 {{< hint info >}}
 **NOTE** Hugo has a special integration with the JavaScript ecosystem. Chapter  10 is dedicated entirely to using JavaScript within Hugo-based websites.
 {{< /hint >}}
 
-When using a CSS/JS processor with Hugo Pipes, we can run the JavaScript or CSS files through the Hugo template parser with full access to the entire system of vari- ables, functions, and partials, and make their contents data-driven just like the HTML. The theme color for the Acme Corporation website currently is blue. If we move this   to the template system, we can control this from the Acme configuration file. We already defined this color in config.yaml as color in the parameters. We can access the parameter via {{site.Param "color"}}. Remember from chapter 5 that site is the global variable provided by Hugo for the site variables. It is available in all partials as well as templates. Using site instead of $.Site provides maximum flexibility when using this template across partials.
+When using a CSS/JS processor with Hugo Pipes, we can run the JavaScript or CSS files through the Hugo template parser with full access to the entire system of variables, functions, and partials, and make their contents data-driven just like the HTML. The theme color for the Acme Corporation website currently is blue. If we move this   to the template system, we can control this from the Acme configuration file. We already defined this color in config.yaml as color in the parameters. We can access the parameter via \{\{site.Param "color"}}. Remember from chapter 5 that site is the global variable provided by Hugo for the site variables. It is available in all partials as well as templates. Using site instead of $.Site provides maximum flexibility when using this template across partials.
 
 While the color value is present in the configuration, we do not use it inside index.css and background.svg, which currently use the hardcoded value, "#4f46e5". We need these values to be dynamic so that we can change them in one place in the
-configuration. To do this, we need to convert these files to a template. Then we can run Hugo’s template rendering through this and generate the actual files for the web- site at compile time. Hugo provides a function called resources.ExecuteAsTemplate to process any resource file as a Hugo template. To do this, we will start with logo.svg and background.svg.
+configuration. To do this, we need to convert these files to a template. Then we can run Hugo’s template rendering through this and generate the actual files for the website at compile time. Hugo provides a function called resources.ExecuteAsTemplate to process any resource file as a Hugo template. To do this, we will start with logo.svg and background.svg.
 
 Let’s create a copy of these files and add a .tpl extension to them. While not required, it is a good idea to rename the template files and add the .tpl extension to help in identification.  Next  we  need  to  replace  all  occurrences  of  "#4f46e5" with
-{{site.Params.color | default "#4f46e5"}} in  these  files  (https://github.com/hugoinaction/hugoinaction/tree/chapter-06-resources/04). Note that we will not be removing the older background.svg and logo.svg until chapter 8, where we completely move out of the Eclectic theme. Listing 6.26 provides the code to change to the back- ground.svg template so we can use the supplied theme color. Then listing 6.27 changes the logo.svg template.
+{{site.Params.color | default "#4f46e5"}} in  these  files  (https://github.com/hugoinaction/hugoinaction/tree/chapter-06-resources/04). Note that we will not be removing the older background.svg and logo.svg until chapter 8, where we completely move out of the Eclectic theme. Listing 6.26 provides the code to change to the background.svg template so we can use the supplied theme color. Then listing 6.27 changes the logo.svg template.
 
 {{< details title="Listing 6.26   Changing background.svg (assets/image/background.svg.tpl)" open=true >}}
 ```html
@@ -89,8 +89,7 @@ stroke-width:4;stroke-miterlimit:10;opacity: 0.2}
 ```
 {{< /details >}}
 
-The CSS file for the Acme Corporation website uses CSS custom properties for each color component (red, green and blue) to define its theme. If we simply coded this    with  the  color  value,  a  string  replacement  of  "#4f46e5" with  {{site.Params
-.color}}) would have sufficed. For passing individual color values, we need to do a little more work. The following listing provides individual theme colors to CSS vari- ables from Hugo.
+The CSS file for the Acme Corporation website uses CSS custom properties for each color component (red, green and blue) to define its theme. If we simply coded this    with  the  color  value,  a  string  replacement  of  "#4f46e5" with  {{site.Params.color}}) would have sufficed. For passing individual color values, we need to do a little more work. The following listing provides individual theme colors to CSS variables from Hugo.
 
 {{< details title="Listing 6.28  Providing individual theme colors (assets/index.css.tpl)" open=true >}}
 ![Listing6.28](Listing6.28.svg)
@@ -121,7 +120,7 @@ width="48" />
 ```
 {{< /details >}}
 
-We can update the index.css.tpl to render the background.svg template. The follow-   ing listing shows how to update index.css to use the .tpl file for this.
+We can update the index.css.tpl to render the background.svg template. The following listing shows how to update index.css to use the .tpl file for this.
 
 {{< details title="Listing 6.31  Updating index.css for background.svg (assets/index.css.tpl)" open=true >}}
 ```html
@@ -131,7 +130,7 @@ resources.ExecuteAsTemplate "background.svg" "nothing" | resources.Minify}} back
 {{< /details >}}
 
 {{< hint warning >}}
-**NOTE** The caching mechanism for Hugo becomes compromised if we use resources.ExecuteAsTemplate. It is strongly advised to use resources .ExecuteAsTemplate within a partial and to call it with partialCached to pre- vent unnecessary recalculation. We leave the task of moving logo.svg and index.css parsing into separate partials as an exercise for the reader.
+**NOTE** The caching mechanism for Hugo becomes compromised if we use resources.ExecuteAsTemplate. It is strongly advised to use resources.ExecuteAsTemplate within a partial and to call it with partialCached to prevent unnecessary recalculation. We leave the task of moving logo.svg and index.css parsing into separate partials as an exercise for the reader.
 {{< /hint >}}
 
 {{< hint info >}}
@@ -148,7 +147,7 @@ Now we can control the color in the website configuration (for example, to "#DC2
 {{< figure src="Figure6.4.svg" title="Figure 6.4 Changing the website’s theme color in the configuration file to \"#DC2626\"" >}}
 
 Another important feature is support for CSS concatenation. Hugo can easily merge multiple CSS files into one for release, but we cannot concatenate images. In the resources  for  chapter  6,  you  will  find  the  file  additional.css.tpl  (https://github
-.com/hugoinaction/hugoinaction/tree/chapter-06-resources/05). We can place this file in the assets folder for consumption. Then we can concatenate it using resources.Concat. Note that resources.Concat needs valid mime types to work. Therefore, we will use index.css and not index.css.tpl for the concat API. The follow- ing listing uses this API to allow loading multiple CSS templates via a single call.
+.com/hugoinaction/hugoinaction/tree/chapter-06-resources/05). We can place this file in the assets folder for consumption. Then we can concatenate it using resources.Concat. Note that resources.Concat needs valid mime types to work. Therefore, we will use index.css and not index.css.tpl for the concat API. The following listing uses this API to allow loading multiple CSS templates via a single call.
 
 {{< details title="Listing 6.32  Using the concat API (layouts/partials/index.css.html)" open=true >}}
 ![Listing6.32](Listing6.32.svg)
@@ -158,7 +157,7 @@ Another important feature is support for CSS concatenation. Hugo can easily merg
 **CODE CHECKPOINT**	https://chapter-06-17.hugoinaction.com, and source code: https://github.com/hugoinaction/hugoinaction/tree/chapter-06-17.
 {{< /hint >}}
 
-To get a slice (array) of all files matching a glob pattern, we can use resources.Match. This way we can develop independent files and supply a merged version in produc- tion. Note that additional.css provides a subtle change in the design on the website’s header, which we can use to verify the loading of this file.
+To get a slice (array) of all files matching a glob pattern, we can use resources.Match. This way we can develop independent files and supply a merged version in production. Note that additional.css provides a subtle change in the design on the website’s header, which we can use to verify the loading of this file.
 
 {{< hint info >}}
 **Exercise 6.4**
@@ -174,9 +173,8 @@ Add a hero image to the Acme Corporation website home page. The hero image is su
 
 ## 6.3.2 Handling images
 
-While vector graphics and SVGs are great for file sizes, not everything is easily build- able using vector graphics. Raster images like JPEGs and PNGs are significant portions of the modern web, forming the bulk of the network traffic for many websites. Hugo
-
-Pipes broadly supports these images, including manipulations that allow us to prepare them for optimal delivery over the web. Although our blog posts have images, we do not use these on the index page of our website. Without the images, our blog posts look incomplete.
+While vector graphics and SVGs are great for file sizes, not everything is easily build- able using vector graphics. Raster images like JPEGs and PNGs are significant portions of the modern web, forming the bulk of the network traffic for many websites. 
+Hugo Pipes broadly supports these images, including manipulations that allow us to prepare them for optimal delivery over the web. Although our blog posts have images, we do not use these on the index page of our website. Without the images, our blog posts look incomplete.
 
 To add a cover image for blog posts, the resources in the global assets location are accessible via resources.GetMatch. The following listing shows how we can access the resources present in page bundles via Page.Resources.GetMatch to add the cover image.
 
@@ -200,10 +198,10 @@ To add a cover image for blog posts, the resources in the global assets location
 
 The code in the previous listing has a significant performance issue. The cover images for the blog posts are huge and have more pixels than what is needed to render them in the small view on the home page. We cannot resize them in the page bundle because the single page needs bigger images. Hugo provides support for dynamically resizing images during compilation for this use. Here are the resizing options in Hugo:
 
-    .Resize—This option resizes the image. It can take parameters in the form of the desired width and height. For example, {{ $hero.Resize "200x200"}} resizes the hero image to 200×200 px, ignoring the aspect ratio. If we use
-{{ $hero.Resize "200x"}}, the image is resized to the width of 200 px with the height based on the aspect ratio, and {{ $hero.Resize "x200"}} resizes the image to the height of 200 px with the width calculated based on the origi-  nal aspect ratio.
+    .Resize—This option resizes the image. It can take parameters in the form of the desired width and height. For example, \{\{ $hero.Resize "200x200"}} resizes the hero image to 200×200 px, ignoring the aspect ratio. If we use
+{{ $hero.Resize "200x"}}, the image is resized to the width of 200 px with the height based on the aspect ratio, and {{ $hero.Resize "x200"}} resizes the image to the height of 200 px with the width calculated based on the original aspect ratio.
 
-    .Fit—This option resizes the image to fit within the supplied box. For exam- ple, {{ $hero.Fit "200x200"}} ensures that either the width or the height is 200 px and the other dimension (height or width) is less than 200 px. A  1000×800 image will shrink to 200×160 while a 800×1000 image will become 160×200. This is similar to the CSS property object-fit: contain or back- ground-fit: contain.
+    .Fit—This option resizes the image to fit within the supplied box. For example, {{ $hero.Fit "200x200"}} ensures that either the width or the height is 200 px and the other dimension (height or width) is less than 200 px. A  1000×800 image will shrink to 200×160 while a 800×1000 image will become 160×200. This is similar to the CSS property object-fit: contain or back-ground-fit: contain.
 
     .Fill—This option resizes the image to fill the  supplied box while cropping  the outside parts. For example, {{ $hero.Fill "200x200"}} creates a 200×200 image where the image would be resized and cropped either in the length or      the breadth. This is equivalent to object-fit: cover or background-fit: cover. .Fill in Hugo can also take an optional parameter that defines the part of the image to keep. For example, if we use .Fill "200x200 left", Hugo leaves the leftmost part of the image intact. Hugo also offers an option called smart, where Hugo automatically detects the important part of the image.
 
@@ -222,7 +220,7 @@ The maximum size needed for the cover images on the home screen has a width of a
 src="{{((.Resources.GetMatch "cover.*").Resize "1000x").Permalink}}" />
 {{< /details >}}   
 
-This code provides massive savings when loading the index page in terms of file size. It is highly recommended to convert images to the WebP format, which offers further file size reduc- tions. We can pass webp as an option in .Resize (for example, .Resize "1000x webp"). This option converts the image to the WebP format if we use the extended fla- vor of Hugo. WebP has >95% browser adoption, and unless we are targeting ancient browsers, it is safe to use WebP as the only format for images on our websites. If older browser support is needed, we can use the HTML picture tag to provide both WebP and JPEG/PNG versions of the image. To keep the dependency on the extended ver- sion of Hugo optional, we are not using WebP for this book.
+This code provides massive savings when loading the index page in terms of file size. It is highly recommended to convert images to the WebP format, which offers further file size reductions. We can pass webp as an option in .Resize (for example, .Resize "1000x webp"). This option converts the image to the WebP format if we use the extended flavor of Hugo. WebP has >95% browser adoption, and unless we are targeting ancient browsers, it is safe to use WebP as the only format for images on our websites. If older browser support is needed, we can use the HTML picture tag to provide both WebP and JPEG/PNG versions of the image. To keep the dependency on the extended ver- sion of Hugo optional, we are not using WebP for this book.
 
 {{< hint info >}}
 **CODE CHECKPOINT**	https://chapter-06-20.hugoinaction.com, and source code: https://github.com/hugoinaction/hugoinaction/tree/chapter-06-20.
@@ -258,7 +256,7 @@ newG = 255 - 255 x 85.10/100 = 38
 newB = 255 - 255 x 85.10/100 = 38
 ```
 
-We can call this in the head section of our base template to load the favicon. The fol- lowing listing shows the code for this.
+We can call this in the head section of our base template to load the favicon. The following listing shows the code for this.
 
 {{< details title="Listing 6.36  Loading the favicon (layouts/modern/baseof.html)" open=true >}}
 ```html
@@ -271,7 +269,7 @@ type="image/png" href="{{partialCached "favicon.png.html" $ "nothing"}}">
 **CODE CHECKPOINT**	https://chapter-06-21.hugoinaction.com, and source code: https://github.com/hugoinaction/hugoinaction/tree/chapter-06-21.
 {{< /hint >}}
 
-We can redo the products section on the index page to include a list of cards with product images rather than using a table and provide a rating for these. We have all the information already except for the product images, which are provided in the chapter resources (https://github.com/hugoinaction/hugoinaction/tree/chapter-06- resources/09). Because Acme Corporation sells the images, we do not want to expose raw images over the internet. Hugo offers support for an Overlay filter that we can use to provide a watermark. The following listing adds the watermark and then uses Unicode stars (&star; and &starf;) to provide the star ratings. Figure 6.6 shows a completed card.
+We can redo the products section on the index page to include a list of cards with product images rather than using a table and provide a rating for these. We have all the information already except for the product images, which are provided in the chapter resources (https://github.com/hugoinaction/hugoinaction/tree/chapter-06-resources/09). Because Acme Corporation sells the images, we do not want to expose raw images over the internet. Hugo offers support for an Overlay filter that we can use to provide a watermark. The following listing adds the watermark and then uses Unicode stars (&star; and &starf;) to provide the star ratings. Figure 6.6 shows a completed card.
 
 {{< details title="Listing 6.37 Showing products as cards (layouts/modern/index.html)" open=true >}}
 ![Listing6.37](Listing6.37.svg)
@@ -297,7 +295,7 @@ We can also use Hugo Pipes to access other nontextual assets like PDFs, ZIPs, or
 **Exercise 6.5**
 
 Which of the following are the reasons to use Hugo Pipes over prebuilding content outside Hugo or using browser JavaScript? (Select all that apply.)
-- a. Hugo Pipes run when the user requests data and, therefore, no needless exe- cution happens for data that is never requested.
+- a. Hugo Pipes run when the user requests data and, therefore, no needless execution happens for data that is never requested.
 - b. Hugo Pipes have access to the website configuration and front matter where we can consolidate all the website settings like theme color, which can be passed on to the relevant JavaScript, CSS, or image code by Hugo.
 - c. Hugo Pipes can cache files across builds, only updating content when it changes.
 - d. Hugo Pipes can generate multiple sizes for images based on need, and the size requirement can be changed by a simple string replacement in code.

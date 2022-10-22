@@ -7,9 +7,7 @@ draft: true
 
 # 5.1 Separating data and design
 
-To control the website’s index page with a markup document, we need to create the markup document first. The content folder is the branch bundle for the entire website. We   need   to   place   _index.md   (https://github.com/hugoinaction/hugoinaction/ tree/chapter-05-resources/01) in that folder to represent the /index.html web page. Note that if we use index.md instead, the website’s root becomes a leaf bundle and will not use the template we provide in the layouts folder. With the markup document present, we can move the data currently hardcoded in index.html into the front matter of this markup document. The following listing shows the contents of the index page using Markdown as the markup language. We’ll use this information in the index.html page.
-
-{{< figure src="Figure5.1.svg" title="Figure 5.1 Hugo compiles the template file provided in the layouts folder in combination with the markup content to generate the HTML content for the web page. The developer provides the template file and uses some content to ensure that the Hugo build process generates the content for a web page correctly. This chapter goes through the program logic that the developer needs to create between the template and the content to generate a single web page." >}}
+To control the website’s index page with a markup document, we need to create the markup document first. The content folder is the branch bundle for the entire website. We need to place _index.md   (https://github.com/hugoinaction/hugoinaction/tree/chapter-05-resources/01) in that folder to represent the /index.html web page. Note that if we use index.md instead, the website’s root becomes a leaf bundle and will not use the template we provide in the layouts folder. With the markup document present, we can move the data currently hardcoded in index.html into the front matter of this markup document. The following listing shows the contents of the index page using Markdown as the markup language. We’ll use this information in the index.html page.
 
 {{< details title="Listing 5.1  The contents of the index page in Markdown (content/_index.md)" open=true >}}
 ```yaml
@@ -39,8 +37,7 @@ $.Description. A page-level variable links to itself via the Page property, and 
 {{< hint info >}}
 **Exercise 5.1**
 
-A shortcode in Hugo also allows for Go templates. What would the top-level context
-$ represent in a shortcode?
+A shortcode in Hugo also allows for Go templates. What would the top-level context $ represent in a shortcode?
 - a. The shortcode
 - b. The containing page
 - c. The entire site
@@ -222,13 +219,13 @@ Having deeply nested properties in objects like site.Params makes the template l
 The context variable can be loosely compared to the this variable in object-oriented programming languages, which becomes the method’s object. When rendering a page, the context variable represents a page, but if we are rendering a taxonomy, it becomes that taxonomy. If we render a shortcode, the context variable becomes that shortcode. When working in the context of a property, we can override the context variable with that property and access that property with the . variable.
 
 Hugo provides the with conditional, which overrides the context variable in its
-code block. Using with, we can write a less verbose existence check. That’s because with calls its inner code block if the variable is supplied with a value. We can pass a variable or an expression to with. If it evolves to a truthful value (not nil, 0, false, or an empty slice, dictionary, or string) that value is set as the value of . (the dot) inside the block contained in the with statement. In case the value is not true, the with block is skipped. The following listing shows how to override the context variable  using with. The . represents the value of the variable passed to with.
+code block. Using with, we can write a less verbose existence check. That’s because with calls its inner code block if the variable is supplied with a value. We can pass a variable or an expression to with. If it evolves to a truthful value (not nil, 0, false, or an empty slice, dictionary, or string) that value is set as the value of . (the dot) inside the block contained in the with statement. In case the value is not true, the with block is skipped. The following listing shows how to override the context variable  using `with`. The . represents the value of the variable passed to with.
 
 {{< details title="Listing 5.13 Overriding the context variable (layouts/index.html)" open=true >}}
 {{with $title}}<title>{{.}}</title>{{end}}
 {{< /details >}}
 
-Inside the with code block, the context variable  . was replaced with the value of  the
+Inside the `with` code block, the context variable  . was replaced with the value of  the
 $title variable. Note that if we do not set $title, this code does not execute. However, if we provide an else code block in the with block, Hugo runs that code instead.
 
 {{< hint info >}}
@@ -263,7 +260,9 @@ In this section, we will enhance the home page with more Hugo features to make i
 After “humanizing” the subtitle, we can further use Markdown processing by passing the data through the Markdown parser via the markdownify function. In section 3.1.4, we discussed how the theme authors can parse Markdown from front matter data; markdownify is the function to do this. The following listing shows how to add this function for future Markdown support.
 
 {{< details title="Listing 5.15  Adding the markdownify function (layouts/index.html)" open=true >}}
+```go
 {{with .Param "subtitle"}}<h2>{{markdownify (humanize .)}}</h2>{{end}}
+```html
 {{< /details >}}   	
 
 {{< figure src="Figure5.2.svg" title="Figure 5.2 The Acme Corporation home page, where we used Markdown on the subtitle, and markup to control the index.html page in the layouts folder" >}}
@@ -276,7 +275,7 @@ Although calling nested functions using parentheses is a perfectly valid approac
 ```
 {{< /details >}}
 
-The functional programming-style approach is easier to read and is preferred when     the function takes just one argument. We will use this as an opportunity to make the words “world” and “live in” bold in the subtitle by wrapping them with double stars (**) as the following listing shows. We also need to link the Explore button using the explore option in the front matter for the index page to make that page data driven.
+The functional programming-style approach is easier to read and is preferred when the function takes just one argument. We will use this as an opportunity to make the words “world” and “live in” bold in the subtitle by wrapping them with double stars (**) as the following listing shows. We also need to link the Explore button using the explore option in the front matter for the index page to make that page data driven.
 
 {{< details title="Listing 5.17  Highlighting parts of the subtitle (content/_index.md)" open=true >}}
 ![Listing5.17](Listing5.17.svg)
@@ -301,7 +300,7 @@ We have Markdown content in the content file. This content is available in its H
 
 {{< figure src="Figure5.3.svg" title="Figure 5.3 Adding Markdown content to the home page. (Photo for the about image by Angela Pencheva on Unsplash; photo for the contact image by Cristofer Jeschkeon on Unsplash.)" >}}
 
-Let’s add some Markdown data to the Acme Corporation’s website’s home page (https:// github.com/hugoinaction/hugoinaction/tree/chapter-05-resources/03).  The  following listing provides the data for the index page.
+Let’s add some Markdown data to the Acme Corporation’s website’s home page (https://github.com/hugoinaction/hugoinaction/tree/chapter-05-resources/03).  The  following listing provides the data for the index page.
 
 {{< details title="Listing 5.19 Adding descriptive content in Markdown (content/_index.md)" open=true >}}
 ```markdown
@@ -348,10 +347,9 @@ Hugo automatically runs this content provided in the Markdown file through the M
 {{< hint info >}}
 **Customizing the generated HTML from Markdown**
 
-While generating HTML from Markdown, Hugo provides the developer with the flexibility to customize the HTML generated for a specific element. Special templates, called render hook templates, can control exactly how this rendering happens. For example, we can use the custom templates at layouts/_default/_markup/render-image
-.html, layouts/_default/_markup/render-link.html, or layouts/_default/_markup/ render-heading.html, and then decide on how to render the inline images, links, and headings provided in Markdown.
+While generating HTML from Markdown, Hugo provides the developer with the flexibility to customize the HTML generated for a specific element. Special templates, called render hook templates, can control exactly how this rendering happens. For example, we can use the custom templates at layouts/_default/_markup/render-image.html, layouts/_default/_markup/render-link.html, or layouts/_default/_markup/ render-heading.html, and then decide on how to render the inline images, links, and headings provided in Markdown.
 
-These templates have access to the entire set of page and site variables, along with unique variables like .Level, .Text, .Title, and .Destination for the HTML headings, display text, appended title, and the provided URL in Markdown. In chapter 6, we will create custom render hooks to control Markdown rendering.
+These templates have access to the entire set of page and site variables, along with unique variables like .Level, .Text, .Title, and  for the HTML headings, display text, appended title, and the provided URL in Markdown. In chapter 6, we will create custom render hooks to control Markdown rendering.
 
 Note that the templates in the _default folder apply to the whole website. We can limit these to a set of pages by moving these templates to a specific content type. We will discuss content types in chapter 7. Developers can further process the generated HTML string using methods like findRE to replace certain substrings.
 {{< /hint >}}

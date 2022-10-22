@@ -1,12 +1,12 @@
 ---
 weight: 3
 bookFlatSection: true
-title: "第3章 使用内容的标记"
+title: "第3章 使用标记语言内容"
 bookToc: false
 bookCollapseSection: true
 ---
 
-# 第3章 使用内容标记
+# 第3章 使用标记语言内容
 
 {{< hint info >}}
 **本章涵盖**

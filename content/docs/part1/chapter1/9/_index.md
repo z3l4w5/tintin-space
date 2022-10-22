@@ -21,15 +21,13 @@ Hugo scales to teams updating content in parallel without any problem. Businesse
 
 With the JavaScript and API layer of the Jamstack, you can extend Hugo websites  to provide features reserved for dynamic websites updating on the fly. You will see in this book how we can build low-cost, low-maintenance features like shopping carts while statically managing the rest of the website.
 
-How to be successful with Hugo and this book
-
 ## 1.9.3 Documentation websites
 
 Hugo has excellent support for reading structured data from a CSV or JSON files and then creating a website from those, and you can still apply custom themes! It has built- in support for syntax highlighting and can scale to a large number of pages quickly. These make it well suited to write custom websites that can read from the API docs   and prepare a neatly formatted version from the specification.
 
 ## 1.9.4 Hybrid Jamstack-based websites
 
-All websites have pages for displaying content. These pages include, for example, a privacy policy, a generic About Us page, a blog, a product listing page, and a news- room where the company releases press statements. Hugo and the Jamstack can help keep that content running at a low cost with high availability and good performance. The server technology-based pages can be delivered separately or can be built-in Java- Script, communicating with the servers using APIs exposed by them.
+All websites have pages for displaying content. These pages include, for example, a privacy policy, a generic About Us page, a blog, a product listing page, and a news-room where the company releases press statements. Hugo and the Jamstack can help keep that content running at a low cost with high availability and good performance. The server technology-based pages can be delivered separately or can be built-in JavaScript, communicating with the servers using APIs exposed by them.
 
 {{< hint info >}}
 **Exercise 1.5**

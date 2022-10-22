@@ -12,6 +12,6 @@ Hugo provides the means to manage dependencies in whatever approach we desire. W
 
 We can use Hugo Modules to create themes, template plugins, and content plugins. These plugins can mount to any location in a Hugo repository and have access to the entire template language. We can override specific files in a plugin for customization.
 
-Modules can depend on other modules, and we can decide to use the depen- dencies directly.
+Modules can depend on other modules, and we can decide to use the dependencies directly.
 
 Hugo makes it easy to deduplicate and have one copy of a module.

@@ -7,7 +7,7 @@ draft: true
 
 # 3.5 Other metadata languages
 
-YAML also has the same tradeoff as Markdown: human readability over a strict specifi- cation. This tradeoff comes with complexities in parsers and weird edge cases that might not be easy to understand. We have chosen YAML in this book for the configu- ration file due to its popularity and ease of readability. Hugo supports TOML and   JSON as other metadata languages apart from YAML. Appendix B goes over TOML and JSON in detail, and table 3.2 provides a quick comparison of their features.
+YAML also has the same tradeoff as Markdown: human readability over a strict specifi- cation. This tradeoff comes with complexities in parsers and weird edge cases that might not be easy to understand. We have chosen YAML in this book for the configuration file due to its popularity and ease of readability. Hugo supports TOML and JSON as other metadata languages apart from YAML. Appendix B goes over TOML and JSON in detail, and table 3.2 provides a quick comparison of their features.
 
 Table 3.2 Metadata language comparison
 

@@ -1,7 +1,6 @@
 ---
 weight: 1
 title: "1.1 Jamstack中的技术栈"
-draft: true
 ---
 
 # 1.1 Jamstack中的技术栈

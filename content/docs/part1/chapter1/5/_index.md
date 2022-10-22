@@ -11,7 +11,7 @@ One assumption of the Jamstack is that the content is available at compile time 
 
 ## 1.5.1 When there is dynamic data with no historical significance
 
-If we are building a dashboard-type application with ever-changing data, then precom- pilation as a concept does not provide great value. Sensor-based data  can  change within milliseconds. In many cases, no one reads this data. Jamstack  does not work  well with this type of application. A major exception is reporting, where some data needs to live for a long time, is read frequently, and is rarely, if ever, changed. This  type of report is a perfect case to be pre-generated and saved. There is no point in   doing this on the fly. The Jamstack fits the reporting use case perfectly.
+If we are building a dashboard-type application with ever-changing data, then precompilation as a concept does not provide great value. Sensor-based data  can  change within milliseconds. In many cases, no one reads this data. Jamstack  does not work  well with this type of application. A major exception is reporting, where some data needs to live for a long time, is read frequently, and is rarely, if ever, changed. This  type of report is a perfect case to be pre-generated and saved. There is no point in   doing this on the fly. The Jamstack fits the reporting use case perfectly.
 
 ## 1.5.2 Building based on user-generated content with transient data
 
@@ -19,13 +19,13 @@ Websites like Twitter and Facebook have tiny posts that we rarely read as indivi
 
 ## 1.5.3 Having user-specific web pages
 
-There are websites where the developers personalize each page for the user. This data is different because it’s based on the user ID. Therefore, it might not make sense to precompile. Most users might not log in. There is no public access to bots that can cause increased load. The whole concept of many reads and a single write for the data is false. An example of this would be a calendar application. Because each user’s cal- endar is different, it does not make sense to pre-generate everyone’s daily calendar.
+There are websites where the developers personalize each page for the user. This data is different because it’s based on the user ID. Therefore, it might not make sense to precompile. Most users might not log in. There is no public access to bots that can cause increased load. The whole concept of many reads and a single write for the data is false. An example of this would be a calendar application. Because each user’s calendar is different, it does not make sense to pre-generate everyone’s daily calendar.
 
 ## 1.5.4 When there is no data to compile
 
 Web apps are websites where the user is a creator and a consumer. For a document editor (think Google Docs), there is no data to present. In these cases, the Jamstack approach does not help.
 
-Note that the Jamstack is helpful in all the previous cases for building the static parts of the website. These include the Privacy Policy page and the Terms of Use page. Even the About Us page and the company blog can be built optimally using the Jam- stack. These pages could be set up using the Jamstack approach, while a different stack can serve the rest of the website or web application.
+Note that the Jamstack is helpful in all the previous cases for building the static parts of the website. These include the Privacy Policy page and the Terms of Use page. Even the About Us page and the company blog can be built optimally using the Jamstack. These pages could be set up using the Jamstack approach, while a different stack can serve the rest of the website or web application.
 
 {{< hint info >}}
 **Exercise 1.3**

@@ -2,7 +2,6 @@
 weight: 5
 title: "4.5 YouTube, Gists, and other snippets via shortcodes"
 date: 2022-09-12T18:26:30+08:00
-draft: true
 ---
 
 # 4.5 YouTube, Gists, and other snippets via shortcodes
@@ -27,9 +26,11 @@ You’ll find a copy of the bundled shortcodes like youtube and highlight used i
 
 CODE CHECKPOINT     https://chapter-04-10.hugoinaction.com, and source code: https://github.com/hugoinaction/hugoinaction/tree/chapter-04-10.
 
-{{< figure src="Figure4.11.svg" title="Figure 4.11 There are multiple ways to use built-in shortcodes in Hugo. You can directly call the youtube shortcode, pass content to the highlight shortcode, or nest shortcodes." >}}
+![Figure4.11](Figure4.11.svg)
 
-## 4.5.1Shortcodes with content
+Figure 4.11 There are multiple ways to use built-in shortcodes in Hugo. You can directly call the youtube shortcode, pass content to the highlight shortcode, or nest shortcodes.
+
+## 4.5.1 Shortcodes with content
 
 Shortcodes can also take content as an argument that the shortcode author can process using the Go template language. This way, shortcode creators can do processing on the passed content before rendering the final HTML. The content we give to a Hugo shortcode can be in the form of HTML or markup.
 
@@ -53,7 +54,7 @@ We can build nested shortcodes by inserting a shortcode in another. The innermos
 
 Hugo comes with its own built-in generic shortcodes. Some themes may come bundled with shortcodes for the users. We also have community-built shortcodes available that we can add to our website and use as needed. We are free to create custom shortcodes in the shortcodes subfolder within the layouts folder. Some of the built-in Hugo shortcodes include the following:
 - gist—Takes the user and gist ID as parameters and renders a GitHub gist. You can also pass a filename if the gist has multiple files.
-- ref—Takes a file path in the Hugo website and provides an absolute link to that file. If the url or slug is overridden in the front matter of a page, the ref short- code follows the newly provided location.
+- ref—Takes a file path in the Hugo website and provides an absolute link to that file. If the url or slug is overridden in the front matter of a page, the ref shortcode follows the newly provided location.
 - relref—Provides the relative link to the file in the Hugo website. This shortcode works similar to ref.
 - figure—Renders an image with a caption.
 - tweet—Renders a Tweet with the given ID.

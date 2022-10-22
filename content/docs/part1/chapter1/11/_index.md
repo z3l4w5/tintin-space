@@ -18,5 +18,5 @@ To succeed with this book, you need a machine with a modern operating system, ac
 {{< hint info >}}
 **Exercise 1.6**
 
-Hugo works on the layer of the Jamstack.
+Hugo works on the ____ layer of the Jamstack.
 {{< /hint >}}

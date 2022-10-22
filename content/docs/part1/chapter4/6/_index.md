@@ -44,19 +44,19 @@ We will embellish the About page for the Acme Corporation website by adding divi
 
 While most shortcodes are HTML, we have the option to write shortcodes in markup languages like Markdown. Hugo converts the Markdown shortcodes to HTML if we call them using percent signs (%) instead of angle brackets (<>) as we do in regular shortcodes. This way, we can move data in a shared place and then use that from everywhere it is needed.
 
-We can move the product information table from the About page into a shortcode and share it in the blog post about the manufacturing process on the Acme Corporation website. Let’s create a file named productInfo.md in the layouts/shortcodes folder and move the contents of the product information to this page. Then we can place the string {{——% productInfo %}} anywhere in our content to get the product information table. Let’s do that for the About page and the manufacturing process page on the Acme  Corporation  website  (https://github.com/hugoinaction/hugoinaction/tree/ chapter-04-resources/10).
+We can move the product information table from the About page into a shortcode and share it in the blog post about the manufacturing process on the Acme Corporation website. Let’s create a file named productInfo.md in the layouts/shortcodes folder and move the contents of the product information to this page. Then we can place the string {{——% productInfo %}} anywhere in our content to get the product information table. Let’s do that for the About page and the manufacturing process page on the Acme  Corporation  website  (https://github.com/hugoinaction/hugoinaction/tree/chapter-04-resources/10).
 
 {{< hint info >}}
 **CODE CHECKPOINT**	https://chapter-04-12.hugoinaction.com, and source code: https://github.com/hugoinaction/hugoinaction/tree/chapter-04-12.
 {{< /hint >}}
 
-## 4.6.3Inline shortcodes
+## 4.6.3 Inline shortcodes
 
 We have built shortcodes in a separate file (like productInfo.md), which is available globally and shared in the entire website. Alternatively, if we want to have a shortcode specific to the page, we can declare the shortcode in the Markdown content of the page and use it in that page. This shortcode can do everything a regular shortcode can. This does not create variables outside the page and, therefore, speeds up compilation along with keeping the global list of shortcodes clean. These shortcodes are called inline shortcodes because they are declared inline in the file where we invoke them.
 
 Inline shortcodes are disabled by default because shortcodes can access the entire website configuration. If all content is coming from a trusted source, this is not an issue. We can enable inline shortcodes by creating a security configuration file (config/_default/security.yaml) with the setting enableInlineShortcodes: true. Once we do that, we can declare a shortcode in our content using .inline after the name we want to give to the shortcode.
 
-Inline  shortcodes execute as soon as they are declared and cannot be nested. We  can generate both HTML and markup-based inline shortcodes. The following listing shows how to use inline shortcodes. Unlike regular shortcodes, we declare these inline with the content.
+Inline  shortcodes execute as soon as they are declared and cannot be nested. We can generate both HTML and markup-based inline shortcodes. The following listing shows how to use inline shortcodes. Unlike regular shortcodes, we declare these inline with the content.
 
 {{< details title="Listing 4.22 Using inline shortcodes in Hugo" open=true >}}
 ![Listing4.22](Listing4.22.svg)

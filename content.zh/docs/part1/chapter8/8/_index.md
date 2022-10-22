@@ -11,13 +11,13 @@ draft: true
 
 我们可以将依赖项从依赖项中的任何文件夹安装到我们网站中的任何位置。 Hugo模块与Hugo管道相结合，可以作为一个轻量级捆绑器，为我们的网站链接和引入资源(例如，主题、布局、资产、内容)，作为Java脚本中的NPM+webpack生态系统或Ruby/Rail中的RubyGems链轮的替代方案。 与强制内容挂载到特定文件夹的资产系统 (例如，JavaScript中的node_modules) 不同，Hugo模块可以映射到其文件系统中的任何位置。 我们可以将资源模板文件(*.css.tpl)导入到Assets文件夹中以在网站上使用它们。
 
-e github.com/hugoinaction/AcmeSupport存储库中存在其它支持文件，因此我们将通过Hugo模块导入这些文件。 对于脱机使用，第8章的章节资源还包含此存储库的内容，我们可以使用前面描述的替换指令(https://github.com/hugoinaction/hugoinaction/树/第08章-资源/02)导入这些内容。
+github.com/hugoinaction/AcmeSupport存储库中存在其它支持文件，因此我们将通过Hugo模块导入这些文件。 对于脱机使用，第8章的章节资源还包含此存储库的内容，我们可以使用前面描述的替换指令(https://github.com/hugoinaction/hugoinaction/树/第08章-资源/02)导入这些内容。
 
 首先，我们需要向AcmeSupport存储库添加一个依赖项。 默认情况下，Hugo将所有依赖项导入到Themes文件夹。 由于主题是最常见的依赖项，因此此默认设置允许我们通过指定GitHub位置来导入主题，如第8.3节所述。
 
 默认情况下，Hugo挂载/Themes文件夹中的所有模块。 AcmeSupport存储库由CSS模板文件组成。 因此，我们需要手动覆盖挂载此依赖项的默认位置。 Hugo允许我们在源以及目标存储库中指定挂载点。
 
-AcmeSupport存储库不是Hugo模块； 里面没有go.mo d文件。 尽管如此，我们仍然可以成功地进口它。 要指定其挂载点，我们可以进入集成存储库的配置 (AcmeTheme代码库)，并在模块部分中指定挂载点，如下面的清单所示。 我们将Assets文件夹(源名称可以是任何内容)挂载到主题存储库中的Assets文件夹(目标名称，需要是Assets)。
+AcmeSupport存储库不是Hugo模块； 里面没有go.mod文件。 尽管如此，我们仍然可以成功地进口它。 要指定其挂载点，我们可以进入集成存储库的配置 (AcmeTheme代码库)，并在模块部分中指定挂载点，如下面的清单所示。 我们将Assets文件夹(源名称可以是任何内容)挂载到主题存储库中的Assets文件夹(目标名称，需要是Assets)。
 
 {{< details title="Listing 8.7 Mounting the AcmeSupport repository (AcmeTheme/config.yaml)" open=true >}}
 ```yaml
@@ -46,7 +46,7 @@ module:
 {{< hint info >}}
 **Exercise 8.2**
 
-go.mo d文件中存在哪些信息？(选择所有适用的。)
+go.mod文件中存在哪些信息？(选择所有适用的。)
 - a. Name of the module
 - b. Version of Hugo used to create the module
 - c. List of dependencies (both direct and indirect) of the website

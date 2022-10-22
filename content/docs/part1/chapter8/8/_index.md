@@ -7,7 +7,7 @@ draft: true
 
 # 8.8 Adding nested dependencies
 
-With Hugo Modules so far, we have been able to load the theme dynamically and pro- vide some level of checks (like the minimum Hugo version needed) for the theme to be used correctly. The main power of Hugo Modules is the ability for the theme to have its own dependencies, which we will use now. Because turning a theme into a Hugo module makes it possible for theme-specific dependencies, these will be pulled into the website when installing the theme. In Hugo, we can have various module dependencies from templates and content to JavaScript and CSS.
+With Hugo Modules so far, we have been able to load the theme dynamically and provide some level of checks (like the minimum Hugo version needed) for the theme to be used correctly. The main power of Hugo Modules is the ability for the theme to have its own dependencies, which we will use now. Because turning a theme into a Hugo module makes it possible for theme-specific dependencies, these will be pulled into the website when installing the theme. In Hugo, we can have various module dependencies from templates and content to JavaScript and CSS.
 
 We can mount dependencies from any folder in a dependency to any location in our website. Hugo Modules coupled with Hugo Pipes can act as a lightweight bundler for linking to and bringing in resources (for example, themes, layouts, assets, content) for our website as an alternative to the npm plus webpack ecosystem in JavaScript or to RubyGems Sprockets in Ruby/Rails. Unlike asset systems that force content to mount to a specific folder (for example, node_modules in JavaScript), Hugo Modules can map to anywhere in its filesystem. We can import the asset template files (*.css.tpl) into the assets folder to use them on the website.
 
@@ -17,7 +17,7 @@ First, we need to add a dependency to the AcmeSupport repository. By default, Hu
 
 Hugo mounts all modules in the /themes folder by default. The AcmeSupport repository consists of CSS template files. Therefore, we need to manually override the default location where this dependency is mounted. Hugo allows us to specify mount points in the source as well as the target repository.
 
-The AcmeSupport repository is not a Hugo module; there is no go.mod file in it. Still, we can import it successfully. To specify its mount points, we can go in to the con- figuration of the integrating repository (the AcmeTheme codebase) and specify the mount points in the module section as the following listing shows. We will mount the assets folder (the source name can be anything) to the assets folder (the destination name, needs to be assets) in the theme repository.
+The AcmeSupport repository is not a Hugo module; there is no go.mod file in it. Still, we can import it successfully. To specify its mount points, we can go in to the configuration of the integrating repository (the AcmeTheme codebase) and specify the mount points in the module section as the following listing shows. We will mount the assets folder (the source name can be anything) to the assets folder (the destination name, needs to be assets) in the theme repository.
 
 {{< details title="Listing 8.7 Mounting the AcmeSupport repository (AcmeTheme/config.yaml)" open=true >}}
 ```yaml
@@ -54,7 +54,7 @@ What information is present in the go.mod file? (Select all that apply.)
 - e. Mount paths for various folders in the repository
 {{< /hint >}}
 
-We can mount as many subfolders as we desire because the mounts option in the con- figuration file takes a list of source and target mount locations. This option allows us to import our JavaScript and CSS dependencies without needing the originating repositories to be set up as Hugo Modules or to even understand Hugo as a concept, which opens up the entire internet as a source of content for a Hugo website. Popular
+We can mount as many subfolders as we desire because the mounts option in the configuration file takes a list of source and target mount locations. This option allows us to import our JavaScript and CSS dependencies without needing the originating repositories to be set up as Hugo Modules or to even understand Hugo as a concept, which opens up the entire internet as a source of content for a Hugo website. Popular
 
 JavaScript/CSS libraries like Bootstrap (https://getbootstrap.com), jQuery (https:// jquery.com), etc., can be linked via this method. We could also link icon packs like FontAwesome  (https://fontawesome.com)  or  SCSS  toolkits  like  Bourbon  (https:// www.bourbon.io).
 

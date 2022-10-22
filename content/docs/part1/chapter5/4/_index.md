@@ -9,7 +9,7 @@ draft: true
 
 We can do a lot more with the template language than just build web page templates. We can use the Go template language at various places to remove repetitive work and enhance the day-to-day workflows dealing with content. We can invent new shortcodes that enhance Markdown to provide a new feature. We can create archetypes or templates for content so that when we start to write the content later, we have a page with the essential metadata prefilled.
 
-## 5.4.1Template code in shortcodes
+## 5.4.1 Template code in shortcodes
 
 Shortcodes (which we used in chapter 4) are not just snippets of HTML. They are snippets of templates that have access to the complete template functionality. We can access all the variables of the site in them and can use those along with the passed parameters and the inner content to write our logic to render the shortcode.
 
@@ -24,14 +24,14 @@ The main thing to notice in listing 5.29 is that the context variable, ., is dif
 
 In a case like the current example, where we need absolute zero spaces to allow complete space control in the Markdown document, dashed mustaches and the trim function are handy. We can also have single dashed mustaches like {{- … }} or {{ … -}} to trim spaces from the left and the right, respectively.
 
-We can use the index function in Hugo to access the value from a list at a specific index. We can use this shortcode by calling it with the parameter {-{< price "Square">}} or with named parameters like {-{< price product= "Square">}}. We will add this to the Building Squares and the Circle blog posts as the following code snippet shows. Additionally, by using resources.GetMatch instead of .Resources.GetMatch, we target the global assets folder for content.
+We can use the index function in Hugo to access the value from a list at a specific index. We can use this shortcode by calling it with the parameter \{\{< price "Square">}} or with named parameters like \{\{< price product= "Square">}}. We will add this to the Building Squares and the Circle blog posts as the following code snippet shows. Additionally, by using resources.GetMatch instead of .Resources.GetMatch, we target the global assets folder for content.
 
 {-{< price "Circle" >}}         $4
 {-{< price product="Square" >}} $2
 
 {{< figure src="Figure5.10.svg" title="Figure 5.10 A developer’s gotta do what a developer’s gotta do. At coffee, Alex and Bob discuss the most complicated pieces of their codebase." >}}
 
-## 5.4.2Inner content in shortcodes
+## 5.4.2 Inner content in shortcodes
 
 Shortcodes can also take inner content (discussed in section 4.5.1). We can access this and do any processing we need with this information using the Go template language. For example, the shortcode in the following listing repeats the inner content n times, where n is supplied as a parameter (https://github.com/hugoinaction/hugoinaction/tree/chapter-05-resources/10).
 

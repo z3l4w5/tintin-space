@@ -6,7 +6,7 @@ bookToc: false
 bookCollapseSection: true
 ---
 
-# Content management with Hugo
+# 4 Content management with Hugo
 
 {{< hint info >}}
 **This chapter covers**
@@ -14,7 +14,7 @@ bookCollapseSection: true
 - Grouping related content using Hugo taxonomies
 - Bundling page contents into a page bundle
 - Using Hugo’s built-in and community-provided shortcodes for more Markdown features
-- {{< /hint >}}
+{{< /hint >}}
 
 A website is not just a bundle of web pages scattered at random URL locations. The pages need to be discoverable, organized into  meaningful  sections,  and  there  needs to be a way to navigate to them for a reader to be successful. Content in most websites is laid out with a strategy; grouped, tagged, and navigation cues are pres- ent in pages for the reader to navigate to others.
 

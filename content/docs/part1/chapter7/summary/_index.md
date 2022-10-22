@@ -8,9 +8,9 @@ draft: true
 
 We can use layouts to order different content within the same content type.
 
-The cascade option in the front matter allows us to share front matter proper- ties with all pages in a branch bundle.
+The cascade option in the front matter allows us to share front matter properties with all pages in a branch bundle.
 
-The templates single.html and list.html are essential in completing a Hugo theme. They correspond to leaf bundles (or individual pages) and branch bun- dles, respectively.
+The templates single.html and list.html are essential in completing a Hugo theme. They correspond to leaf bundles (or individual pages) and branch bundles, respectively.
 
 The index.html, taxonomy.html, and terms.html files default to list.html if any of those files are not present.
 

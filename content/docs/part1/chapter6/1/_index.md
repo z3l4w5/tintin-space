@@ -11,7 +11,7 @@ So far, we have focused on creating index.html for the home page using the Go te
 
 In this section, we will start to build a template for accessibility beyond the index page. As we make the new template system, we will still have a functional website, albeit with two template designs: one with Eclectic and the other that we are building in parallel. We will migrate the website to the new code slowly to ensure minimum breakage. To do this, we will create a new content type with all the custom template code we are building and will allow the pages to switch between Eclectic and the new template. Then we will create a base layout for code sharing for the reusable pieces between the index page and the data pages using the Terms of Use as a sample page to migrate to the new content type.
 
-## 6.1.1Encapsulating templates with different content types
+## 6.1.1 Encapsulating templates with different content types
 
 A Hugo content type is a collection of templates that can render pages from markup according to a unique design. Conceptually, a content type is similar to a theme, but instead of being the entire website’s design, a content type only renders to a section. Each website can have multiple content types, each of which can display content differently. For example, in a typical website, we can have a design for a page associated with news posts and a different one for blog posts, and yet another design for a privacy policy page. We can model each type of page (blog, news, general text, etc.) with its distinct content type. Each content type can have an independent rendering template.
 
@@ -43,13 +43,13 @@ Hugo cleverly assigns a suitable template based on the intent of the website dev
 This content type selection is made possible by a well-designed template lookup order in Hugo. When Hugo needs to render the page, it goes through an ordered list of files and executes the first one as the template for the web page. This list is huge due to backward compatibility, and it provides many ways to name template files. However, we strongly advise sticking to the straightforward type-to-folder convention in our code with manual overrides using the type field in the front matter. Hugo’s website provides the template lookup order at https://gohugo.io/templates/lookup-order/.
 {{< /hint >}}
 
-## 6.1.2Providing the base template for reuse
+## 6.1.2 Providing the base template for reuse
 
-Most web pages have a similar HTML structure. There is a head section with meta data and a header, main, and footer that define the interface where the header and the footer reside across the whole website. Hugo has the concept of a  base template  that can hold these common elements shared across the entire website. The base template holds the skeleton of the website. It contains default  HTML for the common  parts of a web page, which can be overridden for specialized cases if needed. All templates in a type can inherit from and customize the base template for that  type. If a   type does not provide the base template, we can use the default base template for the entire website.
+Most web pages have a similar HTML structure. There is a head section with meta data and a header, main, and footer that define the interface where the header and the footer reside across the whole website. Hugo has the concept of a  base template  that can hold these common elements shared across the entire website. The base template holds the skeleton of the website. It contains default  HTML for the common  parts of a web page, which can be overridden for specialized cases if needed. All templates in a type can inherit from and customize the base template for that  type. If a type does not provide the base template, we can use the default base template for the entire website.
 
 The base template in Hugo is named baseof.html. Let’s create a basic baseof.html file in the modern folder. This file stores the Acme Corporation web page skeleton that we will use across all pages that use the modern type. By creating baseof.html, we have severed ties to the template provided by Eclectic and can focus on our custom theme.
 
-## 6.1.3Defining blocks of code
+## 6.1.3 Defining blocks of code
 
 Let’s create a skeleton in the base file, baseof.html. The <head> tag in the index page is not specific to the home page, so we can move it to the base template. The content in the <body> tag is page-specific, and we will retain it within the index.html specified template. Then, in baseof.html, we will place the base template (https:// github.com/hugoinaction/hugoinaction/tree/chapter-06-resources/01).
 

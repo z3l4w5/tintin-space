@@ -14,12 +14,12 @@ Hugo themes can be added in various ways, the simplest of which is to directly c
 
 Content can be added as Markdown, theme-specific structured data, or in an overridden HTML template.
 
-Hugo websites can be hosted easily across the planet via GitHub Pages and Netlify, which provide continuous delivery support without making the devel- oper do much work.
+Hugo websites can be hosted easily across the planet via GitHub Pages and Netlify, which provide continuous delivery support without making the developer do much work.
 
-We can switch themes, but if we use a lot of theme-specific data (like data sup- plied via params in the configuration), then that work needs to be redone. We should investigate theme switching early on so that we can switch out quickly if the Hugo theme gets abandoned.
+We can switch themes, but if we use a lot of theme-specific data (like data supplied via params in the configuration), then that work needs to be redone. We should investigate theme switching early on so that we can switch out quickly if the Hugo theme gets abandoned.
 
 We can use Google Chrome’s Lighthouse feature for measuring performance.
 
 We should also do a full dependency audit to check maintainability.
 
-Every website needs to be monitored for maintainability and performance regu- larly during development to ensure quality. Hugo offers excellent performance and has a small set of dependencies, but the website performance and main- tainability still depend on the chosen theme.
+Every website needs to be monitored for maintainability and performance regularly during development to ensure quality. Hugo offers excellent performance and has a small set of dependencies, but the website performance and maintainability still depend on the chosen theme.

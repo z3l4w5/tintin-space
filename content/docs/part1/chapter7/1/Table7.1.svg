@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg75639"
+   width="497.03998"
+   height="167.2"
+   viewBox="0 0 497.03998 167.2"
+   sodipodi:docname="table7.1.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs75643">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75829">
+      <path
+         d="M 474.609,626.91 H 77.633 v -65.763 h 396.976 z"
+         id="path75827" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75837">
+      <path
+         d="M 78.112,366.019 V 626.43 H 474.129 V 585.868 H 78.112 V 366.019"
+         id="path75835" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75845">
+      <path
+         d="M 474.129,626.43 H 78.113 V 320.516 h 396.016 z"
+         id="path75843" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75853">
+      <path
+         d="m 78.12,626.438 h 396 v -305.94 h -396 z"
+         clip-rule="evenodd"
+         id="path75851" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75861">
+      <path
+         d="m 78.12,611.918 h 396 v -337.38 h -396 z"
+         clip-rule="evenodd"
+         id="path75859" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75869">
+      <path
+         d="m 66.12,611.918 h 408 v -552 h -408 z"
+         clip-rule="evenodd"
+         id="path75867" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75877">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path75875" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75891">
+      <path
+         d="M 309.482,586.348 H 77.633 V 396.98 h 231.849 z"
+         id="path75889" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75899">
+      <path
+         d="M 474.129,366.019 H 78.112 V 585.868 H 474.129 V 366.019"
+         id="path75897" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75907">
+      <path
+         d="M 474.129,626.43 H 78.113 V 320.516 h 396.016 z"
+         id="path75905" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75915">
+      <path
+         d="m 78.12,626.438 h 396 v -305.94 h -396 z"
+         clip-rule="evenodd"
+         id="path75913" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75923">
+      <path
+         d="m 78.12,611.918 h 396 v -337.38 h -396 z"
+         clip-rule="evenodd"
+         id="path75921" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75931">
+      <path
+         d="m 66.12,611.918 h 408 v -552 h -408 z"
+         clip-rule="evenodd"
+         id="path75929" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75939">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path75937" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75953">
+      <path
+         d="M 474.609,586.348 H 309.002 V 365.539 h 165.607 z"
+         id="path75951" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75961">
+      <path
+         d="M 474.129,366.019 H 78.112 V 585.868 H 474.129 V 366.019"
+         id="path75959" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75969">
+      <path
+         d="M 474.129,626.43 H 78.113 V 320.516 h 396.016 z"
+         id="path75967" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75977">
+      <path
+         d="m 78.12,626.438 h 396 v -305.94 h -396 z"
+         clip-rule="evenodd"
+         id="path75975" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75985">
+      <path
+         d="m 78.12,611.918 h 396 v -337.38 h -396 z"
+         clip-rule="evenodd"
+         id="path75983" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath75993">
+      <path
+         d="m 66.12,611.918 h 408 v -552 h -408 z"
+         clip-rule="evenodd"
+         id="path75991" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76001">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path75999" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76015">
+      <path
+         d="M 309.482,397.461 H 77.633 V 365.54 h 231.849 z"
+         id="path76013" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76023">
+      <path
+         d="M 474.129,366.019 H 78.112 V 585.868 H 474.129 V 366.019"
+         id="path76021" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76031">
+      <path
+         d="M 474.129,626.43 H 78.113 V 320.516 h 396.016 z"
+         id="path76029" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76039">
+      <path
+         d="m 78.12,626.438 h 396 v -305.94 h -396 z"
+         clip-rule="evenodd"
+         id="path76037" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76047">
+      <path
+         d="m 78.12,611.918 h 396 v -337.38 h -396 z"
+         clip-rule="evenodd"
+         id="path76045" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76055">
+      <path
+         d="m 66.12,611.918 h 408 v -552 h -408 z"
+         clip-rule="evenodd"
+         id="path76053" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76063">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path76061" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76077">
+      <path
+         d="M 474.129,626.43 H 78.113 V 320.516 h 396.016 z"
+         id="path76075" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76085">
+      <path
+         d="m 78.12,626.438 h 396 v -305.94 h -396 z"
+         clip-rule="evenodd"
+         id="path76083" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76093">
+      <path
+         d="m 78.12,611.918 h 396 v -337.38 h -396 z"
+         clip-rule="evenodd"
+         id="path76091" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76101">
+      <path
+         d="m 66.12,611.918 h 408 v -552 h -408 z"
+         clip-rule="evenodd"
+         id="path76099" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76109">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path76107" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76197">
+      <path
+         d="m 78.12,611.918 h 396 v -337.38 h -396 z"
+         clip-rule="evenodd"
+         id="path76195" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76205">
+      <path
+         d="m 66.12,611.918 h 408 v -552 h -408 z"
+         clip-rule="evenodd"
+         id="path76203" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath76213">
+      <path
+         d="M 0,666.03 H 531 V 0.03 H 0 Z"
+         id="path76211" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview75641"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.98198198"
+     inkscape:cx="215.38073"
+     inkscape:cy="49.899083"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1912"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g75645" />
+  <g
+     id="g75645"
+     inkscape:groupmode="layer"
+     inkscape:label="Hugo in Action Static sites and dynamic Jamstack apps (Atishay Jain) (z-lib.org)8"
+     transform="matrix(1.3333333,0,0,-1.3333333,-136.16,249.01066)">
+    <g
+       id="g75681">
+      <path
+         d="m 102.12,165.518 h 46.5 v 21 h -46.5 z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path75683" />
+    </g>
+    <g
+       id="g75685">
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,115.62,174.158)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75689"><tspan
+           x="0 5.1072001 7.865088 12.174288"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75687">Area</tspan></text>
+    </g>
+    <g
+       id="g75691">
+      <path
+         d="m 148.62,165.518 h 179.04 v 21 H 148.62 Z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path75693" />
+    </g>
+    <g
+       id="g75695">
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,213.36,174.158)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75699"><tspan
+           x="0 5.2827601 9.6079197 13.93308 16.98144 21.306601 25.63176 28.633837 31.036613 34.084972 37.931335 42.256493"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75697">Content type</tspan></text>
+    </g>
+    <g
+       id="g75701">
+      <path
+         d="M 327.66,165.518 H 474.9 v 21 H 327.66 Z"
+         style="fill:#48617c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path75703" />
+    </g>
+    <g
+       id="g75705">
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,387.84,174.158)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75709"><tspan
+           x="0 4.00596 8.3311195 12.17748 16.50264 20.827801"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75707">Layout</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,108.12,155.199)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75713"><tspan
+           x="0 5.2827601 9.24084 13.566 18.05076"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75711">Usage</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,154.62,155.199)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75717"><tspan
+           x="0 4.4767799 7.0383601 11.35554 14.87472 16.797899 21.11508 25.432261 29.58984 31.988628 34.550209 38.86739 43.125515 45.524303 48.085884 52.403065 58.954643 63.271824 65.195007 69.512184 72.073761 76.390945 80.548523 82.947311 85.349289 89.666473 92.22805 94.626839 98.944023 100.8672 102.79038 105.18917 109.50635 113.82352 117.78161 122.09879 126.25637 128.65515 133.92993 135.85312 138.4147 142.73187 144.65506 148.97223 151.37102 155.6882"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75715">Provides the templates for all pages within a </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,154.62,145.179)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75721"><tspan
+           x="0 4.1575799 8.4747601 12.31314 14.87472 16.797899 21.11508 25.432261 27.83025 32.14743 34.549412 36.947399 39.465092 43.782269 48.099449 50.49744 55.772221 60.089401 64.406578 68.564163 70.487343 73.04892 77.366096 79.768082 82.166069 86.004448 90.321632 92.839317 95.237312 99.554489 103.07367 107.39085 113.94243 118.25961 120.18279 124.49997 126.90195 129.29994 131.86153 136.1787 140.49588"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75719">section of the website. For example, the </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,297.601,145.179)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75725"><tspan
+           x="0 4.79598 9.59196 14.38794"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75723">blog</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,154.621,135.159)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75729"><tspan
+           x="0 2.5216801 5.8836541 10.208814 14.533974 16.935953 19.505514 23.830673 28.155834 30.725393 35.050552 39.216114 43.541275 47.866432 50.388115 54.553673 56.955654 59.477333 63.802494 68.127655 70.529633 74.854797 76.785957 81.111115 85.117073 87.519051 91.365417 95.690575 100.01573 102.53741 106.86257 111.18774 113.75729 116.15927 120.48444 124.80959 128.77086 133.09602 137.26158 139.66356 143.98872 148.31389 152.63905 155.04103 157.56271 161.88786 166.21303"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75727">type represents the blog content pages and the </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,154.621,125.199)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75733"><tspan
+           x="0 4.3171802 6.2403598 10.55754 14.514822 16.912014 18.835194 23.152374 27.469555 31.786734 35.305916 37.703106 42.020287 46.337467 50.294746 54.611927 58.769508 61.17149 63.56868 67.885857 72.203041 76.520218 78.917412 80.775154 83.352699 85.749886 89.588264 93.905449 98.222626 100.61982 104.937 109.25418 112.77336 117.09054 119.48773 126.03931 130.35649 132.27968 134.79736 136.72054 141.03772 142.96091 147.27808 149.67528 151.59845 155.91563 159.27521"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75731">blog index pages, and it can have multiple lay-</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,154.621,115.18)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75737"><tspan
+           x="0 4.3171802 8.6343603 11.150454 15.308034 17.705227 19.628407 21.551586 25.507273 29.824451 32.221645 36.538822 38.462006 42.779182 46.777164 49.174355 53.491535 57.808716 61.966297 64.527878 68.685455 71.082649 76.35743 78.280609 80.7967 85.113083 87.510277 91.827454 96.144638 100.46181 102.85901 108.13379 110.05697 112.61855 116.93573 121.25291 125.57009 128.08618 130.48337 134.64096 136.56413 140.88132 145.1985 149.51567 153.83286 156.34895 160.50653"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75735">outs like blog posts with and without sidebars.</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,333.661,155.199)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75741"><tspan
+           x="0 4.4767799 7.0383601 11.35554 14.832426 16.755606 21.072786 25.389965 29.547546 31.944738 34.506317 38.823498 43.140678 45.537868 48.099449 52.41663 58.968208 63.285389 65.208572 69.525749 72.042641 76.359825 78.757011 81.158997 85.476173 88.03775 90.434944 94.752129 99.069305 101.4665 103.38968 107.70686 112.02404 113.94722 117.4241 119.3409 123.65808 127.97526 132.29243 134.21562"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75739">Provides the template for an individual </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,333.661,145.18)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75745"><tspan
+           x="0 4.32516 8.6503201 12.65628 16.98144 19.084169 21.494129 23.425289 25.356449 29.31852 33.643681 35.74641 40.071571 42.174301 46.499458 48.430618 52.755779 56.761742 58.864471 63.189629 67.514793 71.680351 74.249908 76.352638 81.635399 83.566559 86.089035 90.411804 92.514534 96.839691 98.942421 103.10799 105.03915 109.30126 113.62642 117.95158 122.27674 124.8463 127.25626 129.66623 131.76895 136.25371"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75743">page (like a blog post with a sidebar). A </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,333.661,135.16)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75749"><tspan
+           x="0 4.32516 6.25632 10.58148 14.58744 16.930368 21.255527 25.580688 29.746248 32.315807 34.658737 39.941498 41.872658 44.442215 48.767376 53.092537 57.417698 59.940971 62.283901 66.609062 68.951988 73.117546 75.048706 79.373871 83.699028 88.024185 92.34935 94.872627 97.215553 101.06191 105.38707 109.71223 112.05516 116.38032 120.70548 123.04841 124.97957 129.30473 131.64766 135.97281"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75747">blog post without a sidebar can be in a </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,333.661,125.2)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75753"><tspan
+           x="0 4.3171802 6.2403598 8.6423397 11.04432 15.3615 17.92308 22.240259 26.55744 29.074331 31.471523 33.394703 37.711884 41.071465 45.388645 49.705826 52.267403"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75751">different layout.</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,108.12,98.2)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75757"><tspan
+           x="0 5.2827601 9.6079197 12.01788 16.34304 20.6682 22.708687 25.757046"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75755">Default </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,108.12,88.18)"
+         style="font-variant:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Demi;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75761"><tspan
+           x="0 6.55158 10.86876 15.18594 19.50312 21.585899 25.90308 30.37986"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75759">mappings</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,154.62,98.2)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75765"><tspan
+           x="0 3.958878 8.2760582 12.593238 14.992824 21.592283 25.909464 30.226645 32.626228 36.943409 41.26059 47.812168 52.129349 54.528934 58.846115 63.163296 65.682579 69.999763 76.59922 80.858147 83.437286 85.360466 89.198845 93.516022 95.439201 97.362381 100.72196 103.12155 109.67313 113.99031 118.30749 122.46507 124.86465 127.42624 131.74342 134.14301 136.70457 141.02176 145.33894 147.73853 151.8961 156.21329 160.05167"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75763">The map name automatically maps to the sec-</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,154.62,88.18)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75769"><tspan
+           x="0 2.5184879 4.4368801 8.7540598 13.07124 15.40938 19.726561 24.043739 30.59532 34.912498 37.31448 39.652618 43.610699 47.927879 52.24506"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75767">tion name. The </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,209.22,88.18)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Courier New';-inkscape-font-specification:Courier;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75773"><tspan
+           x="0 4.8039598 9.6079197 14.41188"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75771">blog</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,230.70308,88.18)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75777"><tspan
+           x="0 3.84636 8.1715202 12.49668 15.06624 19.391399 23.71656 26.286119 28.569199 31.138758 34.506317 38.831478 43.156639 45.439716 49.764877 54.090034 56.659595 60.984756 67.544319 71.869476 74.439034 76.370193 80.216553 84.541718 86.472878 88.404037 91.771599"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75775">content type automatically </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,154.62,78.16)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75781"><tspan
+           x="0 4.3171802 8.6343603 12.95154 14.87472 16.797899 21.11508 25.272659 27.669851 30.231432 34.548611 36.945805 39.462696 43.779877 48.097057 50.494247 54.811428 59.128609 63.126587 67.443771 71.601349 73.998543 75.921722 80.238899 82.636093 85.152985 89.470161 93.787346 96.18454 100.34212 104.1805 108.49767 112.81486 115.33175 119.64893 123.96611 126.52769 130.68527 135.00244 136.92563 141.24281 145.24078 147.63799 150.03996 154.35715 156.28032 160.53685 164.85403 167.41562"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75779">applies to the pages in the /content/blog folder </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,154.62,68.201)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75785"><tspan
+           x="0 4.3171802 8.6343603 10.55754 14.87472 19.032301 23.18988 25.589466 29.906647 33.425827 37.743008 40.304585 42.823872 44.743061 49.060242 53.377422 57.694603 62.011784"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75783">unless overridden.</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,333.661,98.201)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75789"><tspan
+           x="0 4.4847598 8.01192 12.33708 14.85876 18.22632 20.6283 25.91106 30.236219 34.561378 36.96336 41.288521 45.613682 49.61964 53.944801 56.346779 60.67194 64.933258 69.098824 71.500801 75.825958 78.227943 82.553101 86.878258 89.288223 93.61338 97.938538 99.869698 102.39138 104.79336 106.72452 111.04968 114.41724 118.7424 123.06756 125.63712 128.04707"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75787">Every web page has a default layout, </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,333.661,88.181)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75793"><tspan
+           x="0 5.2747798 9.59196 11.51514 15.35352 19.6707 22.067095 23.990274 28.147854 30.544249 34.861427 39.178608 43.336189 47.65337 51.970547 54.366943 58.68412 62.939857 65.33625 67.897827 72.215012 76.532188 78.928581 81.490166 85.807343 92.358925 96.676102 98.599281 102.91647 105.43256 109.74894 112.14533 114.06851 118.3857 122.70287 126.70085 131.01804 135.33522"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75791">which is based on the template lookup </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,333.661,78.161)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75797"><tspan
+           x="0 4.3171802 6.8787599 11.19594 15.51312 18.074699 20.476681 22.813225 26.811205 31.128384 35.445564 37.841957 41.999538 43.922718 48.239899 52.237877 54.161057 58.478237 60.874634 65.191811 69.508995 73.826172 76.222565 78.145744 80.068924 84.226509 86.788086 89.184479 91.107658 95.424843 98.784416 103.04095 107.35813 109.91971 114.07729 116.47369 120.79086 123.35245 127.66962"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75795">order. The single and list layouts are </tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(1,0,0,-1,333.661,68.201)"
+         style="font-variant:normal;font-weight:normal;font-size:7.98px;font-family:'Franklin Gothic Book';-inkscape-font-specification:FranklinGothic-Book;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text75801"><tspan
+           x="0 2.5615799 6.8787599 11.19594 13.596324 20.147903 24.465084 28.622663 31.184244 33.584629 37.423008 41.740189 48.291767 54.892025 59.209206 63.468929"
+           y="0"
+           sodipodi:role="line"
+           id="tspan75799">the most common.</tspan></text>
+    </g>
+    <g
+       id="g75803">
+      <path
+         d="m 148.5,61.358 h 0.24 v 125.4 h -0.24 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path75805" />
+    </g>
+    <g
+       id="g75807">
+      <path
+         d="m 327.54,61.358 h 0.24 v 125.4 h -0.24 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path75809" />
+    </g>
+    <g
+       id="g75811">
+      <path
+         d="M 102.12,186.278 H 474.9 v 0.48 H 102.12 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path75813" />
+    </g>
+    <g
+       id="g75815">
+      <path
+         d="M 102.12,165.398 H 474.9 v 0.24 H 102.12 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path75817" />
+    </g>
+    <g
+       id="g75819">
+      <path
+         d="M 102.12,61.358 H 474.9 v 0.24 H 102.12 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path75821" />
+    </g>
+  </g>
+</svg>

@@ -18,7 +18,7 @@ draft: true
 图8.4个月的工作：Bob面临着愤怒的营销主管的首当其冲，因为他没有一个中央位置来保存使用条款和隐私政策页面，这使得旧的使用条款在法律上使营销活动处于风险之中。
 
 我们将把一个插件集成到Acme Corporation网站 (而不是Acme Corporation主题) 中，并将其配置为摆脱我们的硬编码使用条款和隐私政策页面。 要将此插件集成到Acme Corporation网站，我们需要执行以下步骤。
-- 1 删除条款.md和隐私.md页面。
+- 1 删除terms.md和privacy.md页面。
 - 2 使用以下清单 (https://github.com/hugoinaction/hugoinaction/tree/ chapter-08-resources/07) 中的内容更新config/_default文件夹中的module.yaml文件。
 
 {{< details title="Listing 8.11 Adding a new dependency (config/_default/module.yaml)" open=true >}}

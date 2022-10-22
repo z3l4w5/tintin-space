@@ -1,6 +1,6 @@
 ---
 weight: 4
-title: "8.4 启用Eclectic主义以外的主题"
+title: "8.4 启用Eclectic主题以外的主题"
 date: 2022-09-12T18:26:30+08:00
 draft: true
 ---
