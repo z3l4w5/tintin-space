@@ -26,7 +26,7 @@ draft: true
 {{< hint info >}}
 **Exercise 8.4**
 
-对或错: 每次我们建立基于Hugo的网站时，都会自动下载Hugo模块。
+是非题: 每次我们建立基于Hugo的网站时，都会自动下载Hugo模块。
 {{< /hint >}}
 
 {{< details title="Listing 8.14 Getting the Acme Corporation website’s dependency list" open=true >}}
@@ -43,7 +43,7 @@ github.com/hugoinaction/AcmeTheme@v0.8.0 github.com/hugoinaction/
 {{< /details >}}
 
 {{< hint info >}}
-**TIP** 在运行开发服务器时，如果你遇到与网站代码无关的错误，则Hugo的模块缓存可能已损坏。 Hugo将其缓存保留在临时数据文件夹中，以便操作系统在需要时可以回收空间。 因为这些数据是可公开访问的，所以它可能会被破坏，从而导致奇怪的错误。 面对此类问题时，最好的解决方案是使用hugo mod clean完全清除缓存。 雨果在下一次发射时重新获取数据。
+**TIP** 在运行开发服务器时，如果你遇到与网站代码无关的错误，则Hugo的模块缓存可能已损坏。 Hugo将其缓存保留在临时数据文件夹中，以便操作系统在需要时可以回收空间。 因为这些数据是可公开访问的，所以它可能会被破坏，从而导致奇怪的错误。 面对此类问题时，最好的解决方案是使用hugo mod clean完全清除缓存。 Hugo在下一次发射时重新获取数据。
 {{< /hint >}}
 
-本章完成了《雨果在行动》的第一部分。 在本书的第二部分中，我们将跳出完全静态网站的界限，看看Hugo如何与JamStack的其余部分交互。 我们将继续通过联系页面，基于JSON的API，小型搜索引擎来完成Acme Corporation网站，然后使用Hugo在我们的网站中创建一个电子商务区域。 随着我们继续引入和学习更多的Hugo功能来简化Web开发，我们将发现Hugo模板语言及其功能中的一些隐藏的宝石，这些功能比表面上显示的要多得多。
+本章完成了《Hugo在行动》的第一部分。 在本书的第二部分中，我们将跳出完全静态网站的界限，看看Hugo如何与Jamstack的其余部分交互。 我们将继续通过联系页面，基于JSON的API，小型搜索引擎来完成Acme Corporation网站，然后使用Hugo在我们的网站中创建一个电子商务区域。 随着我们继续引入和学习更多的Hugo功能来简化Web开发，我们将发现Hugo模板语言及其功能中的一些隐藏的宝石，这些功能比表面上显示的要多得多。

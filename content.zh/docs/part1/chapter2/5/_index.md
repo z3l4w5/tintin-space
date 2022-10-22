@@ -62,7 +62,7 @@ GitHub页面上的托管不需要持续的维护。 这是互联网上对开发�
 
 {{< details title="Listing 2.8  Changing a theme to Universal (config.yaml)" open=true >}}
 ```yaml
-theme: Universal
+
 ```
 {{< /details >}}
 
@@ -70,7 +70,7 @@ theme: Universal
 
 {{< details title="Listing 2.9  Changes to support the Universal theme (config.yaml)" open=true >}}
 ```yaml
-theme: Universal
+
 params: 
   footer:
   ...

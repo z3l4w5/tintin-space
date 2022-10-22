@@ -7,11 +7,11 @@ draft: true
 
 # 3.2 Markdown实战
 
-使用所有这些内容功能，我们现在将更新Acme Corporation网站的About Us页面，使其更美观。 图3.10显示了已完成的页面。 About页面的核心元素已经出现在第2章的示例文本中。 以下更改将使页面更具表面性。
+使用所有这些内容功能，我们现在将更新Acme Corporation网站的About Us页面，使其更美观。 图3.10显示了已完成的页面。 About页面的核心元素已经出现在第2章的示例文本中。 以下更改将使页面更具观赏性。
 
 ![Figure3.10](Figure3.10.svg)
 
-图3.10使用高级Markdown功能的Acme Corporation的 “关于我们” 页面: 1) 块元素，如标题和列表，2) 内联元素，如粗体、斜体和链接，3) 内联HTML和字符代码，4) 表格，以及5) 定义列表和表情符号。(Peax Webdesign的字体; PxHere的知识共享CC0下的图像。)
+图3.10使用高级Markdown功能的Acme Corporation的 “关于我们” 页面: 1) 块元素，如标题和列表，2) 内联元素，如粗体、斜体和链接，3) 内联HTML和字符代码，4) 表格，以及 5) 定义列表和表情符号。(Peax Webdesign的字体; PxHere的图像基于Creative Commons CC0。)
 
 - 1 Block elements
   - a Add a top-level title with the text About Us.
@@ -32,7 +32,7 @@ draft: true
   - a Convert the text “smiles” to the emoji (:smile:).
   - b Convert the description of team members in the Team area to an HTML definition list.
 
-完成的关于页面在章节资源 (https://github .com/hugoin无所作为/tree/chapter-03-resources/03) 中提供，并作为代码检查点进行比较。
+完成的关于页面在章节资源 (https://github.com/hugoinaction/tree/chapter-03-resources/03) 中提供，并作为代码检查点进行比较。
 
 {{< hint info >}}
 **CODE CHECKPOINT**	https://chapter-03-03.hugoinaction.com, and source code: https://github.com/hugoinaction/hugoinaction/tree/chapter-03-03.

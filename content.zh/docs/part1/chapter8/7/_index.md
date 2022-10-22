@@ -28,7 +28,7 @@ replace github.com/hugoinaction/AcmeTheme =>
 
 有了这个REPLACE指令，我们可以很容易地在一个独立的存储库中继续本地开发，并仍然使用Hugo模块引用它。 在本书呈现的代码示例中，我们将使用代码存储库中的AcmeTheme文件夹来托管主题。 只有主题的最终版本(在本书的末尾)才会被推送到githorb.com/hugoinaction/acme文件夹。 因为存在 _vendor文件夹，所以在我们删除优先级更高的 _vendor文件夹之前，replace指令不会生效。 我们应该使用_Vendor文件夹进行存档，而不是进行开发。 虽然在主题没有改变 (只有内容改变) 的情况下使用这个是很好的，但是当我们开发主题时，这是一个障碍，所以我们会删除它。
 
-我们已经创建了一个新模块，我们计划在Acme Corporation网站之外使用。 申报它的要求是一个好主意，这样其他地方就可以进口它了。 Hugo的包管理需要两个文件: go.mo d和config。 Go.mod文件列出依赖项，而配置文件提供配置和包信息。
+我们已经创建了一个新模块，我们计划在Acme Corporation网站之外使用。 申报它的要求是一个好主意，这样其它地方就可以进口它了。 Hugo的包管理需要两个文件: go.mo d和config。 Go.mod文件列出依赖项，而配置文件提供配置和包信息。
 
 因为AcmeTheme还没有一个庞大的配置，所以配置文件夹就太过分了。 我们将在主题的文件夹 (https:// github.com/hugoinaction/hugoinaction/tree/ chapter-08-resources/01) 中放置一个简单的config.yaml。 在配置中，我们可以指定该特定模块所依赖的Hugo的最低和最高版本，以及是否需要Hugo扩展。 尽管不是必需的，但最好指定主题所需的最低版本的Hugo。 我们在下面的清单中执行此操作。
 

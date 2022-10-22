@@ -24,5 +24,5 @@ Hugo can use multiple versions of a dependency (for example, 1.0 and 2.0 are maj
 {{< /hint >}}
 
 {{< hint warning >}}
-**NOTE** 即使配置中存在，Hugo也不会将AcmeCommon模块添加到Acme Corporation网站的go.mo d文件中。 因为只能有一个AcmeCommon，所以没有必要添加两次。 当我们切换到不同的主题时，雨果会自动将AcmeCommon添加到go.mo d。
+**NOTE** 即使配置中存在，Hugo也不会将AcmeCommon模块添加到Acme Corporation网站的go.mo d文件中。 因为只能有一个AcmeCommon，所以没有必要添加两次。 当我们切换到不同的主题时，Hugo会自动将AcmeCommon添加到go.mo d。
 {{< /hint >}}

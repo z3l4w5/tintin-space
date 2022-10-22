@@ -8,7 +8,7 @@ Hugo可以安装在Linux、MacOS和Windows上的大多数主要包管理器中�
 
 Hugo具有广泛的命令行功能，可最大程度地减少用户需要做的工作。 它有方便的选项，可以帮助构建网站的所有部分，从添加模块依赖项到创建新的基于Markdown的文档。
 
-Hugo项目由内容和主题文件夹之外的文件夹组成: 静态内容的static，结构化数据的data，主题覆盖的layouts，Hugo内部缓存的resources，图像、JavaScript和CSS文件的asserts，以及生成的输出的public。 它还包括发布的模板的archetypes和全局设置的配置文件。
+Hugo项目由content和theme文件夹之外的文件夹组成: 静态内容的static，结构化数据的data，主题覆盖的layouts，Hugo内部缓存的resources，图像、JavaScript和CSS文件的asserts，以及生成的输出的public。 它还包括发布的模板的archetypes和全局设置的配置文件。
 
 Hugo主题可以通过各种方式添加，其中最简单的是将主题直接复制到主题文件夹中。 在使用之前，我们需要使用标准的和特定于主题的参数和文件放置来配置这些参数。
 

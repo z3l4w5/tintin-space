@@ -16,7 +16,7 @@ Hugo支持GitHub风格的Markdown (GFM)，它将任务列表和表格添加到Ma
 
 Hugo的渲染引擎还支持表情符号、自动分割和定义列表等功能。
 
-Hugo支持多种语言的内容，包括用于长格式内容的AsciiDoc，用于扩展的pandoc
+Hugo支持多种语言编写的内容，包括用于长格式内容的AsciiDoc，用于扩展的pandoc
 
 Markdown，以及用于文档的reStrifredText。
 
@@ -28,4 +28,4 @@ YAML易于阅读，并提供了一种将结构化数据传递给Hugo的机制。
 
 大多数Markdown功能都是Hugo原生的，可以在所有主题中使用。
 
-通过将内容作为文件而不是数据库进行管理的方法以及Markdown的可读性，我们使用Git等代码版本控制软件获得了合理的diff视图和内容版本控制支持。
+通过将内容作为文件而不是数据库进行管理的方法以及Markdown的可读性，我们使用Git等代码版本控制软件获得了必要的diff视图和内容版本控制支持。

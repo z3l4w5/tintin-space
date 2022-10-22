@@ -17,9 +17,9 @@ draft: true
 
 现在，我们可以为新闻部分创建card.html，它不同于常规卡，并且可以唯一地标识该部分 (图7.9)。 请注意，我们将为News页面创建不同的内容类型，以自动映射到新闻部分。
 
-{{< figure src="Figure7.9.svg" title="图7.9了 “公共类别” 页面，其中包含用于突出显示的徽章，其中包含 “新闻” 部分的其他卡片视图。 (Images by PublicDomainPictures, Free-Photos, and tookapic on Pixabay.)" >}}
+{{< figure src="Figure7.9.svg" title="图7.9了 “公共类别” 页面，其中包含用于突出显示的徽章，其中包含 “新闻” 部分的其它卡片视图。 (Images by PublicDomainPictures, Free-Photos, and tookapic on Pixabay.)" >}}
 
-我们可以决定不覆盖任何其他布局，而让这些布局使用默认布局(https://github.com/hugoinaction/hugoinaction/tree/chapter-07-resources/08).  下面的清单为新闻特定card.html中的新闻帖子添加了徽章。 有了这些变化，新闻版块在任何地方都应该很容易被识别为卡片。
+我们可以决定不覆盖任何其它布局，而让这些布局使用默认布局(https://github.com/hugoinaction/hugoinaction/tree/chapter-07-resources/08).  下面的清单为新闻特定card.html中的新闻帖子添加了徽章。 有了这些变化，新闻版块在任何地方都应该很容易被识别为卡片。
 
 {{< details title="Listing 7.23  Adding a badge to news posts" open=true >}}
 ```html

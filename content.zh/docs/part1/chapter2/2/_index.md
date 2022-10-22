@@ -31,9 +31,9 @@ draft: true
 {{< /hint >}}
 
 {{< details title="Listing 2.3  Updating the theme in the config file (config.yaml)" open=true >}}
-```yaml
+
 ... # hugo new命令生成的现有内容。
-theme: Eclectic
+
 ```
 {{< /details >}}
 
@@ -59,7 +59,7 @@ theme: Eclectic
 ![Listing2.4](Listing2.4.svg)
 {{< /details >}}
 
-如果我们不使用其它参数运行hugo，Hugo将编译整个网站并将文件放在public文件夹中。 我们也将开发模式称为服务器模式或实时重载模式。 它监听文件系统中的更改，并使用更新内容重建网站。 Hugo还支持开发模式中的快速渲染，这涉及仅构建按需请求的页面。 因为Hugo的速度非常快，我们没有注意到重建网页的延迟。 We can disable fast rendering or live reload if it interferes with the JavaScript state by using the command-line flags --disableFastRender and
+如果我们不使用其它参数运行hugo，Hugo将编译整个网站并将文件放在public文件夹中。 我们也将开发模式称为服务器模式或实时重载模式。 它监听文件系统中的更改，并使用更新内容重建网站。 Hugo还支持开发模式中的快速渲染，这涉及仅构建按需请求的页面。 因为Hugo的速度非常快，我们没有注意到重建网页的延迟。 
 --disableLiveReload, respectively. 请注意，你可以使用--Environment命令行标志在开发模式下运行网站的生产版本。 第4章讨论了各种构建环境之间的区别。
 
 在本书的大部分内容中，没有必要退出Hugo开发服务器，因为它支持实时重新加载，因此我们可以轻松地切换内容。 但是你可以随时通过按Ctrl-C并再次运行hugo server命令来中止它。

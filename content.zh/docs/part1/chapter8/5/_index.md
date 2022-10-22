@@ -7,13 +7,13 @@ draft: true
 
 # 8.5 获取主题的特定版本
 
-Hugo Modules通过Git标签支持版本。 这允许我们链接到不同版本的依赖项，而不是最新的主线。 在许多项目中，mainline处于积极开发状态，并且在单独标记发布版本时不稳定。 我们将切换回带有雨果模块的AcmeTheme。 AcmeTheme的副本位于e github.com/hugoinaction/AcmeTheme文件夹的GitHub上，在本书的第8.5节 (本节) 中，其内容标记为0.8.0版。
+Hugo Modules通过Git标签支持版本。 这允许我们链接到不同版本的依赖项，而不是最新的主线。 在许多项目中，mainline处于积极开发状态，并且在单独标记发布版本时不稳定。 我们将切换回带有Hugo模块的AcmeTheme。 AcmeTheme的副本位于e github.com/hugoinaction/AcmeTheme文件夹的GitHub上，在本书的第8.5节 (本节) 中，其内容标记为0.8.0版。
 
 {{< hint warning >}}
 **NOTE** 不要在GitHub上使用Acme存储库的主分支，因为它指向本书末尾的AcmeTheme模块。
 {{< /hint >}}
 
-要获得主题的特定版本，我们需要像以前一样指定主题，但是我们不会告诉雨果通过雨果服务器自动获取最新版本，而是手动告诉雨果要获取的版本。 让我们首先在配置中将主题更改为托管的AcmeTheme存储库，如下面的清单所示。
+要获得主题的特定版本，我们需要像以前一样指定主题，但是我们不会告诉Hugo通过Hugo服务器自动获取最新版本，而是手动告诉Hugo要获取的版本。 让我们首先在配置中将主题更改为托管的AcmeTheme存储库，如下面的清单所示。
 
 {{< details title="Listing 8.3 Switching to the AcmeTheme repository (config/_default/config.yaml)" open=true >}}
 ```yaml
@@ -35,7 +35,7 @@ hugo mod get -u github.com/hugoinaction/AcmeTheme@v0.8.0
 
 使用此命令，你应该在go.mod文件中看到Required githorb.com/hugoinaction/AcmeTheme v0.8.0//Inditive。 校验和文件go.sum还应包含 “v0.8.0” 作为AcmeTheme依赖关系的安装版本。
 
-我们可以继续使用我们的网站与AcmeTheme链接作为一个模块在雨果。 我们已经完全摆脱了这一变化的折衷主义，并接管了Acme Corporation网站的完全控制权，我们拥有每一段代码。 在本书的其余部分，我们不会使用折衷或通用。 我们可以删除配置中特定于这些主题的条目 (除了config/_default/params.yaml中的颜色和版权)，也可以删除资产/图像/background.svg、资产/图像/徽标.svg、内容/data-driven.md，静态/image/* 和静态/favicon.ico文件，我们在主题Acme中不使用这些文件。 如果愿意，我们可以删除Themes/AcmeTheme文件夹，网站仍将继续运行。
+我们可以继续使用我们的网站与AcmeTheme链接作为一个模块在Hugo。 我们已经完全摆脱了这一变化的折衷主义，并接管了Acme Corporation网站的完全控制权，我们拥有每一段代码。 在本书的其余部分，我们不会使用折衷或通用。 我们可以删除配置中特定于这些主题的条目 (除了config/_default/params.yaml中的颜色和版权)，也可以删除资产/图像/background.svg、资产/图像/徽标.svg、内容/data-driven.md，静态/image/* 和静态/favicon.ico文件，我们在主题Acme中不使用这些文件。 如果愿意，我们可以删除Themes/AcmeTheme文件夹，网站仍将继续运行。
 
 {{< hint info >}}
 **CODE CHECKPOINT**    https://chapter-08-03.hugoinaction.com, and source code: https://github.com/hugoinaction/hugoinaction/tree/chapter-08-03.

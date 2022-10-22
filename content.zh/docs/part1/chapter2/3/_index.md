@@ -46,7 +46,7 @@ Eclectic主题允许我们提供我们的Logo，通过将它放置在assets/imag
 
 {{< hint info >}}
 **CODE CHECKPOINT**	https://chapter-02-03.hugoinaction.com, and source code: https://github.com/hugoinaction/hugoinaction/tree/chapter-02-03
-↻ Restart your dev server.
+
 {{< /hint >}}
 
 Hugo在配置文件中标准化了一些先前指定的部分(如菜单和标题)。 我们将在第4章中介绍这些部分。 其它部分(如参数)对于每个主题都是不同的。 甚至像logo.svg这样的图像位置都是特定于主题的。
@@ -98,38 +98,38 @@ Hugo的模板是HTML文件，但这些模板可以是任何基于文本的文件
 
 {{< details title="Listing 2.6 Overriding Hugo’s themes (layouts/index.html)" open=true >}}
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="description" content="Welcome to the website of Acme Corporation, the leading creator
-of digital shapes on the planet, providing precise shape creations that are ready to use.">
-<meta name="viewport" content="width=device-width,
-initial-scale=1.0" />
-<link rel="stylesheet" href="./index.css">
-<title>Acme Corporation</title>
-</head>
-<body class="home">
+
+
+
+
+
+
+
+
+
+
+
+
 
 资源的相对路径。 当我们在托管环境中使用子文件夹发布此代码时，绝对路径会导致问题。
 
-<section>
-<img src="./image/logo.svg" alt="Acme Logo" width="64"/>
-<h1>Acme Corporation</h1>
-<h2>Shaping the world for you to live in</h2>
-<a href="./blog">Explore</a>
-</section>
-<footer>
+
+
+
+
+
+
+
 
 Assets from the static folder. Assets referred to in the HTML should be provided in the static folder for correct links in the final website.
 
-<a href="./about">About Us</a>
-<a href="./privacy">Privacy Policy</a>
-<a href="./terms">Terms of Use</a>
-<a href="./contact">Contact Us</a>
-</footer>
-</body>
-</html>
+
+
+
+
+
+
+
 
 Hardcoded menus. In plain HTML, we have to assume that the URLs of the menu entries and their names match what is specified.
 ```
